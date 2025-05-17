@@ -5,6 +5,7 @@ import { processHeroData, groupCharactersByRole, type Character } from "@/lib/pr
 import { CharacterWheel } from "@/components/CharacterWheel";
 import { CharacterCard } from "@/components/CharacterCard";
 import { RoleSelector } from "@/components/RoleSelector";
+import Link from "next/link";
 
 export default function Home() {
   const [characters, setCharacters] = useState<Character[]>([]);
@@ -44,6 +45,14 @@ export default function Home() {
           <p className="text-lg text-gray-400 mt-2">
             Randomly select your next Marvel Rivals character!
           </p>
+          <div className="mt-4">
+            <Link
+              href="/challenges"
+              className="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors"
+            >
+              Try Challenges →
+            </Link>
+          </div>
         </header>
 
         {isLoading ? (
