@@ -45,12 +45,18 @@ export default function Home() {
           <p className="text-lg text-gray-400 mt-2">
             Randomly select your next Marvel Rivals character!
           </p>
-          <div className="mt-4">
+          <div className="mt-4 flex justify-center space-x-4">
             <Link
               href="/challenges"
               className="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors"
             >
               Try Challenges →
+            </Link>
+            <Link
+              href="/characters"
+              className="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors"
+            >
+              Character Gallery →
             </Link>
           </div>
         </header>
@@ -79,6 +85,34 @@ export default function Home() {
           </>
         )}
       </div>
+
+      <footer className="border-t border-gray-800 py-6 mt-auto">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h2 className="text-xl font-semibold mb-3">Marvel Rivals Roulette Tool</h2>
+              <p className="text-gray-400 text-sm">
+                The ultimate character selection tool for Marvel Rivals players. Randomly select characters across all roles 
+                including Assault, Support, and Tank. Find your next main character with our advanced Marvel Rivals random picker 
+                and improve your gameplay with strategic character selection.
+              </p>
+            </div>
+            <div className="text-right self-end md:text-right text-center">
+              <p className="text-gray-400 text-sm">
+                Created by Shubhveer Singh Chaudhary
+              </p>
+              <a 
+                href="https://github.com/killerz3" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-purple-400 hover:text-purple-300 text-sm inline-flex items-center mt-1"
+              >
+                @killerz3 on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
