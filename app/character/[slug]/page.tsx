@@ -18,11 +18,12 @@ type Props = {
 }
 
 export async function generateMetadata(
-  { params }: Props,
+  { params }: { params: Params },
   parent: ResolvingMetadata
 ): Promise<Metadata> {
+  const { slug } = await params;
   const characters = processHeroData();
-  const character = characters.find(char => char.slug === params.slug);
+  const character = characters.find(char => char.slug === slug);
   
   if (!character) {
     return {
@@ -39,9 +40,11 @@ export async function generateMetadata(
   };
 }
 
-export default function CharacterPage({ params }: { params: { slug: string } }) {
+type Params = Promise<{ slug: string }>;
+export default async function CharacterPage({ params }: { params: Params }) {
+  const { slug } = await params;
   const characters = processHeroData();
-  const character = characters.find(char => char.slug === params.slug);
+  const character = characters.find(char => char.slug === slug);
   
   if (!character) {
     return (
