@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0a1033] to-[#080a1a] text-white pb-10 md:pb-20">
-      <div className="max-w-6xl mx-auto px-4 py-8 pb-20 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 pt-20 pb-8 pb-20 sm:px-6 lg:px-8">
         <header className="mb-10 text-center">
           <h1 className="text-5xl font-bold mb-2 text-gradient">
             Marvel Rivals Roulette
@@ -48,15 +48,15 @@ export default function Home() {
           <div className="mt-4 flex justify-center space-x-4">
             <Link
               href="/challenges"
-              className="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors"
+              className="inline-block px-4 py-2 text-md font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors"
             >
-              Try Challenges →
+              Try Challenges
             </Link>
             <Link
               href="/characters"
-              className="inline-block px-4 py-2 text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors"
+              className="inline-block px-4 py-2 text-md font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors"
             >
-              Character Gallery →
+              Character Gallery
             </Link>
           </div>
         </header>
