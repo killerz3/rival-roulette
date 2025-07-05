@@ -30,6 +30,17 @@ export default function RootLayout({
       >
         {children}
         <Analytics />
+        <a 
+          href="https://www.buymeacoffee.com/killerz3" 
+          target="_blank"
+          className="fixed bottom-10 left-5 z-50 "
+        >
+          <img 
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" 
+            alt="Buy Me A Coffee" 
+            className="h-10"
+          />
+        </a>
       </body>
     </html>
   );

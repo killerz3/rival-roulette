@@ -36,7 +36,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0a1033] to-[#080a1a] text-white">
+    <div className="min-h-screen bg-gradient-to-b from-[#0a1033] to-[#080a1a] text-white pb-10 md:pb-20">
       <div className="max-w-6xl mx-auto px-4 py-8 pb-20 sm:px-6 lg:px-8">
         <header className="mb-10 text-center">
           <h1 className="text-5xl font-bold mb-2 text-gradient">
