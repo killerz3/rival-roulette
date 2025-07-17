@@ -1,4 +1,5 @@
-import { heroData } from '../app/data';
+import { heroData } from "../app/data";
+import { additionalHeroData } from "../app/data-additions";
 
 export type Character = {
   id: string;
@@ -24,7 +25,8 @@ export type Ability = {
 };
 
 export function processHeroData(): Character[] {
-  const processedHeroes = heroData.map(hero => {
+  const combinedHeroes = [...heroData, ...additionalHeroData];
+  const processedHeroes = combinedHeroes.map((hero) => {
     // Get primary abilities from first transformation
     const abilities = hero.abilities?.filter(ability => 
       ability.transformation_id === 0 || 
