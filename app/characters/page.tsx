@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { processHeroData } from "@/lib/process-data";
-import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -44,12 +43,10 @@ export default function CharactersGallery() {
             >
               <div className="bg-gray-800 bg-opacity-60 rounded-lg overflow-hidden shadow-lg border border-gray-700">
                 <div className="relative w-full pt-[100%]">
-                  <Image
+                  <img
                     src={character.image}
                     alt={character.name}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-3">
