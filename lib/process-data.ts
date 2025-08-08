@@ -20,7 +20,7 @@ export type Ability = {
   type: string;
   description: string;
   icon: string;
-  additional_fields?: Record<string, string>;
+  additional_fields?: Record<string, any>;
 };
 
 export function processHeroData(): Character[] {
@@ -45,7 +45,7 @@ export function processHeroData(): Character[] {
       abilities: abilities.map(ability => {
         // Ensure all values in additional_fields are strings
         const processedFields: Record<string, string> = {};
-        if (ability.additional_fields) {
+        if ('additional_fields' in ability && ability.additional_fields && typeof ability.additional_fields === 'object') {
           Object.entries(ability.additional_fields).forEach(([key, value]) => {
             processedFields[key] = String(value ?? '');
           });
