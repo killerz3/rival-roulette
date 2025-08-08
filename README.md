@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Features
+
+### Support Modal
+The app includes a support modal that appears every 4 days to encourage users to support the project. The modal includes:
+- **Buy Me a Coffee** button - Links to the Buy Me a Coffee page
+- **Remind Me Later** button - Resets the 4-day timer
+- **Maybe Later** button - Closes the modal without resetting the timer
+- **Click outside to close** - Modal can be dismissed by clicking outside
+
+The modal uses localStorage to track when it was last shown and automatically appears every 4 days to help maintain the website.

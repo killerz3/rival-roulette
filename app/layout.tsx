@@ -4,6 +4,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import { Banner } from "@/components/Banner";
 import { banners } from "./data/banners";
+import { SupportModalWrapper } from "@/components/SupportModalWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Banner banners={banners} />
+        <SupportModalWrapper />
         {children}
         <Analytics />
         <a 
