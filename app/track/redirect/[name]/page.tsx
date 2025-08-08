@@ -1,24 +1,31 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 
 export default function TrackRedirect() {
   const params = useParams();
+  const searchParams = useSearchParams();
   
   useEffect(() => {
-    const path = params.path as string;
+    const name = params.name as string;
+    const url = searchParams.get('url');
+    
+    if (!url) {
+      console.error('No URL provided for redirect');
+      return;
+    }
     
     // Log the redirect for debugging (optional)
     console.log('External redirect:', {
-      destination: path,
+      name: name,
+      destination: url,
       timestamp: new Date().toISOString(),
     });
     
     // Redirect to the actual destination
-    const redirectUrl = decodeURIComponent(path);
-    window.location.href = redirectUrl;
-  }, [params.path]);
+    window.location.href = url;
+  }, [params.name, searchParams]);
   
   return (
     <div className="min-h-screen flex items-center justify-center">

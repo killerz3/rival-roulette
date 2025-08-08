@@ -8,6 +8,7 @@ interface BuyMeACoffeeProps {
 
 export function BuyMeACoffee({ className = "fixed bottom-10 left-5 z-50" }: BuyMeACoffeeProps) {
   const trackingUrl = createTrackingUrl({
+    name: 'buy-me-a-coffee',
     destination: 'https://www.buymeacoffee.com/killerz3'
   });
 
