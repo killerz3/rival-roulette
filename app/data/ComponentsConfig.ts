@@ -18,6 +18,14 @@ export const components: BannerData[] = [
     repeatAfterVisits: 3 // Repeat after 3 visits
   },
   {
+    id:"blade",
+    title: "🔪 Blade added to Roulette!",
+    message: "The vampire hunter is now available! Check out Blade's powerful abilities in the Character Gallery or try your luck in the roulette!",
+    type: "info",
+    order: 3,
+    repeatAfterVisits: 3 // Repeat after 3 visits
+  },
+  {
     id: "feedback",
     title: "💬 We'd Love Your Feedback",
     message: "Help us improve by sharing your experience or suggesting new features.",
