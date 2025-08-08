@@ -3,8 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import { Banner } from "@/components/Banner";
-import { banners } from "./data/banners";
-import { SupportModalWrapper } from "@/components/SupportModalWrapper";
+import { components } from "./data/ComponentsConfig";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,8 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Banner banners={banners} />
-        <SupportModalWrapper />
+        <Banner banners={components} />
         {children}
         <Analytics />
         <a 

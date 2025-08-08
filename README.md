@@ -37,11 +37,53 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Features
 
-### Support Modal
-The app includes a support modal that appears every 4 days to encourage users to support the project. The modal includes:
-- **Buy Me a Coffee** button - Links to the Buy Me a Coffee page
-- **Remind Me Later** button - Resets the 4-day timer
-- **Maybe Later** button - Closes the modal without resetting the timer
-- **Click outside to close** - Modal can be dismissed by clicking outside
+### Banner & Dialog System
+The app includes a configurable banner and dialog system that allows you to easily add new notifications and modals.
 
-The modal uses localStorage to track when it was last shown and automatically appears every 4 days to help maintain the website.
+#### Dialog System
+The app includes a configurable dialog system that can be used for various purposes. The system includes:
+- **Generic Modal Component** - Fully configurable modal with custom buttons
+- **Custom Button Support** - Add any buttons with custom actions
+- **Click outside to close** - Dialogs can be dismissed by clicking outside
+- **Config-driven** - All content and behavior controlled through configuration
+
+#### Adding New Dialogs
+You can easily add new dialogs by adding them to the `app/data/ComponentsConfig.ts` file:
+
+```typescript
+{
+  id: "your-dialog-id",
+  title: "Your Dialog Title",
+  message: "Your dialog subtitle (shown in header)",
+  type: "dialog",
+  order: 7, // Higher number = shown later
+  repeatAfterVisits: 5, // Show every 5 visits
+  dialogConfig: {
+    // Use default buttons
+    showBuyMeACoffee: true, // Show default Buy Me a Coffee button
+    showRemindLater: true,  // Show default Remind Later button
+    showCancel: true,       // Show default Cancel button
+    bodyMessage: "Optional separate message for body content", // Optional
+    
+    // Or use custom buttons for complete control
+    customButtons: [
+      {
+        text: "Visit Website",
+        action: "external",
+        url: "https://example.com",
+        className: "bg-blue-500 hover:bg-blue-600 text-white"
+      },
+      {
+        text: "Close",
+        action: "close"
+      },
+      {
+        text: "Remind Later",
+        action: "remind"
+      }
+    ]
+  }
+}
+```
+
+The system uses localStorage to track when dialogs were last shown and automatically manages their appearance based on the configuration.

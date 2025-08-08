@@ -1,6 +1,6 @@
 import { BannerData } from "@/components/Banner";
 
-export const banners: BannerData[] = [
+export const components: BannerData[] = [
   {
     id: "welcome",
     title: "🎉 Welcome to Marvel Rivals Roulette!",
@@ -40,5 +40,32 @@ export const banners: BannerData[] = [
     type: "warning",
     order: 5,
     repeatAfterVisits: 2 // Repeat every visit
+  },
+  {
+    id: "welcome-dialog",
+    title: "Welcome to Rival Roulette!",
+    message: "Discover new characters and improve your gameplay with our random character selector.",
+    type: "dialog",
+    order: 6,
+    repeatAfterVisits: -1, 
+    dialogConfig: {
+      showBuyMeACoffee: false,
+      showRemindLater: false,
+      showCancel: false
+    }
+  },
+  {
+    id: "support-dialog",
+    title: "💝 Support Rival Roulette",
+    message: "Help us keep the site running!",
+    type: "dialog",
+    order: 7,
+    repeatAfterVisits: 4, // Show every 4 days
+    dialogConfig: {
+      showBuyMeACoffee: true,
+      showRemindLater: false,
+      showCancel: true,
+      bodyMessage: "We love creating this tool for the Marvel Rivals community! If you find it helpful, consider supporting us to help cover hosting costs and keep the site running smoothly."
+    }
   }
 ]; 

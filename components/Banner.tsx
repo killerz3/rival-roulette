@@ -1,14 +1,27 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { Modal } from "./Modal";
 
 export interface BannerData {
   id: string;
   title: string;
   message: string;
-  type?: "info" | "success" | "warning" | "error";
+  type?: "info" | "success" | "warning" | "error" | "dialog";
   order: number;
   repeatAfterVisits?: number; // -1 means never repeat, 0 means every visit, >0 means after X visits
+  dialogConfig?: {
+    showBuyMeACoffee?: boolean;
+    showRemindLater?: boolean;
+    showCancel?: boolean;
+    bodyMessage?: string; // Optional separate message for body content
+    customButtons?: Array<{
+      text: string;
+      action: "close" | "remind" | "external";
+      url?: string;
+      className?: string;
+    }>;
+  };
 }
 
 interface BannerProps {
@@ -17,6 +30,8 @@ interface BannerProps {
 
 export function Banner({ banners }: BannerProps) {
   const [currentBanner, setCurrentBanner] = useState<BannerData | null>(null);
+  const [showDialog, setShowDialog] = useState(false);
+  const [currentDialog, setCurrentDialog] = useState<BannerData | null>(null);
 
   useEffect(() => {
     // Get dismissed banners and visit counts from localStorage
@@ -39,32 +54,70 @@ export function Banner({ banners }: BannerProps) {
     const nextBanner = sortedBanners.find(banner => {
       const visitCount = bannerVisitCounts[banner.id] || 0;
       
-             // If banner is in dismissed list, check if it should repeat
-       if (dismissedBanners.includes(banner.id)) {
-         const repeatAfter = banner.repeatAfterVisits ?? -1; // Default to -1 (never repeat)
-         if (repeatAfter === -1) {
-           // Never repeat
-           return false;
-         } else if (repeatAfter === 0) {
-           // Repeat every visit
-           return true;
-         } else if (repeatAfter > 0) {
-           // Repeat after X visits
-           return visitCount >= repeatAfter;
-         }
-         // Default: never repeat (old behavior)
-         return false;
-       }
+      // If banner is in dismissed list, check if it should repeat
+      if (dismissedBanners.includes(banner.id)) {
+        const repeatAfter = banner.repeatAfterVisits ?? -1; // Default to -1 (never repeat)
+        if (repeatAfter === -1) {
+          // Never repeat
+          return false;
+        } else if (repeatAfter === 0) {
+          // Repeat every visit
+          return true;
+        } else if (repeatAfter > 0) {
+          // Repeat after X visits
+          return visitCount >= repeatAfter;
+        }
+        // Default: never repeat (old behavior)
+        return false;
+      }
       
       // Banner hasn't been dismissed yet
       return true;
     });
     
-    if (nextBanner) {
+    // Check if we should show a dialog instead
+    const nextDialog = sortedBanners.find(banner => {
+      if (banner.type !== "dialog") return false;
+      
+      const visitCount = bannerVisitCounts[banner.id] || 0;
+      
+      // If dialog is in dismissed list, check if it should repeat
+      if (dismissedBanners.includes(banner.id)) {
+        const repeatAfter = banner.repeatAfterVisits ?? -1;
+        if (repeatAfter === -1) {
+          return false;
+        } else if (repeatAfter === 0) {
+          return true;
+        } else if (repeatAfter > 0) {
+          return visitCount >= repeatAfter;
+        }
+        return false;
+      }
+      
+      return true;
+    });
+    
+    // Prioritize dialogs over banners
+    if (nextDialog) {
+      setCurrentDialog(nextDialog);
+      setShowDialog(true);
+      setCurrentBanner(null);
+      // Initialize visit count for this dialog if not exists
+      if (!bannerVisitCounts[nextDialog.id]) {
+        bannerVisitCounts[nextDialog.id] = 0;
+      }
+    } else if (nextBanner) {
+      setCurrentBanner(nextBanner);
+      setShowDialog(false);
+      setCurrentDialog(null);
       // Initialize visit count for this banner if not exists
       if (!bannerVisitCounts[nextBanner.id]) {
         bannerVisitCounts[nextBanner.id] = 0;
       }
+    } else {
+      setCurrentBanner(null);
+      setShowDialog(false);
+      setCurrentDialog(null);
     }
     
     localStorage.setItem("banner-visit-counts", JSON.stringify(bannerVisitCounts));
@@ -92,7 +145,41 @@ export function Banner({ banners }: BannerProps) {
     setCurrentBanner(null);
   };
 
-  if (!currentBanner) return null;
+  const handleDialogClose = () => {
+    if (!currentDialog) return;
+
+    // Add current dialog to dismissed list
+    const dismissedBanners = JSON.parse(localStorage.getItem("dismissed-banners") || "[]");
+    if (!dismissedBanners.includes(currentDialog.id)) {
+      const updatedDismissed = [...dismissedBanners, currentDialog.id];
+      localStorage.setItem("dismissed-banners", JSON.stringify(updatedDismissed));
+    }
+
+    // Reset visit count for this dialog if it's repeatable
+    const bannerVisitCounts = JSON.parse(localStorage.getItem("banner-visit-counts") || "{}");
+    if (currentDialog.repeatAfterVisits !== undefined && currentDialog.repeatAfterVisits !== -1) {
+      bannerVisitCounts[currentDialog.id] = 0;
+      localStorage.setItem("banner-visit-counts", JSON.stringify(bannerVisitCounts));
+    }
+
+    setShowDialog(false);
+    setCurrentDialog(null);
+  };
+
+  const handleDialogRemindLater = () => {
+    if (!currentDialog) return;
+
+    // Reset visit count to show again in the specified number of visits
+    const bannerVisitCounts = JSON.parse(localStorage.getItem("banner-visit-counts") || "{}");
+    bannerVisitCounts[currentDialog.id] = 0;
+    localStorage.setItem("banner-visit-counts", JSON.stringify(bannerVisitCounts));
+
+    setShowDialog(false);
+    setCurrentDialog(null);
+  };
+
+  // Render banner if it should be shown
+  if (!currentBanner && !showDialog) return null;
 
   const getBannerStyles = (type: string = "info") => {
     switch (type) {
@@ -137,31 +224,46 @@ export function Banner({ banners }: BannerProps) {
   };
 
   return (
-    <div className={`${getBannerStyles(currentBanner.type)} text-white px-4 py-3 fixed top-0 left-0 right-0 z-50`}>
-      <div className="max-w-6xl mx-auto flex items-center justify-between">
-        <div className="flex items-center space-x-3">
-          <div className="flex-shrink-0">
-            {getIcon(currentBanner.type)}
-          </div>
-          <div>
-            <p className="text-sm font-medium">
-              {currentBanner.title}
-            </p>
-            <p className="text-xs opacity-90">
-              {currentBanner.message}
-            </p>
+    <>
+      {/* Render banner if it should be shown */}
+      {currentBanner && (
+        <div className={`${getBannerStyles(currentBanner.type)} text-white px-4 py-3 fixed top-0 left-0 right-0 z-50`}>
+          <div className="max-w-6xl mx-auto flex items-center justify-between">
+            <div className="flex items-center space-x-3">
+              <div className="flex-shrink-0">
+                {getIcon(currentBanner.type)}
+              </div>
+              <div>
+                <p className="text-sm font-medium">
+                  {currentBanner.title}
+                </p>
+                <p className="text-xs opacity-90">
+                  {currentBanner.message}
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={handleDismiss}
+              className="flex-shrink-0 ml-4 p-1 rounded-full hover:bg-white hover:bg-opacity-20 transition-colors"
+              aria-label="Dismiss banner"
+            >
+              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </button>
           </div>
         </div>
-        <button
-          onClick={handleDismiss}
-          className="flex-shrink-0 ml-4 p-1 rounded-full hover:bg-white hover:bg-opacity-20 transition-colors"
-          aria-label="Dismiss banner"
-        >
-          <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-          </svg>
-        </button>
-      </div>
-    </div>
+      )}
+
+      {/* Render dialog if it should be shown */}
+      {showDialog && currentDialog && (
+        <Modal
+          isOpen={showDialog}
+          onClose={handleDialogClose}
+          onRemindLater={handleDialogRemindLater}
+          dialogData={currentDialog}
+        />
+      )}
+    </>
   );
 } 
