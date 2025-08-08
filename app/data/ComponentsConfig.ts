@@ -44,14 +44,15 @@ export const components: BannerData[] = [
   {
     id: "welcome-dialog",
     title: "Welcome to Rival Roulette!",
-    message: "Discover new characters and improve your gameplay with our random character selector.",
+    message: "",
     type: "dialog",
     order: 6,
     repeatAfterVisits: -1, 
     dialogConfig: {
       showBuyMeACoffee: false,
       showRemindLater: false,
-      showCancel: false
+      showCancel: false,
+      bodyMessage: "Discover new characters and improve your gameplay with our random character selector."
     }
   },
   {
