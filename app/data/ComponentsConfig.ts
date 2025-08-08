@@ -10,19 +10,11 @@ export const components: BannerData[] = [
     repeatAfterVisits: -1 // Never repeat
   },
   {
-    id: "features",
-    title: "✨ Ultron added to Roulette!",
-    message: "Checkout Character Gallery to see Ultron's stats and abilities. Or roll the dice to see if you get him!",
-    type: "info",
-    order: 2,
-    repeatAfterVisits: 3 // Repeat after 3 visits
-  },
-  {
     id: "phoenix",
     title: "🔥 Phoenix added to Roulette!",
     message: "The cosmic force of nature is now available! Check out Phoenix's powerful abilities in the Character Gallery or try your luck in the roulette!",
     type: "info",
-    order: 3,
+    order: 2,
     repeatAfterVisits: 3 // Repeat after 3 visits
   },
   {
