@@ -5,6 +5,7 @@ import { processHeroData, groupCharactersByRole, type Character } from "@/lib/pr
 import { CharacterWheel } from "@/components/CharacterWheel";
 import { CharacterCard } from "@/components/CharacterCard";
 import { RoleSelector } from "@/components/RoleSelector";
+import { CustomCharacterFilter } from "@/components/CustomCharacterFilter";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
   const [selectedRole, setSelectedRole] = useState<string>("ALL");
   const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedCharacters, setSelectedCharacters] = useState<Set<string>>(new Set());
+  const [useCustomFilter, setUseCustomFilter] = useState(false);
 
   useEffect(() => {
     try {
@@ -23,6 +26,9 @@ export default function Home() {
       // Extract unique roles
       const roleGroups = groupCharactersByRole(processedData);
       setRoles(Object.keys(roleGroups));
+      
+      // Initialize with all characters selected
+      setSelectedCharacters(new Set(processedData.map(char => char.id)));
       
       setIsLoading(false);
     } catch (error) {
@@ -35,9 +41,50 @@ export default function Home() {
     setSelectedCharacter(character);
   };
 
+  const handleCharacterToggle = (characterId: string) => {
+    setSelectedCharacters(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(characterId)) {
+        newSet.delete(characterId);
+      } else {
+        newSet.add(characterId);
+      }
+      return newSet;
+    });
+  };
+
+  const handleSelectAll = () => {
+    setSelectedCharacters(new Set(characters.map(char => char.id)));
+  };
+
+  const handleDeselectAll = () => {
+    setSelectedCharacters(new Set());
+  };
+
+  const handleRoleToggle = (role: string) => {
+    const roleCharacters = characters.filter(char => char.role === role);
+    const allSelected = roleCharacters.every(char => selectedCharacters.has(char.id));
+    
+    if (allSelected) {
+      // Deselect all characters in this role
+      roleCharacters.forEach(char => {
+        if (selectedCharacters.has(char.id)) {
+          handleCharacterToggle(char.id);
+        }
+      });
+    } else {
+      // Select all characters in this role
+      roleCharacters.forEach(char => {
+        if (!selectedCharacters.has(char.id)) {
+          handleCharacterToggle(char.id);
+        }
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0a1033] to-[#080a1a] text-white pb-10 md:pb-20">
-      <div className="max-w-6xl mx-auto px-4 pt-20 pb-8 pb-20 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 pt-20 pb-8 sm:px-6 lg:px-8">
         <header className="mb-10 text-center">
           <h1 className="text-5xl font-bold mb-2 text-gradient">
             Marvel Rivals Roulette
@@ -67,17 +114,55 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <RoleSelector 
-              roles={roles} 
-              selectedRole={selectedRole} 
-              onRoleChange={setSelectedRole} 
-            />
+            {/* Filter Mode Toggle */}
+            <div className="flex justify-center mb-6">
+              <div className="flex bg-[#2a273f]/50 rounded-full p-1 border border-[#6e6a86]/20">
+                <button
+                  onClick={() => setUseCustomFilter(false)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                    !useCustomFilter
+                      ? 'bg-[#e0def4] text-[#232136]'
+                      : 'text-[#e0def4] hover:bg-[#393552]/50'
+                  }`}
+                >
+                  Role Filter
+                </button>
+                <button
+                  onClick={() => setUseCustomFilter(true)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                    useCustomFilter
+                      ? 'bg-[#e0def4] text-[#232136]'
+                      : 'text-[#e0def4] hover:bg-[#393552]/50'
+                  }`}
+                >
+                  Custom Filter
+                </button>
+              </div>
+            </div>
+
+            {!useCustomFilter ? (
+              <RoleSelector 
+                roles={roles} 
+                selectedRole={selectedRole} 
+                onRoleChange={setSelectedRole} 
+              />
+            ) : (
+              <CustomCharacterFilter
+                characters={characters}
+                selectedCharacters={selectedCharacters}
+                onCharacterToggle={handleCharacterToggle}
+                onRoleToggle={handleRoleToggle}
+                onSelectAll={handleSelectAll}
+                onDeselectAll={handleDeselectAll}
+              />
+            )}
             
             <div className="mb-8">
               <CharacterWheel 
                 characters={characters} 
                 onSelect={handleCharacterSelect} 
-                filterRole={selectedRole}
+                filterRole={useCustomFilter ? undefined : selectedRole}
+                customFilter={useCustomFilter ? selectedCharacters : undefined}
               />
             </div>
             
@@ -97,7 +182,7 @@ export default function Home() {
                 and improve your gameplay with strategic character selection.
               </p>
             </div>
-            <div className="text-right self-end md:text-right text-center">
+            <div className="text-center self-end md:text-right">
               <p className="text-gray-400 text-sm">
                 Created by Shubhveer Singh Chaudhary
               </p>

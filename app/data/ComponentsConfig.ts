@@ -60,5 +60,26 @@ export const components: BannerData[] = [
       showCancel: true,
       bodyMessage: "We love creating this tool for the Marvel Rivals community! If you find it helpful, consider supporting us to help cover hosting costs and keep the site running smoothly."
     }
+  },
+  {
+    id: "custom-filter-feature",
+    title: "🎯 New: Custom Character Filter!",
+    message: "Take control of your character selection!",
+    type: "dialog",
+    order: 7,
+    repeatAfterVisits: -1, // Show only once
+    dialogConfig: {
+      showBuyMeACoffee: false,
+      showRemindLater: false,
+      showCancel: false,
+      bodyMessage: "🎉 We've added a powerful new Custom Character Filter! Now you can: ✨ Select specific characters you want to play\n✨ Deselect characters you don't want to see\n✨ Filter by entire character types (Assault, Support, Tank)\n✨ Search for characters by name\n✨ Use 'Select All' or 'Deselect All' for quick changes\n\nSwitch to 'Custom Filter' mode using the toggle above the character wheel to try it out!",
+      customButtons: [
+        {
+          text: "🚀 Try Custom Filter",
+          action: "close",
+          className: "w-full bg-gradient-to-r from-[#3e8fb0] to-[#9ccfd8] hover:from-[#3e8fb0]/80 hover:to-[#9ccfd8]/80 text-[#e0def4] font-semibold py-3 px-4 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
+        }
+      ]
+    }
   }
 ]; 

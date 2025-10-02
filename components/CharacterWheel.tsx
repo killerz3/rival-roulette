@@ -7,23 +7,26 @@ type CharacterWheelProps = {
   characters: Character[];
   onSelect: (character: Character) => void;
   filterRole?: string;
+  customFilter?: Set<string>;
 };
 
-export function CharacterWheel({ characters, onSelect, filterRole }: CharacterWheelProps) {
+export function CharacterWheel({ characters, onSelect, filterRole, customFilter }: CharacterWheelProps) {
   const [spinning, setSpinning] = useState(false);
   const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(null);
   const [visibleCharacters, setVisibleCharacters] = useState<Character[]>([]);
   const [displayedCharacters, setDisplayedCharacters] = useState<Character[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
   
-  // Filter characters by role if provided
+  // Filter characters by role or custom filter
   useEffect(() => {
-    if (filterRole && filterRole !== 'ALL') {
+    if (customFilter && customFilter.size > 0) {
+      setVisibleCharacters(characters.filter(char => customFilter.has(char.id)));
+    } else if (filterRole && filterRole !== 'ALL') {
       setVisibleCharacters(characters.filter(char => char.role === filterRole));
     } else {
       setVisibleCharacters(characters);
     }
-  }, [characters, filterRole]);
+  }, [characters, filterRole, customFilter]);
   
   // Reset selected character if it's not in the visible characters after filtering
   useEffect(() => {
