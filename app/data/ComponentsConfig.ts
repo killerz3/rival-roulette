@@ -10,9 +10,9 @@ export const components: BannerData[] = [
     repeatAfterVisits: -1 // Never repeat
   },
   {
-    id: "angela",
-    title: "⚔️ Angela added to Roulette!",
-    message: "The Asgardian warrior is now available! Check out Angela's powerful abilities in the Character Gallery or try your luck in the roulette!",
+    id: "daredevil",
+    title: "👹 Daredevil added to Roulette!",
+    message: "The Man Without Fear is now available! Check out Daredevil's incredible Radar Sense and combat abilities in the Character Gallery or try your luck in the roulette!",
     type: "info",
     order: 2,
     repeatAfterVisits: 3 // Repeat after 3 visits

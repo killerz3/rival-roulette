@@ -47,7 +47,8 @@ export const heroData =[
             "1011100",
             "1011500",
             "1011501",
-            "1011502"
+            "1011502",
+            "1011300"
         ],
         "abilities": [
             {
@@ -106,7 +107,7 @@ export const heroData =[
                 "name": "Gamma Boost",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
@@ -206,10 +207,10 @@ export const heroData =[
                     "Range": "5m spherical radius",
                     "Casting": "Single-cast spell field that surrounds the caster",
                     "Cooldown": "10s",
-                    "Special Effect": "When the caster\u0027s shield takes damage, 100% of the damage is converted into gamma energy. When an ally\u0027s shield takes damage, 10% of the damage is converted into gamma energy",
-                    "Ally\u0027s Shield Value": "100",
+                    "Special Effect": "When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy",
+                    "Ally's Shield Value": "100",
                     "Max Shield Duration": "2.5s",
-                    "Caster\u0027s Shield Value": "200"
+                    "Caster's Shield Value": "200"
                 },
                 "transformation_id": 1
             },
@@ -237,7 +238,7 @@ export const heroData =[
                 "name": "Gamma Boost",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
@@ -350,7 +351,7 @@ export const heroData =[
                 "name": "Gamma Boost",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
@@ -426,7 +427,7 @@ export const heroData =[
             }
         ],
         "en_name": "The Punisher",
-        "description": "Expertly wielding a full arsenal of futuristic weapons, Frank Castle is a formidable one-man army. With a steadfast resolve to deliver justice to his enemies, The Punisher won\u0027t cease in his mission until every last round is fired!",
+        "description": "Expertly wielding a full arsenal of futuristic weapons, Frank Castle is a formidable one-man army. With a steadfast resolve to deliver justice to his enemies, The Punisher won't cease in his mission until every last round is fired!",
         "slug": "the-punisher",
         "team": [
             "Marvelknights"
@@ -446,7 +447,10 @@ export const heroData =[
             "1014500",
             "1014501",
             "1014300",
-            "1014800"
+            "1014800",
+            "1014502",
+            "ps1014504",
+            "ps1014505"
         ],
         "abilities": [
             {
@@ -525,7 +529,7 @@ export const heroData =[
                 "name": "Scourge Grenade",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Throw a smoke grenade forward to <Debuff>Block Enemies\u0027 Vision<\/> and leap backward.",
+                "description": "Throw a smoke grenade forward to <Debuff>Block Enemies' Vision<\/> and leap backward.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
@@ -541,7 +545,7 @@ export const heroData =[
             {
                 "id": 101411,
                 "icon": "abilities\/1014\/101411.webp",
-                "name": "Warrior\u0027s Gaze",
+                "name": "Warrior's Gaze",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "Retain vision of enemies that disappear from view for a short duration.",
@@ -597,7 +601,7 @@ export const heroData =[
                 "name": "Infinite Punishment",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "Rocket Raccoon throws an Ammo Overload Device in the target direction. Upon entering the device\u0027s range, {101400} receive the buffs of <Buff>Infinite Ammo<\/> and <Buff>Faster Firing<\/>.",
+                "description": "Rocket Raccoon throws an Ammo Overload Device in the target direction. Upon entering the device's range, {101400} receive the buffs of <Buff>Infinite Ammo<\/> and <Buff>Faster Firing<\/>.",
                 "transformation_id": 0
             },
             {
@@ -606,7 +610,7 @@ export const heroData =[
                 "name": "Cutting-edge Tech",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "The Punisher upgrades Black Widow\u0027s arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using <Orange>Straight Shooter<\/> fires a pulse beam that deals piercing damage.",
+                "description": "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using <Orange>Straight Shooter<\/> fires a pulse beam that deals piercing damage.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "+25 Max Health, +5% Damage Boost"
@@ -614,10 +618,21 @@ export const heroData =[
                 "transformation_id": 0
             },
             {
-                "id": 101491,
-                "name": "The Punisher Rifle - Melee Basic Attack",
+                "id": 101492,
+                "icon": "abilities\/1014\/101492.webp",
+                "name": "Justice Sense",
                 "type": "Normal",
                 "isCollab": true,
+                "description": "Daredevil shares the location of his <Orange>Sonic Pursuit<\/> target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and <Debuff>Blind<\/> enemies.",
+                "additional_fields": {
+                    "Key": "C",
+                    "Range": "5m spherical radius",
+                    "Damage": "45",
+                    "Casting": "Projectile with an arced trajectory",
+                    "Cooldown": "15s",
+                    "Projectile Speed": "40 m\/s",
+                    "Blind Effect Duration": "1.5s"
+                },
                 "transformation_id": 0
             }
         ],
@@ -695,7 +710,8 @@ export const heroData =[
             "1015500",
             "1015501",
             "1015502",
-            "1015503"
+            "1015503",
+            "1015300"
         ],
         "abilities": [
             {
@@ -824,7 +840,7 @@ export const heroData =[
                 "name": "Shark Surge",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "When Storm unleashes her <Orange>Omega Hurricane<\/>, if Jeff the Land Shark has <Orange>It\u0027s Jeff!<\/> ready, he can channel her power to conjure a ferocious <Orange>Jeff-nado<\/>! Additionally, a <Orange>Jeff-nado<\/> will form if Jeff encounters Storm\u0027s <Orange>Omega Hurricane<\/> after devouring enemies with <Orange>It\u0027s Jeff!<\/>. Enemies will be drawn into the swirling chaos after enduring sustained damage from the <Orange>Jeff-nado<\/> for some time.",
+                "description": "When Storm unleashes her <Orange>Omega Hurricane<\/>, if Jeff the Land Shark has <Orange>It's Jeff!<\/> ready, he can channel her power to conjure a ferocious <Orange>Jeff-nado<\/>! Additionally, a <Orange>Jeff-nado<\/> will form if Jeff encounters Storm's <Orange>Omega Hurricane<\/> after devouring enemies with <Orange>It's Jeff!<\/>. Enemies will be drawn into the swirling chaos after enduring sustained damage from the <Orange>Jeff-nado<\/> for some time.",
                 "additional_fields": {
                     "Key": "PASSIVE",
                     "Swallow Range": "10m spherical radius spell field centered around Storm",
@@ -979,7 +995,7 @@ export const heroData =[
                 "name": "Doppelganger",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Project an <Orange>Illusion<\/> that can cast some of Loki\u0027s abilities.",
+                "description": "Project an <Orange>Illusion<\/> that can cast some of Loki's abilities.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Targeted",
@@ -1016,7 +1032,7 @@ export const heroData =[
                     "Casting": "Targeted",
                     "Duration": "12s",
                     "Energy Cost": "4300",
-                    "Special Effect": "After transforming, Loki\u0027s Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends"
+                    "Special Effect": "After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends"
                 },
                 "transformation_id": 0
             },
@@ -1050,7 +1066,7 @@ export const heroData =[
                 "name": "Deific Blessing",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Mantis enhances Groot\u0027s wooden walls and Loki\u0027s Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus<\/> state, restores health to random nearby allies. Loki\u0027s Rune Stones grant allies within <Orange>Regeneration Domain<\/> a <Buff>Damage Boost<\/>.",
+                "description": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus<\/> state, restores health to random nearby allies. Loki's Rune Stones grant allies within <Orange>Regeneration Domain<\/> a <Buff>Damage Boost<\/>.",
                 "additional_fields": {
                     "Key": "Shift",
                     "Range": "A cylindrical spell field with a radius of 6.5m and a height of 2m.",
@@ -1106,7 +1122,7 @@ export const heroData =[
     {
         "id": "1017",
         "name": "Human Torch",
-        "real_name": "Jonathan \u0022johnny\u0022 Storm",
+        "real_name": "Jonathan \"johnny\" Storm",
         "transformations": [
             {
                 "id": 0,
@@ -1117,7 +1133,7 @@ export const heroData =[
             }
         ],
         "en_name": "Human Torch",
-        "description": "The Fantastic Four\u0027s resident heartthrob, Johnny Storm, adds an intense flare to every battle he fights. Shrouded in roaring flames, the Human Torch always manages to look cool while turning up the heat!",
+        "description": "The Fantastic Four's resident heartthrob, Johnny Storm, adds an intense flare to every battle he fights. Shrouded in roaring flames, the Human Torch always manages to look cool while turning up the heat!",
         "slug": "human-torch",
         "team": [
             "Fantasticfour"
@@ -1137,7 +1153,9 @@ export const heroData =[
             "1017100",
             "1017101",
             "1017501",
-            "1017800"
+            "1017502",
+            "1017800",
+            "ps1017504"
         ],
         "abilities": [
             {
@@ -1152,8 +1170,8 @@ export const heroData =[
                     "Casting": "Burst Projectile",
                     "Charges": "6",
                     "Fire Rate": "0.5s per round",
-                    "Shot Damage": "5.5 per round",
-                    "Charge Speed": "0.33s per use",
+                    "Shot Damage": "5 per round",
+                    "Charge Speed": "0.33s per use, Fire Cluster has a 0.5s delay before ammo begins to replenish",
                     "Critical Hit": "Yes",
                     "Damage Falloff": "Falloff begins at 15m, decreasing to 60% at 30m.",
                     "Projectile Speed": "150m\/s",
@@ -1172,7 +1190,7 @@ export const heroData =[
                     "Key": "SHIFT",
                     "Energy Cost": "15\/s",
                     "Maximum Energy": "120",
-                    "Movement Boost": "50%",
+                    "Movement Boost": "2.5m\/s",
                     "Energy Recovery Speed": "20\/s"
                 },
                 "transformation_id": 0
@@ -1278,7 +1296,7 @@ export const heroData =[
                 "name": "Pyrokinetic Energy",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Human Torch stores <Orange>Pyrokinetic Energy<\/> in Spider-Man\u0027s suit, enabling him to unleash an <Orange>Inferno Blast<\/> that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a <Orange>Burn-Tracer<\/>. Detonating these <Orange>Burn-Tracers<\/> inflicts Damage Over Time.",
+                "description": "Human Torch stores <Orange>Pyrokinetic Energy<\/> in Spider-Man's suit, enabling him to unleash an <Orange>Inferno Blast<\/> that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a <Orange>Burn-Tracer<\/>. Detonating these <Orange>Burn-Tracers<\/> inflicts Damage Over Time.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "5% Damage Boost"
@@ -1390,7 +1408,7 @@ export const heroData =[
                 "name": "Eye Of Agamotto",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Separate nearby enemies\u0027 <Orange>Souls<\/> from their bodies. Damage dealt to these <Orange>Souls<\/> is transferred to their physical bodies.",
+                "description": "Separate nearby enemies' <Orange>Souls<\/> from their bodies. Damage dealt to these <Orange>Souls<\/> is transferred to their physical bodies.",
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "10m spherical radius",
@@ -1505,7 +1523,7 @@ export const heroData =[
                 "name": "Gamma Maelstrom",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
                 "transformation_id": 0
             },
             {
@@ -1514,7 +1532,7 @@ export const heroData =[
                 "name": "Enchanted Enhancement",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch\u0027s <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
+                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "Doctor Strange gain 100 Max Health"
@@ -1596,7 +1614,10 @@ export const heroData =[
             "1020800",
             "1020301",
             "1020500",
-            "1020101"
+            "1020101",
+            "1020302",
+            "ps1020303",
+            "ps1020304"
         ],
         "abilities": [
             {
@@ -1615,7 +1636,7 @@ export const heroData =[
                     "Healing Amount": "150",
                     "Movement Boost": "3m\/s",
                     "Excess Healing\/Max Health Conversion": "150",
-                    "Caster \u0026 Ally One-time Healing Amount": "200",
+                    "Caster & Ally One-time Healing Amount": "200",
                     "Excess Healing\/Bonus Health Conversion": "100%"
                 },
                 "transformation_id": 0
@@ -1654,7 +1675,7 @@ export const heroData =[
                     "Duration": "8s (16s maximum duration)",
                     "Special Effect": "Healing Flower provides two types of healing effects: One-time Healing and Healing Over Time",
                     "One-time Healing Amount": "55",
-                    "Healing Over Time Amount": "\n\t\t\t\t\t\t10 + 2.5% of the target\u0027s maximum Health per second\n\t\t\t\t\t\t"
+                    "Healing Over Time Amount": "\n\t\t\t\t\t\t10 + 2.5% of the target's maximum Health per second\n\t\t\t\t\t\t"
                 },
                 "transformation_id": 0
             },
@@ -1696,7 +1717,7 @@ export const heroData =[
             {
                 "id": 102031,
                 "icon": "abilities\/1020\/102031.webp",
-                "name": "Nature\u0027s Favor",
+                "name": "Nature's Favor",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "Receive a <Buff>Movement Boost<\/> when not injured and <Orange>Healing Over Time<\/> when consuming <Buff>Life Orbs<\/>.",
@@ -1729,7 +1750,7 @@ export const heroData =[
             {
                 "id": 102081,
                 "icon": "abilities\/1020\/102081.webp",
-                "name": "Nature\u0027s Soul",
+                "name": "Nature's Soul",
                 "type": "Normal",
                 "isCollab": true,
                 "description": "Adam Warlock enhances the rebirth power of {104300}{000003}{102000}, granting them the power of cocooned revival.",
@@ -1741,7 +1762,7 @@ export const heroData =[
                 "name": "Heavenly Guardian",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "Mantis enhances Groot\u0027s wooden walls and Loki\u0027s Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus<\/> state, restores health to random nearby allies. Loki\u0027s Rune Stones grant allies within <Orange>Regeneration Domain<\/> a <Buff>Damage Boost<\/>.",
+                "description": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus<\/> state, restores health to random nearby allies. Loki's Rune Stones grant allies within <Orange>Regeneration Domain<\/> a <Buff>Damage Boost<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "10% Healing Boost"
@@ -1802,7 +1823,7 @@ export const heroData =[
             }
         ],
         "en_name": "Hawkeye",
-        "description": "Despite his lack of superpowers, Hawkeye\u0027s unparalleled skills as a marksman have earned him a spot alongside earth\u0027s mightiest heroes. With a cool head and steady hand, Clint Barton never misses a target… so enemies best stay out of his sights! ",
+        "description": "Despite his lack of superpowers, Hawkeye's unparalleled skills as a marksman have earned him a spot alongside earth's mightiest heroes. With a cool head and steady hand, Clint Barton never misses a target… so enemies best stay out of his sights! ",
         "slug": "hawkeye",
         "team": [
             "Avengers"
@@ -1843,7 +1864,7 @@ export const heroData =[
             {
                 "id": 102111,
                 "icon": "abilities\/1021\/102111.webp",
-                "name": "Archer\u0027s Focus",
+                "name": "Archer's Focus",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "Aim at an enemy to improve focus, enhancing the damage inflicted by <Orange>Piercing Arrow<\/>.",
@@ -1952,7 +1973,7 @@ export const heroData =[
             {
                 "id": 102181,
                 "icon": "abilities\/1021\/102181.webp",
-                "name": "Hunter\u0027s Sight",
+                "name": "Hunter's Sight",
                 "type": "Ultimate",
                 "isCollab": false,
                 "description": "Capture <Orange>Afterimages<\/> of enemies in his view. Damage dealt to an <Orange>Afterimage<\/> is transferred to the corresponding enemy.",
@@ -1960,7 +1981,7 @@ export const heroData =[
                     "Key": "Q",
                     "Duration": "10s",
                     "Energy Cost": "3100",
-                    "Special Mechanic": "\n\t\t\t\t\t\tWhile Hunter\u0027s Sight is active, bow draw speed is increased\n\t\t\t\t\t\t",
+                    "Special Mechanic": "\n\t\t\t\t\t\tWhile Hunter's Sight is active, bow draw speed is increased\n\t\t\t\t\t\t",
                     "Afterimage Duration": "3s",
                     "Afterimage Generation Interval": "0.5s",
                     "\n\t\t\t\t\t\tDraw Speed Boost Multiplier\n\t\t\t\t\t\t": "1.5"
@@ -1973,7 +1994,7 @@ export const heroData =[
                 "name": "Supersensory Vision",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hawkeye can share his Hunter\u0027s Sight with Black Widow, enabling her to catch sight of and damage afterimages of enemies.",
+                "description": "Hawkeye can share his Hunter's Sight with Black Widow, enabling her to catch sight of and damage afterimages of enemies.",
                 "transformation_id": 0
             },
             {
@@ -1982,7 +2003,7 @@ export const heroData =[
                 "name": "Ice Arrow",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Luna Snow grants Winter\u0027s Chill to Hawkeye and Iron Fist. Hawkeye can shoot an <Orange>Ice Arrow<\/> that <Debuff>Stuns<\/> enemies if it travels a certain distance; otherwise, it <Debuff>Slows<\/> the target. The farther the arrow flies, the more damage it deals. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
+                "description": "Luna Snow grants Winter's Chill to Hawkeye and Iron Fist. Hawkeye can shoot an <Orange>Ice Arrow<\/> that <Debuff>Stuns<\/> enemies if it travels a certain distance; otherwise, it <Debuff>Slows<\/> the target. The farther the arrow flies, the more damage it deals. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
                 "additional_fields": {
                     "Key": "C",
                     "Range": "Length: 1m, Width: 1m, Height: 1m",
@@ -2040,7 +2061,7 @@ export const heroData =[
     {
         "id": "1022",
         "name": "Captain America",
-        "real_name": "Steven \u0022steve\u0022 Rogers",
+        "real_name": "Steven \"steve\" Rogers",
         "transformations": [
             {
                 "id": 0,
@@ -2051,7 +2072,7 @@ export const heroData =[
             }
         ],
         "en_name": "Captain America",
-        "description": "Enhanced by the Super-Soldier Serum, Steven \u0022Steve\u0022 Rogers uses his Vibranium shield and extensive combat training to confront any threat to justice. When Captain America rallies his troops, a wave of courage sweeps across the battlefield!",
+        "description": "Enhanced by the Super-Soldier Serum, Steven \"Steve\" Rogers uses his Vibranium shield and extensive combat training to confront any threat to justice. When Captain America rallies his troops, a wave of courage sweeps across the battlefield!",
         "slug": "captain-america",
         "team": [
             "Avengers"
@@ -2212,10 +2233,10 @@ export const heroData =[
             {
                 "id": 102292,
                 "icon": "abilities\/1022\/102292.webp",
-                "name": "Captain\u0027s Spirit",
+                "name": "Captain's Spirit",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Inspired by Captain America\u0027s resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant <Buff>Bonus Health<\/> to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and <Debuff>slows<\/> enemies.",
+                "description": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant <Buff>Bonus Health<\/> to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and <Debuff>slows<\/> enemies.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "Captain America gain 100 Max Health"
@@ -2276,7 +2297,7 @@ export const heroData =[
             }
         ],
         "en_name": "Rocket Raccoon",
-        "description": "Rocket may not look like a tech genius or an expert tactician, but anyone who\u0027s ever made his hit list has quickly regretted underestimating him. This savvy space soldier is equally eager to boost his teammates and to collect bounties on his foes.",
+        "description": "Rocket may not look like a tech genius or an expert tactician, but anyone who's ever made his hit list has quickly regretted underestimating him. This savvy space soldier is equally eager to boost his teammates and to collect bounties on his foes.",
         "slug": "rocket-raccoon",
         "team": [
             "Guardiansofthegalaxy"
@@ -2299,7 +2320,8 @@ export const heroData =[
             "1023302",
             "ps1023303",
             "ps1023304",
-            "1023500"
+            "1023500",
+            "1023101"
         ],
         "abilities": [
             {
@@ -2360,7 +2382,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Summons",
-                    "Cooldown": "45s. You can reclaim the beacon by pressing E. When reclaimed, the cooldown will be reduced based on the beacon\u0027s remaining health. If you reclaim a full-health beacon, the minimum cooldown will be 5s",
+                    "Cooldown": "45s. You can reclaim the beacon by pressing E. When reclaimed, the cooldown will be reduced based on the beacon's remaining health. If you reclaim a full-health beacon, the minimum cooldown will be 5s",
                     "Duration": "300s",
                     "Special Effect": "Generate an item every 3s, including Armor Pack and Rocket Boots",
                     "Maximum Revive Distance": "50m",
@@ -2381,10 +2403,10 @@ export const heroData =[
                     "Casting": "Targeted ability that, when activated, summons a creature and detects allies within the area.",
                     "Duration": "12s",
                     "Energy Cost": "4000",
-                    "Bonus Health": "100 \/s",
-                    "Damage Boost": "25%",
-                    "Special Effect": "\n\t\t\t\t\t\tDuring the ability\u0027s duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per\/s\n\t\t\t\t\t\t",
-                    "Summons\u0027 Health": "800",
+                    "Bonus Health": "100\/s",
+                    "Damage Boost": "40%",
+                    "Special Effect": "During the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per\/s",
+                    "Summons' Health": "800",
                     "Bonus Max Health": "150"
                 },
                 "transformation_id": 0
@@ -2431,7 +2453,7 @@ export const heroData =[
                 "name": "Old Friends",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "{104700}{000003}{102300} can ride on Groot\u0027s shoulders, receiving <Buff>Damage Reduction<\/>.",
+                "description": "{104700}{000003}{102300} can ride on Groot's shoulders, receiving <Buff>Damage Reduction<\/>.",
                 "additional_fields": {
                     "Key": "C",
                     "Range": "Up to 12m",
@@ -2458,7 +2480,7 @@ export const heroData =[
                 "name": "Ammo Invention",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Rocket Raccoon throws an Ammo Overload Device in the target direction. Upon entering the device\u0027s range, {101400} receive the buffs of <Buff>Infinite Ammo<\/> and <Buff>Faster Firing<\/>.",
+                "description": "Rocket Raccoon throws an Ammo Overload Device in the target direction. Upon entering the device's range, {101400} receive the buffs of <Buff>Infinite Ammo<\/> and <Buff>Faster Firing<\/>.",
                 "transformation_id": 0
             },
             {
@@ -2546,7 +2568,8 @@ export const heroData =[
             "1024500",
             "1024101",
             "1024302",
-            "1024303"
+            "1024303",
+            "1024304"
         ],
         "abilities": [
             {
@@ -2609,12 +2632,13 @@ export const heroData =[
                 "name": "Astral Flock",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Transform into a Nastrond Crow to glide forth, press again to undo the transformation.",
+                "description": "Transform into a Nastrond Crow to glide forth, press again to undo the transformation. Gain <Buff>Bonus Health<\/> when the transformation ends.",
                 "additional_fields": {
                     "Key": "Shift",
                     "Casting": "Dash",
                     "Cooldown": "15s",
                     "Dash Speed": "15 m\/s",
+                    "Bonus Health": "25",
                     "Dash Distance": "18m",
                     "Special Effect": "Shapeshift into a Nastrond Crow and gain invincibility"
                 },
@@ -2663,7 +2687,7 @@ export const heroData =[
             {
                 "id": 102481,
                 "icon": "abilities\/1024\/102481.webp",
-                "name": "Hel\u0027s Descent",
+                "name": "Hel's Descent",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "HOLD {Jump} to fall slowly.",
@@ -2689,7 +2713,7 @@ export const heroData =[
                 "name": "Hel Tendrils",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff\u0027s <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela\u0027s <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
+                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff's <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela's <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
                 "additional_fields": {
                     "Key": "E",
                     "Range": "3m spherical radius spell field",
@@ -2700,6 +2724,22 @@ export const heroData =[
                     "Spell Field Damage": "40",
                     "Maximum Linking Distance": "5m",
                     "Maximum Linking Duration": "2s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 102495,
+                "icon": "abilities\/1024\/102495.webp",
+                "name": "Death Knell",
+                "type": "Normal",
+                "isCollab": true,
+                "description": "Hela channels energy of the undead to empower Namor. When Namor strikes with his trident, a <Orange>spectral water column<\/> erupts at the target area. Enemies hit are <Debuff>Slowed<\/> and suffer <Debuff>Reduced Healing<\/>. Whenever Hela or Namor assist in a KO, an invulnerable <Orange>Undead Monstro<\/> spawns at the fallen enemy's position, automatically attacking the nearest foe for a short time before vanishing.",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Damage Falloff": "Falloff begins at 20m, decreasing to 50% at 40m",
+                    "Undead Monstro Damage": "12",
+                    "Undead Monstro Duration": "3s",
+                    "Undead Monstro Fire Rate": "0.5s per hit"
                 },
                 "transformation_id": 0
             }
@@ -2745,13 +2785,13 @@ export const heroData =[
     },
     {
         "id": "1025",
-        "name": "Cloak \u0026 Dagger",
-        "real_name": "Tyrone Johnson \u0026 Tandy Bowen",
+        "name": "Cloak & Dagger",
+        "real_name": "Tyrone Johnson & Tandy Bowen",
         "transformations": [
             {
                 "id": 0,
                 "icon": "characters\/cloak-dagger-headbig-0.webp",
-                "name": "Cloak \u0026 Dagger"
+                "name": "Cloak & Dagger"
             },
             {
                 "id": 1,
@@ -2764,8 +2804,8 @@ export const heroData =[
                 "name": "Cloak"
             }
         ],
-        "en_name": "Cloak \u0026 Dagger",
-        "description": "Tyrone Johnson and Tandy Bowen are nearly inseparable, like two sides of the same coin. Intertwined by forces of shadow and light, Cloak \u0026 Dagger fight as a united front, dealing havoc and healing allies across the arena.",
+        "en_name": "Cloak & Dagger",
+        "description": "Tyrone Johnson and Tandy Bowen are nearly inseparable, like two sides of the same coin. Intertwined by forces of shadow and light, Cloak & Dagger fight as a united front, dealing havoc and healing allies across the arena.",
         "slug": "cloak-dagger",
         "team": [
             "Marvelknights"
@@ -2829,7 +2869,7 @@ export const heroData =[
             {
                 "id": 102551,
                 "icon": "abilities\/1025\/102551.webp",
-                "name": "Shadow\u0027s Embrace",
+                "name": "Shadow's Embrace",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Switch to Cloak.",
@@ -2918,7 +2958,7 @@ export const heroData =[
                     "Damage": "30\/s",
                     "Casting": "Persistent Spell Field",
                     "Duration": "13s",
-                    "Energy Cost": "4000",
+                    "Energy Cost": "4500",
                     "Healing Amount": "250\/s"
                 },
                 "transformation_id": 0
@@ -2929,7 +2969,7 @@ export const heroData =[
                 "name": "From Shadow To Light",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Cloak \u0026 Dagger can inject light and dark energy into Moon Knight and Blade to create a Light \u0026 Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
+                "description": "Cloak & Dagger can inject light and dark energy into Moon Knight and Blade to create a Light & Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-up Bonus": "15% Healing Boost"
@@ -2977,7 +3017,7 @@ export const heroData =[
             {
                 "id": 102551,
                 "icon": "abilities\/1025\/102551.webp",
-                "name": "Shadow\u0027s Embrace",
+                "name": "Shadow's Embrace",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Switch to Cloak.",
@@ -3009,7 +3049,7 @@ export const heroData =[
                     "Damage": "30\/s",
                     "Casting": "Persistent Spell Field",
                     "Duration": "13s",
-                    "Energy Cost": "4000",
+                    "Energy Cost": "4500",
                     "Healing Amount": "250\/s"
                 },
                 "transformation_id": 1
@@ -3020,7 +3060,7 @@ export const heroData =[
                 "name": "From Shadow To Light",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Cloak \u0026 Dagger can inject light and dark energy into Moon Knight and Blade to create a Light \u0026 Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
+                "description": "Cloak & Dagger can inject light and dark energy into Moon Knight and Blade to create a Light & Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-up Bonus": "15% Healing Boost"
@@ -3065,7 +3105,7 @@ export const heroData =[
             {
                 "id": 102552,
                 "icon": "abilities\/1025\/102552.webp",
-                "name": "Light\u0027s Embrace",
+                "name": "Light's Embrace",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Switch to Dagger.",
@@ -3110,7 +3150,7 @@ export const heroData =[
                     "Damage": "30\/s",
                     "Casting": "Persistent Spell Field",
                     "Duration": "13s",
-                    "Energy Cost": "4000",
+                    "Energy Cost": "4500",
                     "Healing Amount": "250\/s"
                 },
                 "transformation_id": 2
@@ -3121,7 +3161,7 @@ export const heroData =[
                 "name": "From Shadow To Light",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Cloak \u0026 Dagger can inject light and dark energy into Moon Knight and Blade to create a Light \u0026 Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
+                "description": "Cloak & Dagger can inject light and dark energy into Moon Knight and Blade to create a Light & Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-up Bonus": "15% Healing Boost"
@@ -3171,7 +3211,7 @@ export const heroData =[
     {
         "id": "1026",
         "name": "Black Panther",
-        "real_name": "T\u0027challa",
+        "real_name": "T'challa",
         "transformations": [
             {
                 "id": 0,
@@ -3182,7 +3222,7 @@ export const heroData =[
             }
         ],
         "en_name": "Black Panther",
-        "description": "T\u0027Challa, King of Wakanda, wields the perfect blend of the cutting-edge Vibranium technology and ancestral power drawn from the Panther God, Bast. The Black Panther bides his time until elegantly infiltrating enemy lines and commencing his hunt.",
+        "description": "T'Challa, King of Wakanda, wields the perfect blend of the cutting-edge Vibranium technology and ancestral power drawn from the Panther God, Bast. The Black Panther bides his time until elegantly infiltrating enemy lines and commencing his hunt.",
         "slug": "black-panther",
         "team": [
             "Avengers"
@@ -3210,7 +3250,7 @@ export const heroData =[
             {
                 "id": 102601,
                 "icon": "abilities\/1026\/102601.webp",
-                "name": "Panther\u0027s Cunning",
+                "name": "Panther's Cunning",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "Deal higher damage when at low Health.",
@@ -3308,7 +3348,7 @@ export const heroData =[
             {
                 "id": 102671,
                 "icon": "abilities\/1026\/102671.webp",
-                "name": "Bast\u0027s Descent",
+                "name": "Bast's Descent",
                 "type": "Ultimate",
                 "isCollab": false,
                 "description": "Summon Bast, pouncing forward, dealing damage and attaching a <Orange>Vibranium Mark<\/> to hit enemies, while refreshing <Orange>Spirit Rend<\/>.",
@@ -3337,7 +3377,7 @@ export const heroData =[
                 "name": "Gamma Vibranium Armor",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
                 "additional_fields": {
                     "Key": "PASSIVE",
                     "Cooldown": "45",
@@ -3400,7 +3440,7 @@ export const heroData =[
             }
         ],
         "en_name": "Groot",
-        "description": "A flora colossus from Planet X, the alien known as Groot exhibits enhanced vitality and the ability to manipulate all forms of vegetation. As sturdy as a towering tree, Groot forges his own way, serving as the team\u0027s silent but reliable pathfinder.",
+        "description": "A flora colossus from Planet X, the alien known as Groot exhibits enhanced vitality and the ability to manipulate all forms of vegetation. As sturdy as a towering tree, Groot forges his own way, serving as the team's silent but reliable pathfinder.",
         "slug": "groot",
         "team": [
             "Guardiansofthegalaxy"
@@ -3532,7 +3572,7 @@ export const heroData =[
                 "name": "Friendly Shoulder",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "{104700}{000003}{102300} can ride on Groot\u0027s shoulders, receiving <Buff>Damage Reduction<\/>.",
+                "description": "{104700}{000003}{102300} can ride on Groot's shoulders, receiving <Buff>Damage Reduction<\/>.",
                 "transformation_id": 0
             },
             {
@@ -3554,7 +3594,7 @@ export const heroData =[
                 "name": "Wild Wall",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Mantis enhances Groot\u0027s wooden walls and Loki\u0027s Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus<\/> state, restores health to random nearby allies. Loki\u0027s Rune Stones grant allies within <Orange>Regeneration Domain<\/> a <Buff>Damage Boost<\/>.",
+                "description": "Mantis enhances Groot's wooden walls and Loki's Rune Stones with life energy. Groot can additionally unleash a Wild Wall, which, when in <Orange>Flora Colossus<\/> state, restores health to random nearby allies. Loki's Rune Stones grant allies within <Orange>Regeneration Domain<\/> a <Buff>Damage Boost<\/>.",
                 "additional_fields": {
                     "Key": "C",
                     "Range": "10m spherical radius spell field",
@@ -3712,7 +3752,7 @@ export const heroData =[
                     "Maximum Vision": "30m",
                     "Target Distance": "25m",
                     "Drone Healing Range": "8m spherical radius spell field",
-                    "Healing Amount to the Targeted ally": "45\/s",
+                    "Healing Amount to the Targeted ally": "35\/s",
                     "Max Tolerance Duration out of Sight": "5s",
                     "Healing Amount to other allies within range": "30\/s"
                 },
@@ -3730,7 +3770,7 @@ export const heroData =[
                     "Casting": "Straight-line projectile that generates a spell field upon impact.",
                     "Duration": "9s",
                     "Beam Damage": "8",
-                    "Energy Cost": "3400",
+                    "Energy Cost": "3700",
                     "Special Effect": "Within the ultimate duration, Ultron grants an Unstoppable effect; Deals 125% damage to Bonus Health",
                     "Projectile Speed": "120m\/s",
                     "Total Ray Amount": "5",
@@ -3750,7 +3790,7 @@ export const heroData =[
                 "name": "Nano Ray",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron\u0027s <Orange>Encephalo-Ray<\/> upgrades to <Orange>Nano-Ray<\/>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile<\/> ability. She directs a squirrel to ride Iron Man\u0027s nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+                "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron's <Orange>Encephalo-Ray<\/> upgrades to <Orange>Nano-Ray<\/>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile<\/> ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
                 "additional_fields": {
                     "Key": "C",
                     "Ammo": "Infinite",
@@ -3889,7 +3929,7 @@ export const heroData =[
             {
                 "id": 102931,
                 "icon": "abilities\/1029\/102931.webp",
-                "name": "Limbo\u0027s Might",
+                "name": "Limbo's Might",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "Convert damage inflicted on enemies into <Buff>Bonus Health<\/> to herself.",
@@ -3916,7 +3956,7 @@ export const heroData =[
                     "Average Speed": "12m\/s",
                     "Maximum Distance": "10m",
                     "Special Effect 1": "Magik is invincible while moving",
-                    "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon\u0027s Rage",
+                    "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage",
                     "Combo Ability Casting Window": "3s"
                 },
                 "transformation_id": 0
@@ -3939,7 +3979,7 @@ export const heroData =[
             {
                 "id": 102961,
                 "icon": "abilities\/1029\/102961.webp",
-                "name": "Demon\u0027s Rage",
+                "name": "Demon's Rage",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Summon a Limbo demon that attacks enemies after exiting a <Orange>Stepping Disc<\/>.",
@@ -3949,7 +3989,7 @@ export const heroData =[
                     "Damage": "20 damage per hit",
                     "Casting": "A cuboid spell field in melee range",
                     "Attack Speed": "0.25s per hit",
-                    "Summons\u0027 Health": "100",
+                    "Summons' Health": "100",
                     "Maximum Duration for Summons": "4s"
                 },
                 "transformation_id": 0
@@ -3983,7 +4023,7 @@ export const heroData =[
                     "Casting": "Transformation",
                     "Duration": "12s",
                     "Energy Cost": "3400",
-                    "Special Effect": "When in the Darkchild state, all of Magik\u0027s abilities are enhanced"
+                    "Special Effect": "When in the Darkchild state, all of Magik's abilities are enhanced"
                 },
                 "transformation_id": 0
             },
@@ -4002,18 +4042,18 @@ export const heroData =[
                 "name": "Chain Of Cyttorak",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch\u0027s <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
+                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
                 "additional_fields": {
                     "Key": "C",
-                    "Slow Rate": "Begins at 0%, growing to 60% at 5m",
+                    "Cooldown": "20s",
+                    "Slow Rate": "Begins at 0%, growing to 40% at 5m",
                     "Damage Over Time": "10\/s",
                     "Projectile Speed": "120m\/s",
-                    "Cooldown of Ability 1": "15",
                     "Link Maximum Duration": "4s",
                     "Projectile Hit Damage": "45",
                     "Link Breakage Distance": "30m",
                     "Max Link Generation Distance": "15m",
-                    "Damage to the Link\u0027s Secondary Target": "30"
+                    "Damage to the Link's Secondary Target": "30"
                 },
                 "transformation_id": 0
             },
@@ -4055,7 +4095,7 @@ export const heroData =[
             {
                 "id": 102931,
                 "icon": "abilities\/1029\/102931.webp",
-                "name": "Limbo\u0027s Might",
+                "name": "Limbo's Might",
                 "type": "Passive",
                 "isCollab": false,
                 "description": "Convert damage inflicted on enemies into <Buff>Bonus Health<\/> to herself.",
@@ -4082,7 +4122,7 @@ export const heroData =[
                     "Average Speed": "12m\/s",
                     "Maximum Distance": "10m",
                     "Special Effect 1": "Magik is invincible while moving",
-                    "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon\u0027s Rage",
+                    "Special Effect 2": "Magik can perform a combo ability within a certain time frame, choosing between Eldritch Whirl or Demon's Rage",
                     "Combo Ability Casting Window": "3s"
                 },
                 "transformation_id": 1
@@ -4105,7 +4145,7 @@ export const heroData =[
             {
                 "id": 102962,
                 "icon": "abilities\/1029\/102962.webp",
-                "name": "Demon\u0027s Rage",
+                "name": "Demon's Rage",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Summon a Limbo demon that attacks enemies after exiting a <Orange>Stepping Disc<\/>.",
@@ -4115,7 +4155,7 @@ export const heroData =[
                     "Damage": "20 damage per hit",
                     "Casting": "A cuboid spell field in melee range",
                     "Attack Speed": "0.25s per hit",
-                    "Summons\u0027 Health": "100",
+                    "Summons' Health": "100",
                     "Maximum Duration for Summons": "4s"
                 },
                 "transformation_id": 1
@@ -4152,18 +4192,18 @@ export const heroData =[
                 "name": "Chain Of Cyttorak",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch\u0027s <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
+                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
                 "additional_fields": {
                     "Key": "C",
-                    "Slow Rate": "Begins at 0%, growing to 60% at 5m",
+                    "Cooldown": "20s",
+                    "Slow Rate": "Begins at 0%, growing to 40% at 5m",
                     "Damage Over Time": "10\/s",
                     "Projectile Speed": "120m\/s",
-                    "Cooldown of Ability 1": "15",
                     "Link Maximum Duration": "4s",
                     "Projectile Hit Damage": "45",
                     "Link Breakage Distance": "30m",
                     "Max Link Generation Distance": "15m",
-                    "Damage to the Link\u0027s Secondary Target": "30"
+                    "Damage to the Link's Secondary Target": "30"
                 },
                 "transformation_id": 1
             }
@@ -4221,7 +4261,7 @@ export const heroData =[
             }
         ],
         "en_name": "Moon Knight",
-        "description": "As the avatar of the Egyptian God of Vengeance, Marc Spector\u0027s body has been enhanced by Khonshu himself. Bathed in a luminous aura that pierces the darkness, Moon Knight glides through the night, ready to sear his enemies with his master\u0027s sacred Ankhs.",
+        "description": "As the avatar of the Egyptian God of Vengeance, Marc Spector's body has been enhanced by Khonshu himself. Bathed in a luminous aura that pierces the darkness, Moon Knight glides through the night, ready to sear his enemies with his master's sacred Ankhs.",
         "slug": "moon-knight",
         "team": [
             "Marvelknights"
@@ -4380,14 +4420,14 @@ export const heroData =[
                 "name": "Full Moon",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Cloak \u0026 Dagger can inject light and dark energy into Moon Knight and Blade to create a Light \u0026 Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
+                "description": "Cloak & Dagger can inject light and dark energy into Moon Knight and Blade to create a Light & Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
                 "additional_fields": {
                     "Key": "C",
                     "Range": "4m spherical radius",
                     "Cooldown": "30s",
                     "Duration": "6s",
                     "Healing Amount": "25\/sec",
-                    "Team-Up Target": "Cloak \u0026 Dagger"
+                    "Team-Up Target": "Cloak & Dagger"
                 },
                 "transformation_id": 0
             },
@@ -4503,7 +4543,7 @@ export const heroData =[
             {
                 "id": 103131,
                 "icon": "abilities\/1031\/103131.webp",
-                "name": "Light \u0026 Dark Ice",
+                "name": "Light & Dark Ice",
                 "type": "Weapon",
                 "isCollab": false,
                 "description": "Fire ice shots that damage enemies or heal allies.",
@@ -4535,7 +4575,7 @@ export const heroData =[
                     "Duration": "6s",
                     "Fire Rate": "1.43 rounds per second",
                     "Healing Amount": "75 health per round",
-                    "Special Effect": "Replace the previous Light \u0026 Dark Ice cast"
+                    "Special Effect": "Replace the previous Light & Dark Ice cast"
                 },
                 "transformation_id": 0
             },
@@ -4614,7 +4654,7 @@ export const heroData =[
                 "name": "Cryo Heart",
                 "type": "Passive",
                 "isCollab": false,
-                "description": "Automatically restore Health when casting <Orange>Ice Arts<\/>, <Orange>Absolute Zero<\/> or <Orange>Light \u0026 Shadow Karma<\/>.",
+                "description": "Automatically restore Health when casting <Orange>Ice Arts<\/>, <Orange>Absolute Zero<\/> or <Orange>Light & Shadow Karma<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Healing Amount": "30\/s for 3 seconds"
@@ -4624,19 +4664,19 @@ export const heroData =[
             {
                 "id": 103194,
                 "icon": "abilities\/1031\/103194.webp",
-                "name": "Winter\u0027s Chill",
+                "name": "Winter's Chill",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Luna Snow grants Winter\u0027s Chill to Hawkeye and Iron Fist. Hawkeye can shoot an <Orange>Ice Arrow<\/> that <Debuff>Stuns<\/> enemies if it travels a certain distance; otherwise, it <Debuff>Slows<\/> the target. The farther the arrow flies, the more damage it deals. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
+                "description": "Luna Snow grants Winter's Chill to Hawkeye and Iron Fist. Hawkeye can shoot an <Orange>Ice Arrow<\/> that <Debuff>Stuns<\/> enemies if it travels a certain distance; otherwise, it <Debuff>Slows<\/> the target. The farther the arrow flies, the more damage it deals. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
                 "transformation_id": 0
             },
             {
                 "id": 103195,
                 "icon": "abilities\/1031\/103195.webp",
-                "name": "Light \u0026 Shadow Karma",
+                "name": "Light & Shadow Karma",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Adam Warlock imparts his mastery of quantum energy to Luna Snow, awakening her new ability <Orange>Light \u0026 Shadow Karma<\/>. When Luna uses <Orange>Light \u0026 Shadow Karma<\/>, she links to nearby enemies. Any damage she deals to linked enemies is converted into Light Energy, which is then transferred to Luna through the link, healing her Health.",
+                "description": "Adam Warlock imparts his mastery of quantum energy to Luna Snow, awakening her new ability <Orange>Light & Shadow Karma<\/>. When Luna uses <Orange>Light & Shadow Karma<\/>, she links to nearby enemies. Any damage she deals to linked enemies is converted into Light Energy, which is then transferred to Luna through the link, healing her Health.",
                 "additional_fields": {
                     " ": " ",
                     "Key": "C",
@@ -4835,7 +4875,7 @@ export const heroData =[
                 "name": "Squirrel Missile",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron\u0027s <Orange>Encephalo-Ray<\/> upgrades to <Orange>Nano-Ray<\/>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile<\/> ability. She directs a squirrel to ride Iron Man\u0027s nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+                "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron's <Orange>Encephalo-Ray<\/> upgrades to <Orange>Nano-Ray<\/>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile<\/> ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
                 "additional_fields": {
                     "Key": "C",
                     "Damage": "75",
@@ -4902,7 +4942,7 @@ export const heroData =[
             }
         ],
         "en_name": "Black Widow",
-        "description": "Natasha Romanova is the world\u0027s most elite spy in any era. Her mastery of the sniper rifle eliminates targets from afar, while her shock batons neutralize close-range threats. Black Widow is locked, loaded, and ready to deliver a fatal bite!",
+        "description": "Natasha Romanova is the world's most elite spy in any era. Her mastery of the sniper rifle eliminates targets from afar, while her shock batons neutralize close-range threats. Black Widow is locked, loaded, and ready to deliver a fatal bite!",
         "slug": "black-widow",
         "team": [
             "Avengers"
@@ -5036,13 +5076,13 @@ export const heroData =[
                 "name": "Supersensory Hunt",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hawkeye can share his Hunter\u0027s Sight with Black Widow, enabling her to catch sight of and damage afterimages of enemies.",
+                "description": "Hawkeye can share his Hunter's Sight with Black Widow, enabling her to catch sight of and damage afterimages of enemies.",
                 "transformation_id": 0
             },
             {
                 "id": 103391,
                 "icon": "abilities\/1033\/103391.webp",
-                "name": "LION\u0027S LAUNCH",
+                "name": "LION'S LAUNCH",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Attack with the Red Room Rifle.",
@@ -5089,7 +5129,7 @@ export const heroData =[
                 "name": "Pulse Rifle",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "The Punisher upgrades Black Widow\u0027s arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using <Orange>Straight Shooter<\/> fires a pulse beam that deals piercing damage.",
+                "description": "The Punisher upgrades Black Widow's arsenal, adding a Pulse Mode to her Red Room Rifle. While the ability is active, using <Orange>Straight Shooter<\/> fires a pulse beam that deals piercing damage.",
                 "additional_fields": {
                     "Key": "C",
                     "Cooldown": "10s",
@@ -5143,7 +5183,7 @@ export const heroData =[
     {
         "id": "1034",
         "name": "Iron Man",
-        "real_name": "Anthony \u0022tony\u0022 Stark",
+        "real_name": "Anthony \"tony\" Stark",
         "transformations": [
             {
                 "id": 0,
@@ -5299,7 +5339,7 @@ export const heroData =[
                 "name": "Gamma Overdrive",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
                 "transformation_id": 0
             },
             {
@@ -5308,7 +5348,7 @@ export const heroData =[
                 "name": "Nano Tech",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron\u0027s <Orange>Encephalo-Ray<\/> upgrades to <Orange>Nano-Ray<\/>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile<\/> ability. She directs a squirrel to ride Iron Man\u0027s nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
+                "description": "When Iron Man, Ultron, and Squirrel Girl team up, Ultron's <Orange>Encephalo-Ray<\/> upgrades to <Orange>Nano-Ray<\/>, firing a beam that pierces through all characters, dealing continuous damage to foes while healing allies; Squirrel Girl gains the <Orange>Squirrel Missile<\/> ability. She directs a squirrel to ride Iron Man's nanotech glove as a homing missile. Upon hit, the squirrel flees just before a fiery explosion!",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "5% Damage Boost"
@@ -5358,7 +5398,7 @@ export const heroData =[
     {
         "id": "1035",
         "name": "Venom",
-        "real_name": "Edward \u0022eddie\u0022 Brock",
+        "real_name": "Edward \"eddie\" Brock",
         "transformations": [
             {
                 "id": 0,
@@ -5369,7 +5409,7 @@ export const heroData =[
             }
         ],
         "en_name": "Venom",
-        "description": "Using his symbiote-enhanced body as the perfect living weapon, Eddie Brock and his alien ally stand ever-ready to unleash vicious attacks upon anyone he deems an enemy. Those ensnared by Venom\u0027s tentacles have no choice but to surrender to this insatiable predator.",
+        "description": "Using his symbiote-enhanced body as the perfect living weapon, Eddie Brock and his alien ally stand ever-ready to unleash vicious attacks upon anyone he deems an enemy. Those ensnared by Venom's tentacles have no choice but to surrender to this insatiable predator.",
         "slug": "venom",
         "team": [
             "Guardiansofthegalaxy",
@@ -5485,7 +5525,7 @@ export const heroData =[
                 "name": "Symbiotic Resilience",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Generate <Buff>Bonus Health<\/> against damage. The lower Venom\u0027s Health, the greater the <Buff>Bonus Health<\/> generated.",
+                "description": "Generate <Buff>Bonus Health<\/> against damage. The lower Venom's Health, the greater the <Buff>Bonus Health<\/> generated.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Instant Cast",
@@ -5500,16 +5540,18 @@ export const heroData =[
                 "name": "Feast Of The Abyss",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Burrow underground for free movement. After a duration or by pressing {PrimaryAttack}, devour enemies above to deal damage based on the enemy\u0027s current health and generate equivalent <Buff>Bonus Health<\/>.",
+                "description": "Burrow underground for free movement. After a duration or by pressing {PrimaryAttack}, devour enemies above to deal damage based on the enemy's current health and generate equivalent <Buff>Bonus Health<\/>. Devoured enemies suffer <Debuff>Reduced Healing<\/>.",
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "7m spherical radius",
-                    "Damage": "Inflict damage equal to 50% of the target\u0027s health, followed by an additional 50 damage",
+                    "Damage": "Inflict damage equal to 50% of the target's health, followed by an additional 50 damage",
                     "Casting": "Single-cast spell field that surrounds the caster",
                     "Energy Cost": "2500",
                     "Movement Boost": "80%",
                     "Special Effect": "100% of damage dealt is converted into Bonus Health",
-                    "Maximum Duration": "4s"
+                    "Maximum Duration": "4s",
+                    "HEALING REDUCTION DURATION": "4s",
+                    "\n\t\t\t\t\t\tHEALING REDUCTION PROPORTION\n\t\t\t\t\t\t": "30%"
                 },
                 "transformation_id": 0
             },
@@ -5528,7 +5570,7 @@ export const heroData =[
                 "name": "Healing Tendrils",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff\u0027s <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela\u0027s <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
+                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff's <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela's <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "+150 Max Health"
@@ -5613,6 +5655,7 @@ export const heroData =[
             "1036101",
             "1036503",
             "1036504",
+            "1036102",
             "1036502"
         ],
         "abilities": [
@@ -5799,7 +5842,7 @@ export const heroData =[
                 "name": "Inferno Blast",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Human Torch stores <Orange>Pyrokinetic Energy<\/> in Spider-Man\u0027s suit, enabling him to unleash an <Orange>Inferno Blast<\/> that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a <Orange>Burn-Tracer<\/>. Detonating these <Orange>Burn-Tracers<\/> inflicts Damage Over Time.",
+                "description": "Human Torch stores <Orange>Pyrokinetic Energy<\/> in Spider-Man's suit, enabling him to unleash an <Orange>Inferno Blast<\/> that sprays a fiery web while performing a backflip to create distance. The flames damage enemies and apply a <Orange>Burn-Tracer<\/>. Detonating these <Orange>Burn-Tracers<\/> inflicts Damage Over Time.",
                 "additional_fields": {
                     "Key": "C",
                     "Damage": "30",
@@ -5931,10 +5974,10 @@ export const heroData =[
                 "name": "Mag-cannon",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Convert the iron rings on Magneto\u0027s back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks <Debuff>Knock Back<\/> enemies.",
+                "description": "Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks <Debuff>Knock Back<\/> enemies.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "Iron Rings\u0027 first charge deals 40 damage, the second charge deals 65 damage, and the third charge deals 90 damage",
+                    "Damage": "Iron Rings' first charge deals 40 damage, the second charge deals 65 damage, and the third charge deals 90 damage",
                     "Casting": "Single-cast projectile with delayed impact",
                     "Cooldown": "No cooldown, but the ability can only be activated when the Iron Ring has at least one charge",
                     "Critical Hit": "No",
@@ -5967,7 +6010,7 @@ export const heroData =[
                 "name": "Metal Bulwark",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto\u0027s back.",
+                "description": "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Targeted",
@@ -5985,7 +6028,7 @@ export const heroData =[
                 "name": "Meteor M",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy <Orange>Projectiles<\/> can enhance the meteor\u0027s power, yet overloading will cause it to self-destruct.",
+                "description": "Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy <Orange>Projectiles<\/> can enhance the meteor's power, yet overloading will cause it to self-destruct.",
                 "additional_fields": {
                     "Key": "Q",
                     "Damage": "The projectile deals no damage. The base damage at the center of the spell field starts at 100 and increases to 300 when fully charged. Each point of Energy adds an extra 3 points of damage to the spell field, with damage reducing to 50% at a distance of 6m from the center",
@@ -6014,7 +6057,7 @@ export const heroData =[
                 "name": "Iron Bulwark",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto\u0027s back.",
+                "description": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back.",
                 "additional_fields": {
                     "Key": "F",
                     "Cooldown": "12s, and sharing cooldown with Metal Bulwark",
@@ -6030,7 +6073,7 @@ export const heroData =[
                 "name": "Magnetic Resonance",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy\u0027s perspective that confuses foes by moving and casting abilities on its own.",
+                "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
                 "additional_fields": {
                     "Key": "C",
                     "Cooldown": "30s",
@@ -6249,7 +6292,7 @@ export const heroData =[
                 "name": "Sorcery Surge",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch\u0027s <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
+                "description": "Doctor Strange shares his arcane mastery with Scarlet Witch and Magik. Scarlet Witch's <Orange>Chthonian Burst<\/> is replaced with <Orange>Mystic Burst<\/> upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction. Magik can unleash a <Orange>Chain of Cyttorak<\/> that links two enemies and slows them; the farther they are apart, the greater the <Debuff>Slow<\/> effect inflicted during the link.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Casting": "Straight-line projectile that generates a spell field upon impact",
@@ -6473,12 +6516,6 @@ export const heroData =[
                 "type": "Passive",
                 "isCollab": true,
                 "description": "When Hela lands a final hit in defeating an enemy, she can instantly resurrect Thor in the respawn phase, or grant him <Buff>Bonus Health<\/> if he is still alive.",
-                "additional_fields": {
-                    "Key": "Passive",
-                    "Bonus Health": "50",
-                    "Respawn Delay": "1.5s",
-                    "Respawn Health Percentage": "80%"
-                },
                 "transformation_id": 0
             },
             {
@@ -6496,7 +6533,7 @@ export const heroData =[
                 "name": "Thunderstrike Pike",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a <Orange>Thunder Spear<\/>that restores <Orange>Thorforce<\/>for each enemy struck. Afterward, Thor can leap to the spear\u0027s explosion point, dealing a second wave of damage to all enemies within range.",
+                "description": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a <Orange>Thunder Spear<\/> that restores <Orange>Thorforce<\/> for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range.",
                 "additional_fields": {
                     "Key": "C",
                     "Cooldown": "30s",
@@ -6564,7 +6601,7 @@ export const heroData =[
             }
         ],
         "en_name": "Mister Fantastic",
-        "description": "Reed Richards believes that true strength comes from remaining flexible, both mentally and physically. Mister Fantastic\u0027s elastic body, which can twist and stretch into any form with ease, is almost as impressive as his brilliant mind.",
+        "description": "Reed Richards believes that true strength comes from remaining flexible, both mentally and physically. Mister Fantastic's elastic body, which can twist and stretch into any form with ease, is almost as impressive as his brilliant mind.",
         "slug": "mister-fantastic",
         "team": [
             "Fantasticfour"
@@ -6584,7 +6621,8 @@ export const heroData =[
             "1040300",
             "1040500",
             "1040501",
-            "1040800"
+            "1040800",
+            "1040101"
         ],
         "abilities": [
             {
@@ -6632,11 +6670,12 @@ export const heroData =[
                 "name": "Distended Grip",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Extend arms forward to entangle an enemy, then press {PrimaryAttack} to pull the hit enemy toward you, or select and yank another enemy, <Debuff>knocking them airborne<\/> against each other.",
+                "description": "Extend arms forward to entangle an enemy, then press {PrimaryAttack} to pull the hit enemy toward you, or select and yank another enemy, <Debuff>knocking them airborne<\/> against each other. Hit targets are <Debuff>Immobilized<\/>.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Casting": "Projectile that fires in a straight trajectory",
                     "Cooldown": "6s",
+                    "Special Effect": "After successfully pulling an enemy with Distended Grip, the target is afflicted with a 1-second immobilize effect",
                     "Projectile Speed": "60 m\/s",
                     "Gained Elasticity": "30",
                     "Dual-Target Pull Damage": "30",
@@ -6769,7 +6808,7 @@ export const heroData =[
     {
         "id": "1041",
         "name": "Winter Soldier",
-        "real_name": "James \u0022bucky\u0022 Barnes",
+        "real_name": "James \"bucky\" Barnes",
         "transformations": [
             {
                 "id": 0,
@@ -6780,7 +6819,7 @@ export const heroData =[
             }
         ],
         "en_name": "Winter Soldier",
-        "description": "Terrifying experiments turned him into a brainwashed assassin, but now James \u0022Bucky\u0022 Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!",
+        "description": "Terrifying experiments turned him into a brainwashed assassin, but now James \"Bucky\" Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!",
         "slug": "winter-soldier",
         "team": [
             "Avengers"
@@ -6814,7 +6853,7 @@ export const heroData =[
                 "description": "Roterstern reloads automatically while the bionic arm is in action, granting the Winter Soldier <Buff>Bonus Health<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
-                    "Bonus Health (Self)": "40 (Bionic Hook \u0026 Tainted Voltage), 50 (Trooper\u0027s Fist, Kraken Impact)"
+                    "Bonus Health (Self)": "40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact)"
                 },
                 "transformation_id": 0
             },
@@ -6862,7 +6901,7 @@ export const heroData =[
             {
                 "id": 104141,
                 "icon": "abilities\/1041\/104141.webp",
-                "name": "Trooper\u0027s Fist",
+                "name": "Trooper's Fist",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Dash forward, seizing enemies along the path, and <Debuff>Launch Up<\/> enemies in front at the end of the dash.",
@@ -6923,7 +6962,7 @@ export const heroData =[
                 "name": "Infinite Grit",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "Rocket Raccoon throws an Ammo Overload Device in the target direction. Upon entering the device\u0027s range, {101400} receive the buffs of <Buff>Infinite Ammo<\/> and <Buff>Faster Firing<\/>.",
+                "description": "Rocket Raccoon throws an Ammo Overload Device in the target direction. Upon entering the device's range, {101400} receive the buffs of <Buff>Infinite Ammo<\/> and <Buff>Faster Firing<\/>.",
                 "transformation_id": 0
             },
             {
@@ -6932,7 +6971,7 @@ export const heroData =[
                 "name": "Stellar Impact",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Inspired by Captain America\u0027s resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant <Buff>Bonus Health<\/> to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and <Debuff>slows<\/> enemies.",
+                "description": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to damage nearby foes and grant <Buff>Bonus Health<\/> to allies within range. Captain America and Winter Soldier can interact with each other once both parties confirm. The duo then collides and unleashes a shockwave that damages and <Debuff>slows<\/> enemies.",
                 "additional_fields": {
                     "Key": "C",
                     "Range": "8m spherical radius",
@@ -7277,7 +7316,7 @@ export const heroData =[
             }
         ],
         "en_name": "Star Lord",
-        "description": "Peter Quill lives to dazzle his foes on the battlefield with his signature swagger. As his element guns paint arcs of devastation, his acrobatic moves sail through the sky with unrivaled style. With performances this spectacular, it\u0027s no wonder that Star-Lord is so legendary!",
+        "description": "Peter Quill lives to dazzle his foes on the battlefield with his signature swagger. As his element guns paint arcs of devastation, his acrobatic moves sail through the sky with unrivaled style. With performances this spectacular, it's no wonder that Star-Lord is so legendary!",
         "slug": "star-lord",
         "team": [
             "Guardiansofthegalaxy"
@@ -7371,7 +7410,7 @@ export const heroData =[
                     "Critical Hit": "No",
                     "Damage Falloff": "Falloff begins at 25m, decreasing to 75% at 40m",
                     "Movement Boost": "20%",
-                    "Special Mechanic": "During this period, Star-Lord\u0027s Reload Speed increases significantly",
+                    "Special Mechanic": "During this period, Star-Lord's Reload Speed increases significantly",
                     "Reload Time Reduction": "70%",
                     "Maximum Locking Distance": "40m"
                 },
@@ -7399,7 +7438,7 @@ export const heroData =[
             {
                 "id": 104371,
                 "icon": "abilities\/1043\/104371.webp",
-                "name": "Leader\u0027s Soul",
+                "name": "Leader's Soul",
                 "type": "Passive",
                 "isCollab": true,
                 "description": "Adam Warlock enhances the rebirth power of {104300}{000003}{102000}, granting them the power of cocooned revival.",
@@ -7408,7 +7447,7 @@ export const heroData =[
             {
                 "id": 104391,
                 "icon": "abilities\/1043\/104391.webp",
-                "name": "LION\u0027S LAUNCH",
+                "name": "LION'S LAUNCH",
                 "type": "Weapon",
                 "isCollab": false,
                 "description": "Launch the ball forward with incredible speed.",
@@ -7520,7 +7559,7 @@ export const heroData =[
             }
         ],
         "en_name": "Blade",
-        "description": "Half-human and half-vampire, Eric Brooks walks between worlds, craving the very life force of his enemies. As night falls, Blade\u0027s hunt begins as he wields the Sword of Dracula to become the nightmare of any foe who dares to bare their fangs.",
+        "description": "Half-human and half-vampire, Eric Brooks walks between worlds, craving the very life force of his enemies. As night falls, Blade's hunt begins as he wields the Sword of Dracula to become the nightmare of any foe who dares to bare their fangs.",
         "slug": "blade",
         "team": [
             "Marvelknights",
@@ -7572,7 +7611,7 @@ export const heroData =[
                 "name": "Ancestral Sword",
                 "type": "Weapon",
                 "isCollab": false,
-                "description": "Slash forward with Blade\u0027s Ancestral Sword.",
+                "description": "Slash forward with Blade's Ancestral Sword.",
                 "additional_fields": {
                     "Key": "Left Click",
                     "Damage": "Cause 24 damage per single slash; double strike cause 13 damage per hit",
@@ -7585,7 +7624,7 @@ export const heroData =[
             {
                 "id": 104421,
                 "icon": "abilities\/1044\/104421.webp",
-                "name": "Hunter\u0027s Shotgun",
+                "name": "Hunter's Shotgun",
                 "type": "Weapon",
                 "isCollab": false,
                 "description": "Fire at enemies using your Shotgun.",
@@ -7618,6 +7657,7 @@ export const heroData =[
                     "Slow Duration": "1s",
                     "Special Effect": "Hit while wielding the gun, deal Healing Reduction to the enemy; hit while wielding the sword, inflict Slow effect to the enemy",
                     "Gun Second Hit Damage": "20",
+                    "Second Hit Damage Range": "6.5m",
                     "Sword Second Hit Damage": "15 per hit, 4 hits in total",
                     "Healing Reduction Duration": "3.5s",
                     "Healing Reduction Proportion": "40%"
@@ -7630,16 +7670,16 @@ export const heroData =[
                 "name": "Bloodline Awakening",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering <Orange>Whirlwind Slash<\/>. While under this state, you suffer <Debuff>Reduced Healing<\/>, but attacks gain <Buff>Lifesteal<\/>.",
+                "description": "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering <Orange>Whirlwind Slash<\/>. If all <Orange>Whirlwind Slash<\/> strikes hit, your <Buff>Attack Speed<\/> will further increase. While under this state, you suffer <Debuff>Reduced Healing<\/>, but attacks gain <Buff>Lifesteal<\/>.",
                 "additional_fields": {
                     "Key": "E",
-                    "Special Effect": "Left Click\/Shift key ability hits accumulate attack speed buff levels; within the Bloodline Awakening duration, attacks gain Lifesteal and movement speed boost but suffer Reduced Healing",
+                    "Special Effect": "Landing all four hits of Whirlwind Slash grants 1 slash speed stack",
                     "Lifesteal Proportion": "65%, Affected by Healing Reduction",
                     "Movement Speed Boost": "1.5 m\/s",
                     "Shift Hit Buff Stack": "5",
                     "Whirlwind Slash Damage": "56",
                     "Left Click Hit Buff Stack": "1",
-                    "Duration of Each Buff Stack": "0.7s",
+                    "Duration of Each Buff Stack": "1s",
                     "Self Reduce Healing Proportion": "35%",
                     "Max Attack Speed Boost Buff Stack": "10",
                     "Hits to Trigger the Whirlwind Slash": "5",
@@ -7673,7 +7713,7 @@ export const heroData =[
                 "name": "New Moon",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Cloak \u0026 Dagger can inject light and dark energy into Moon Knight and Blade to create a Light \u0026 Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
+                "description": "Cloak & Dagger can inject light and dark energy into Moon Knight and Blade to create a Light & Dark Realm where Moon Knight and Blade can become <Buff>invisible<\/> and gain <Buff>Healing Over Time<\/>. Blade can unleash Swift Strike toward a targeted enemy.",
                 "additional_fields": {
                     "Key": "C",
                     "Casting": "Spherical Spell Field; Targeted Dash",
@@ -7772,7 +7812,7 @@ export const heroData =[
                 "name": "Trident Of Neptune",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Throw the trident forward, reducing <Orange>Aquatic Dominion\u0027s<\/> cooldown upon enemy impact. Critical hits cause <Orange>Monstro Spawn<\/> to enter a berserk state, gaining increased Attack Speed.",
+                "description": "Throw the trident forward, reducing <Orange>Aquatic Dominion's<\/> cooldown upon enemy impact. Critical hits cause <Orange>Monstro Spawn<\/> to enter a berserk state, gaining increased Attack Speed.",
                 "additional_fields": {
                     "Key": "Left Click",
                     "Ammo": "Infinite",
@@ -7890,24 +7930,36 @@ export const heroData =[
                 "name": "Gamma Monstro",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther\u0027s Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "transformation_id": 0
+            },
+            {
+                "id": 104592,
+                "icon": "abilities\/1045\/104592.webp",
+                "name": "Tidal Dirge",
+                "type": "Normal",
+                "isCollab": true,
+                "description": "Hela channels energy of the undead to empower Namor. When Namor strikes with his trident, a <Orange>spectral water column<\/> erupts at the target area. Enemies hit are <Debuff>Slowed<\/> and suffer <Debuff>Reduced Healing<\/>. Whenever Hela or Namor assist in a KO, an invulnerable <Orange>Undead Monstro<\/> spawns at the fallen enemy's position, automatically attacking the nearest foe for a short time before vanishing.",
                 "additional_fields": {
-                    "Key": "C",
-                    "Casting": "Arced Trajectory (Summon Gamma Monstro), Direct Hit (Gamma Monstro)",
-                    "Default": " ",
+                    "Key": "Passive",
                     "Cooldown": "20s",
-                    "Duration": "2s",
-                    "Enhanced": " ",
-                    "Special Effect": "When attacking the same target continuously, the damage will gradually increase to 1.5X over 5 seconds",
-                    "Team-Up Target": "Hulk",
-                    "Gamma Monstro Damage": "4",
-                    "Gamma Monstro Health": "200",
-                    "Gamma Monstro Fire Rate": "0.05s per round",
-                    "Gamma Monstro Attack Range": "40m",
-                    "Frozen Spawn Damage Falloff": "Falloff begins at 20m, decreasing to 30% at 40m",
-                    "Gamma Monstro Maximum Duration": "10s",
-                    "Projectile Speed (Summon Gamma Monstro)": "20 m\/s",
-                    "Monstro Spawn\/Gamma Monstro Maximum Quantity": "2"
+                    "Slow Rate": "35%",
+                    "Rage Duration": "2s",
+                    "Damage Falloff": "Falloff begins at 20m, decreasing to 50% at 40m",
+                    "Special Effect": "Undead Monstro is untargetable",
+                    "Undead Monstro": " ",
+                    "Inner Circle Damage": "65",
+                    "Outer Circle Damage": "45",
+                    "Reduced Healing Rate": "20%",
+                    "Undead Monstro Damage": "12",
+                    "Undead Monstro Duration": "3s",
+                    "Undead Monstro Fire Rate": "0.5s per hit",
+                    "Undead Monstro Rage Damage": "7",
+                    "Outer Circle Generate Delay": "0.5s",
+                    "Undead Monstro Maximum Amount": "2",
+                    "Undead Monstro Rage Fire Rate": "5 rounds per second",
+                    "Inner Circle Spell Field Range": "A cylindrical spell field with a radius of 3m and a height of 13m",
+                    "Outer Circle Spell Field Range": "A cylindrical spell field with a radius of 6m and a height of 11m"
                 },
                 "transformation_id": 0
             }
@@ -8071,7 +8123,7 @@ export const heroData =[
                     "Cooldown": "40s",
                     "Duration": "6s",
                     "Healing Amount": "15\/s",
-                    "Special Effect": "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link\u0027s range, or after a certain length of time has passed",
+                    "Special Effect": "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed",
                     "Maximum Damage Shared Per Target": "250"
                 },
                 "transformation_id": 0
@@ -8109,7 +8161,7 @@ export const heroData =[
                 "name": "Cosmic Awareness",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Adam Warlock imparts his mastery of quantum energy to Luna Snow, awakening her new ability <Orange>Light \u0026 Shadow Karma<\/>. When Luna uses <Orange>Light \u0026 Shadow Karma<\/>, she links to nearby enemies. Any damage she deals to linked enemies is converted into Light Energy, which is then transferred to Luna through the link, healing her Health.",
+                "description": "Adam Warlock imparts his mastery of quantum energy to Luna Snow, awakening her new ability <Orange>Light & Shadow Karma<\/>. When Luna uses <Orange>Light & Shadow Karma<\/>, she links to nearby enemies. Any damage she deals to linked enemies is converted into Light Energy, which is then transferred to Luna through the link, healing her Health.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "15% Healing Boost"
@@ -8269,7 +8321,7 @@ export const heroData =[
                     "Healing Amount": "35\/s",
                     "Maximum Energy": "120",
                     "Movement Boost": "60%",
-                    "Special Effect": "During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff\u0027s hitbox is reduced",
+                    "Special Effect": "During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff's hitbox is reduced",
                     "Energy Recovery Speed": "15\/s"
                 },
                 "transformation_id": 0
@@ -8277,7 +8329,7 @@ export const heroData =[
             {
                 "id": 104771,
                 "icon": "abilities\/1047\/104771.webp",
-                "name": "It\u0027s Jeff!",
+                "name": "It's Jeff!",
                 "type": "Ultimate",
                 "isCollab": false,
                 "description": "Deep dive into the scene and leave behind a healing water zone for allies. Upon resurfacing, swallow both enemies and allies within range, activating <Orange>Hide and Seek<\/> for a brief duration before ejecting the swallowed heroes forward. Excess healing converts to <Buff>Bonus Health<\/>.",
@@ -8290,7 +8342,7 @@ export const heroData =[
                     "Energy Cost": "4500",
                     "Healing Amount": "225\/s",
                     "Special Effect1": "After swallowing allies and enemies, Jeff will deal damage to enemies and heal allies for the duration of the effect, during which they will also benefit from Hide and Seek",
-                    "Special Effect2": "It\u0027s Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100\/s. Healing Pool lasts for 8s",
+                    "Special Effect2": "It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100\/s. Healing Pool lasts for 8s",
                     "Bonus Health (Ally)": "\n\t\t\t\t\t\tOverflow healing on swallowed allies grants 45 Health per second as Bonus Health, up to 150\n\t\t\t\t\t\t"
                 },
                 "transformation_id": 0
@@ -8304,7 +8356,7 @@ export const heroData =[
                 "description": "Reduce damage taken from critical hits.",
                 "additional_fields": {
                     "Key": "Passive",
-                    "Critical Hit Damage Reduction": "70%"
+                    "Critical Hit Damage Reduction": "50%"
                 },
                 "transformation_id": 0
             },
@@ -8323,7 +8375,7 @@ export const heroData =[
                 "name": "New Friends",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "{104700}{000003}{102300} can ride on Groot\u0027s shoulders, receiving <Buff>Damage Reduction<\/>.",
+                "description": "{104700}{000003}{102300} can ride on Groot's shoulders, receiving <Buff>Damage Reduction<\/>.",
                 "additional_fields": {
                     "Key": "C",
                     "Range": "Up to 12m",
@@ -8373,7 +8425,7 @@ export const heroData =[
                     "Healing Amount": "35\/s",
                     "Maximum Energy": "120",
                     "Movement Boost": "60%",
-                    "Special Effect": "During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff\u0027s hitbox is reduced",
+                    "Special Effect": "During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff's hitbox is reduced",
                     "Energy Recovery Speed": "15\/s"
                 },
                 "transformation_id": 0
@@ -8381,7 +8433,7 @@ export const heroData =[
             {
                 "id": 104772,
                 "icon": "abilities\/1047\/104772.webp",
-                "name": "It\u0027s Jeff!",
+                "name": "It's Jeff!",
                 "type": "Ultimate",
                 "isCollab": false,
                 "description": "Deep dive into the scene and resurface to swallow both enemies and allies within range, activating <Orange>Hide and Seek<\/> for a brief duration before ejecting the swallowed heroes forward. Use this ability to paint the ground.",
@@ -8394,7 +8446,7 @@ export const heroData =[
                     "Energy Cost": "4500",
                     "Healing Amount": "225\/s",
                     "Special Effect1": "After swallowing allies and enemies, Jeff will deal damage to enemies and heal allies for the duration of the effect, during which they will also benefit from Hide and Seek",
-                    "Special Effect2": "It\u0027s Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100\/s. Healing Pool lasts for 8s",
+                    "Special Effect2": "It's Jeff! (Ultimate Ability) leaves an 8m radius Healing Pool at the point of activation that heals allies within range by 100\/s. Healing Pool lasts for 8s",
                     "Bonus Health (Ally)": "\n\t\t\t\t\t\tOverflow healing on swallowed allies grants 45 Health per second as Bonus Health, up to 150\n\t\t\t\t\t\t"
                 },
                 "transformation_id": 0
@@ -8402,10 +8454,10 @@ export const heroData =[
             {
                 "id": 104784,
                 "icon": "abilities\/1047\/104784.webp",
-                "name": "It\u0027s Jeff-nado!",
+                "name": "It's Jeff-nado!",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "When Storm unleashes her <Orange>Omega Hurricane<\/>, if Jeff the Land Shark has <Orange>It\u0027s Jeff!<\/> ready, he can channel her power to conjure a ferocious <Orange>Jeff-nado<\/>! Additionally, a <Orange>Jeff-nado<\/> will form if Jeff encounters Storm\u0027s <Orange>Omega Hurricane<\/> after devouring enemies with <Orange>It\u0027s Jeff!<\/>. Enemies will be drawn into the swirling chaos after enduring sustained damage from the <Orange>Jeff-nado<\/> for some time.",
+                "description": "When Storm unleashes her <Orange>Omega Hurricane<\/>, if Jeff the Land Shark has <Orange>It's Jeff!<\/> ready, he can channel her power to conjure a ferocious <Orange>Jeff-nado<\/>! Additionally, a <Orange>Jeff-nado<\/> will form if Jeff encounters Storm's <Orange>Omega Hurricane<\/> after devouring enemies with <Orange>It's Jeff!<\/>. Enemies will be drawn into the swirling chaos after enduring sustained damage from the <Orange>Jeff-nado<\/> for some time.",
                 "additional_fields": {
                     "Key": "Z",
                     "Select Range": "60m radius, 90° fan-shaped area in front of Jeff",
@@ -8423,7 +8475,7 @@ export const heroData =[
                 "name": "Guardian Of The Deep",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff\u0027s <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela\u0027s <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
+                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff's <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela's <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
                 "additional_fields": {
                     "Key": "X",
                     "Range": "10m spherical radius spell field",
@@ -8490,7 +8542,7 @@ export const heroData =[
             }
         ],
         "en_name": "Psylocke",
-        "description": "The psychic warrior known as Sai has the Mutant ability to conjure a variety of weapons with the power of her mind. Gracefully gliding across the battlefield, this trained ninja can shatter the enemy\u0027s defenses with a single thought.",
+        "description": "The psychic warrior known as Sai has the Mutant ability to conjure a variety of weapons with the power of her mind. Gracefully gliding across the battlefield, this trained ninja can shatter the enemy's defenses with a single thought.",
         "slug": "psylocke",
         "team": [
             "X_men",
@@ -8514,7 +8566,10 @@ export const heroData =[
             "ps1048503",
             "1048502",
             "ps1048504",
-            "ps1048505"
+            "ps1048505",
+            "1048301",
+            "ps1048305",
+            "ps1048306"
         ],
         "abilities": [
             {
@@ -8578,7 +8633,7 @@ export const heroData =[
                     "Cooldown": "12s",
                     "Average Speed": "43 m\/s",
                     "Maximum Distance": "12m",
-                    "Special Mechanic": "Casting this ability will automatically recall the Wing Shurikens. The shurikens will first travel to Psylocke\u0027s starting position before returning to her"
+                    "Special Mechanic": "Casting this ability will automatically recall the Wing Shurikens. The shurikens will first travel to Psylocke's starting position before returning to her"
                 },
                 "transformation_id": 0
             },
@@ -8608,9 +8663,9 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "10m spherical radius",
-                    "Damage": "150 damage per hit",
+                    "Damage": "170 damage per hit",
                     "Duration": "4s",
-                    "Slow Rate": "-30%",
+                    "Slow Rate": "-15%",
                     "Energy Cost": "2800",
                     "Attack Interval": "2 hits per second",
                     "Special Mechanic": "Psylocke will slash a random enemy, giving priority to the one who has been hit the least"
@@ -8632,7 +8687,7 @@ export const heroData =[
                 "name": "Psychic Echoes",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy\u0027s perspective that confuses foes by moving and casting abilities on its own.",
+                "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
                 "additional_fields": {
                     "Key": "C",
                     "Cooldown": "30s",
@@ -8686,7 +8741,7 @@ export const heroData =[
     {
         "id": "1049",
         "name": "Wolverine",
-        "real_name": "James \u0022logan\u0022 Howlett",
+        "real_name": "James \"logan\" Howlett",
         "transformations": [
             {
                 "id": 0,
@@ -8772,7 +8827,7 @@ export const heroData =[
                     "Base Damage": "15 damage per strike",
                     "Attack Interval": "The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike",
                     "Maximum Distance": "3.5m",
-                    "Percentage Damage": "Deal damage equal to 1.5% of the target\u0027s Max Health, with an extra 0.045% damage for each point of Rage"
+                    "Percentage Damage": "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.045% damage for each point of Rage"
                 },
                 "transformation_id": 0
             },
@@ -8791,7 +8846,7 @@ export const heroData =[
                     "Base Damage": "15 damage per strike",
                     "Average Speed": "44m\/s",
                     "Maximum Distance": "7.5m",
-                    "Percentage Damage": "Deal damage equal to 1.5% of the target\u0027s Max Health, with an extra 0.045% damage for each point of Rage"
+                    "Percentage Damage": "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.045% damage for each point of Rage"
                 },
                 "transformation_id": 0
             },
@@ -8827,7 +8882,7 @@ export const heroData =[
                     "Berserk Claw Strike Base Damage": "6 damage per strike",
                     "Berserk Claw Strike Attack Interval": "5.88 strikes per second",
                     "Berserk Claw Strike Maximum Distance": "3.5m",
-                    "Berserk Claw Strike Percentage Damage": "Deal damage equal to 1% of the target\u0027s Max Health, with an extra 0.035% damage for each point of Rage"
+                    "Berserk Claw Strike Percentage Damage": "Deal damage equal to 1% of the target's Max Health, with an extra 0.035% damage for each point of Rage"
                 },
                 "transformation_id": 0
             },
@@ -8846,7 +8901,7 @@ export const heroData =[
                     "Knockback Range": "8m spherical radius",
                     "Knockback Damage": "50",
                     "Impact Base Damage": "50",
-                    "Impact Percentage Damage": "Deal damage equal to 10% of the target\u0027s Max Health, with an extra 0.3% damage for each point of Rage",
+                    "Impact Percentage Damage": "Deal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage",
                     "Snatching Damage Over Time": "20\/s"
                 },
                 "transformation_id": 0
@@ -8866,7 +8921,7 @@ export const heroData =[
                 "name": "Phoenix Warrior",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine\u0027s <Orange>Feral Leap<\/> transforms into <Orange>Phoenix Warrior<\/>. While active, he is enveloped in Phoenix flames that continuously scorch nearby enemies, dealing Percentage Damage. In this state, Wolverine\u0027s abilities gain <Buff>Lifesteal<\/> when inflicting damage.",
+                "description": "Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's <Orange>Feral Leap<\/> transforms into <Orange>Phoenix Warrior<\/>. While active, he is enveloped in Phoenix flames that continuously scorch nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain <Buff>Lifesteal<\/> when inflicting damage.",
                 "additional_fields": {
                     "Key": "Shift",
                     "Cooldown": "15s",
@@ -8874,13 +8929,13 @@ export const heroData =[
                     "Snatch Damage": "35",
                     "Spell Field Range": "3m spherical radius spell field",
                     "Knockdown Duration": "0.75s",
-                    "Spell Field Damage": "Deal damage equals to target\u0027s 1% Maximum Health per second",
+                    "Spell Field Damage": "Deal damage equals to target's 1% Maximum Health per second",
                     "Lifesteal Proportion": "0.33",
                     "Berserk Claw Strike Duration": "5s",
                     "Berserk Claw Strike Base Damage": "6 damage per strike",
                     "Berserk Claw Strike Attack Interval": "5.88 strikes per second",
                     "Berserk Claw Strike Maximum Distance": "3.5m",
-                    "Berserk Claw Strike Percentage Damage": "Deal damage equal to 1% of the target\u0027s Max Health, with an extra 0.035% damage for each point of Rage."
+                    "Berserk Claw Strike Percentage Damage": "Deal damage equal to 1% of the target's Max Health, with an extra 0.035% damage for each point of Rage."
                 },
                 "transformation_id": 0
             }
@@ -8961,7 +9016,10 @@ export const heroData =[
             "1050501",
             "ps1050504",
             "ps1050505",
-            "1050800"
+            "1050800",
+            "1050502",
+            "ps1050506",
+            "ps1050507"
         ],
         "abilities": [
             {
@@ -9114,7 +9172,7 @@ export const heroData =[
             }
         ],
         "en_name": "BenjaminGrim",
-        "description": "Benjamin J. Grimm is unquestionably the rock star of any team he\u0027s on. Always at the forefront of the fight, the Thing shields his allies with his unbreakable form, selflessly fending off any harm that comes their way.",
+        "description": "Benjamin J. Grimm is unquestionably the rock star of any team he's on. Always at the forefront of the fight, the Thing shields his allies with his unbreakable form, selflessly fending off any harm that comes their way.",
         "slug": "the-thing",
         "team": [
             "Fantasticfour"
@@ -9136,7 +9194,9 @@ export const heroData =[
             "1051501",
             "1051800",
             "1051502",
-            "1051301"
+            "1051301",
+            "1051300",
+            "ps1051302"
         ],
         "abilities": [
             {
@@ -9180,7 +9240,7 @@ export const heroData =[
                     "Damage": "90",
                     "Casting": "Single-cast Spell Field",
                     "Attack Range": "8m",
-                    "Special Effect": "Move forward 3 meters while punching, gaining 50 Bonus Health during skill activation\n\t\t\t\t\t\t; once hit, this ability can knock down flying enemies to the ground.\n\t\t\t\t\t\t"
+                    "Special Effect": "Move forward 3 meters while punching, gaining 50 Bonus Health during skill activation; once hit, this ability can knock down flying enemies to the ground"
                 },
                 "transformation_id": 0
             },
@@ -9221,7 +9281,7 @@ export const heroData =[
             {
                 "id": 105151,
                 "icon": "abilities\/1051\/105151.webp",
-                "name": "Clobberin\u0027 Time",
+                "name": "Clobberin' Time",
                 "type": "Ultimate",
                 "isCollab": false,
                 "description": "Use immense power to launch all enemies in front of you into the air.",
@@ -9272,6 +9332,13 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Jump toward an enemy and apply <Buff>damage reduction<\/> to self.",
+                "additional_fields": {
+                    "Key": "F",
+                    "CASTING": "Targeted",
+                    "COOLDOWN": "Basic Cooldown 3s, with a charge of 10s per use, shares the same Cooldown with the E Key ability",
+                    "SPECIAL EFFECT": "Apply a 25% damage reduction effect to self for 3s",
+                    "MAXIMUM DISTANCE": "20m"
+                },
                 "transformation_id": 0
             },
             {
@@ -9405,7 +9472,7 @@ export const heroData =[
                 "name": "Jeet Kune Do",
                 "type": "Weapon",
                 "isCollab": false,
-                "description": "Strike the targeted enemy with Jeet Kune Do, and the last strike will <Debuff>Launch Up<\/> enemies, reducing the cooldown of <Orange>Dragon\u0027s Defense<\/> with every hit.",
+                "description": "Strike the targeted enemy with Jeet Kune Do, and the last strike will <Debuff>Launch Up<\/> enemies, reducing the cooldown of <Orange>Dragon's Defense<\/> with every hit.",
                 "additional_fields": {
                     "Key": "Left Click",
                     "Damage": "The first four strikes each deal 30 damage, while the fifth strike deals 55 damage",
@@ -9413,14 +9480,14 @@ export const heroData =[
                     "Attack Interval": "The first four strikes have an interval of 0.45s between them, while the fifth strike has a 0.67s interval from the fourth strike",
                     "Maximum Distance": "3m",
                     "Maximum Pull-In Distance": "6m",
-                    "Dragon\u0027s Defense Cooldown Reduction Per Hit": "1s"
+                    "Dragon's Defense Cooldown Reduction Per Hit": "1s"
                 },
                 "transformation_id": 0
             },
             {
                 "id": 105231,
                 "icon": "abilities\/1052\/105231.webp",
-                "name": "Dragon\u0027s Defense",
+                "name": "Dragon's Defense",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Assume a defensive stance with a boost of Chi to block incoming attacks and gain <Buff>Damage Reduction<\/>. Once he exits the defensive stance, he gains <Buff>Bonus Health<\/> and can strike back with <Orange>Yat Jee Chung Kuen<\/>.",
@@ -9444,7 +9511,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Left Click",
                     "Range": "3m",
-                    "Damage": "9 base damage + 2.7% of the enemy\u0027s Max Health per strike",
+                    "Damage": "8 base damage + 3.1% of the enemy's Max Health per strike",
                     "Casting": "Melee",
                     "Duration": "5s",
                     "Attack Speed": "7 strikes per second",
@@ -9473,7 +9540,7 @@ export const heroData =[
             {
                 "id": 105251,
                 "icon": "abilities\/1052\/105251.webp",
-                "name": "K\u0027un-lun Kick",
+                "name": "K'un-lun Kick",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Dash forward, delivering a flying kick when hitting an enemy or reaching full range, dealing damage to nearby enemies. Damage increases with lower enemy health.",
@@ -9494,14 +9561,14 @@ export const heroData =[
                 "name": "Living Chi",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of <Orange>Dragon\u0027s Defense<\/>.",
+                "description": "Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of <Orange>Dragon's Defense<\/>.",
                 "additional_fields": {
                     "Key": "Q",
                     "Duration": "12s",
                     "Energy Cost": "3400",
                     "Damage Boost": "30%",
                     "Movement Boost": "20%",
-                    "K\u0027un-Lun Kick Bonus Range": "100%",
+                    "K'un-Lun Kick Bonus Range": "100%",
                     "Yat Jee Chung Kuen Bonus Range": "100%",
                     "Yat Jee Chung Kuen Cooldown Reduction": "-80%"
                 },
@@ -9523,7 +9590,7 @@ export const heroData =[
             {
                 "id": 105271,
                 "icon": "abilities\/1052\/105271.webp",
-                "name": "Dragon\u0027s Chill",
+                "name": "Dragon's Chill",
                 "type": "Normal",
                 "isCollab": true,
                 "description": "Iron Fist channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can launch up enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies.",
@@ -9532,7 +9599,7 @@ export const heroData =[
             {
                 "id": 105291,
                 "icon": "abilities\/1052\/105291.webp",
-                "name": "LION\u0027S LAUNCH",
+                "name": "LION'S LAUNCH",
                 "type": "Weapon",
                 "isCollab": false,
                 "description": "Launch the ball forward with incredible speed.",
@@ -9575,7 +9642,7 @@ export const heroData =[
                 "name": "Lunar Chi",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Luna Snow grants Winter\u0027s Chill to Hawkeye and Iron Fist. Hawkeye can shoot an <Orange>Ice Arrow<\/> that <Debuff>Stuns<\/> enemies if it travels a certain distance; otherwise, it <Debuff>Slows<\/> the target. The farther the arrow flies, the more damage it deals. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
+                "description": "Luna Snow grants Winter's Chill to Hawkeye and Iron Fist. Hawkeye can shoot an <Orange>Ice Arrow<\/> that <Debuff>Stuns<\/> enemies if it travels a certain distance; otherwise, it <Debuff>Slows<\/> the target. The farther the arrow flies, the more damage it deals. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Cylindrical Spell Field",
@@ -9665,7 +9732,8 @@ export const heroData =[
             "1053100",
             "1053101",
             "1053102",
-            "1053501"
+            "1053501",
+            "1053300"
         ],
         "abilities": [
             {
@@ -9689,7 +9757,7 @@ export const heroData =[
             {
                 "id": 105331,
                 "icon": "abilities\/1053\/105331.webp",
-                "name": "Mind\u0027s Aegis",
+                "name": "Mind's Aegis",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Create a levitating barrier at the designated location.",
@@ -9729,7 +9797,7 @@ export const heroData =[
                 "description": "In <Orange>Diamond Form<\/>, deliver a crushing double-fisted strike to enemies.",
                 "additional_fields": {
                     "Key": "Left Click",
-                    "Damage": "First \u0026 second hit: 50; third hit: 70; fourth hit: 80",
+                    "Damage": "First & second hit: 50; third hit: 70; fourth hit: 80",
                     "Casting": "Single-cast Spell Field",
                     "Attack Range": "4m"
                 },
@@ -9741,7 +9809,7 @@ export const heroData =[
                 "name": "Crystal Kick",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "In <Orange>Diamond Form<\/>, unleash a flying kick forward and <Debuff>knock back<\/> enemies; extra damage is dealt if they\u0027re propelled into a wall.",
+                "description": "In <Orange>Diamond Form<\/>, unleash a flying kick forward and <Debuff>knock back<\/> enemies; extra damage is dealt if they're propelled into a wall.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Damage": "Hit damage: 40; damage increases to 90 when the target is knocked into walls",
@@ -9775,15 +9843,15 @@ export const heroData =[
                 "name": "Psychic Spear",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Seize control of an enemy\u0027s sentience—damage dealt to the <Orange>sentience<\/> cascades to the physical form and can be pierced by <Orange>Telepathic Pulse<\/>. When the sentience shatters, it unleashes extra damage on its owner.",
+                "description": "Seize control of an enemy's sentience—damage dealt to the <Orange>sentience<\/> cascades to the physical form and can be pierced by <Orange>Telepathic Pulse<\/>. When the sentience shatters, it unleashes extra damage on its owner.",
                 "additional_fields": {
                     "Key": "E",
-                    "Damage": "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target\u0027s maximum health",
+                    "Damage": "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health",
                     "Casting": "Single-cast delayed projectile",
                     "Special Effect": "When the distance between the target and its sentience is more than 15m, their linkage can be broken",
                     "Maximum Distance": "24m",
                     "Projectile Speed": "80m\/s",
-                    "Sentience Health": "Target\u0027s 25% Current Health"
+                    "Sentience Health": "Target's 25% Current Health"
                 },
                 "transformation_id": 0
             },
@@ -9811,7 +9879,7 @@ export const heroData =[
                 "name": "Mind Link",
                 "type": "Normal",
                 "isCollab": true,
-                "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy\u0027s perspective that confuses foes by moving and casting abilities on its own.",
+                "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "+100 Max Health"
@@ -9918,7 +9986,7 @@ export const heroData =[
                 "name": "Dark Ascent",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Merge with the Phoenix, entering a state of free flight. Gain a <Buff>Movement Boost<\/> while continuously replenishing ammunition.",
+                "description": "Merge with the Phoenix, entering a state of free flight. Gain a <Buff>Movement Boost<\/>.",
                 "transformation_id": 0
             },
             {
@@ -9942,10 +10010,10 @@ export const heroData =[
             {
                 "id": 105481,
                 "icon": "abilities\/1054\/105481.webp",
-                "name": "Mind\u0027s Grace",
+                "name": "Mind's Grace",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine\u0027s <Orange>Feral Leap<\/> transforms into <Orange>Phoenix Warrior<\/>. While active, he is enveloped in Phoenix flames that continuously scorch nearby enemies, dealing Percentage Damage. In this state, Wolverine\u0027s abilities gain <Buff>Lifesteal<\/> when inflicting damage.",
+                "description": "Jean Grey imbues Wolverine with the awe-inspiring Phoenix Force. With this power, Wolverine's <Orange>Feral Leap<\/> transforms into <Orange>Phoenix Warrior<\/>. While active, he is enveloped in Phoenix flames that continuously scorch nearby enemies, dealing Percentage Damage. In this state, Wolverine's abilities gain <Buff>Lifesteal<\/> when inflicting damage.",
                 "transformation_id": 0
             }
         ],
@@ -9989,6 +10057,213 @@ export const heroData =[
         ]
     },
     {
+        "id": "1055",
+        "name": "Daredevil",
+        "real_name": "Matt Murdock",
+        "transformations": [
+            {
+                "id": 0,
+                "icon": "characters\/daredevil-headbig-0.webp",
+                "name": "Daredevil",
+                "health": "300",
+                "movement_speed": "6m\/s"
+            }
+        ],
+        "en_name": "Daredevil",
+        "description": "A tragic accident transformed Matt Murdock, blinding him, but awakening his incredible Radar Sense. When darkness falls, Daredevil wields his billy clubs in place of a gavel, doling out justice and purging the world of evil!",
+        "slug": "daredevil",
+        "team": [
+            "Marvelknights"
+        ],
+        "difficulty": "3",
+        "attack_type": "Melee Heroes",
+        "role": "DUELIST",
+        "image_square": "characters\/daredevil-square.webp",
+        "image_transverse": "characters\/daredevil-transverse.webp",
+        "icon": "characters\/daredevil-headbig.webp",
+        "image": "characters\/daredevil-portrait.webp",
+        "logo_small": "characters\/daredevil-logo.webp",
+        "logo": "characters\/daredevil-logo-small.webp",
+        "skins": [
+            "1055001",
+            "1055500",
+            "1055101",
+            "1055102",
+            "1055100"
+        ],
+        "abilities": [
+            {
+                "id": 105501,
+                "icon": "abilities\/1055\/105501.webp",
+                "name": "Radar Sense",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Detect enemy movements within a set radius.",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Maximum Detection Distance": "50m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105502,
+                "icon": "abilities\/1055\/105502.webp",
+                "name": "Sonic Pursuit",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Locks onto a target, gaining increased <Buff>Speed<\/>; and <Buff>Damage Reduction<\/> when attacked. While in range, dash to the target,<Debuff>Blinding<\/> them and restore <Orange>Fury<\/>.",
+                "additional_fields": {
+                    "Key": "F",
+                    "Dash Damage": "20",
+                    "Select Range": "40m",
+                    "Dash Cooldown": "15s",
+                    "Max Dash Speed": "100m\/s",
+                    "Movement Boost": "2.1m\/s. Falloff begins at 10m away from the target, decreasing to 0.9m\/s at 40m from the target",
+                    "Special Effect": "If Daredevil defeats the target, refresh the cooldown. Gain 60 Fury after the dash",
+                    "Dash Damage Range": "1m spherical radius spell field",
+                    "Dash Select Range": "20m",
+                    "Self Damage Reduction": "20%"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105504,
+                "icon": "abilities\/1055\/105504.webp",
+                "name": "Blind Ascent",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Cling to walls and spring off them to reposition.",
+                "additional_fields": {
+                    "Key": "Space",
+                    "Wall-Crawling Speed": "10 m\/s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105521,
+                "icon": "abilities\/1055\/105521.webp",
+                "name": "Justice Jab",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Swing Billy Clubs forward. Gain <Orange>Fury<\/> on hit.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "35",
+                    "Casting": "Melee",
+                    "Special Effect": "Gain 15 Fury on hit",
+                    "Maximum Distance": "4.5m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105531,
+                "icon": "abilities\/1055\/105531.webp",
+                "name": "Objection!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Whirl billy clubs in a tight guard to block frontal damage and reflect <Orange>projectiles<\/>, becoming immune to all incoming harm during this stance and gain <Orange>Fury<\/>.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "12s",
+                    "Duration": "1.5s",
+                    "Special Effect": "Block frontal damage and reflect projectiles, becoming immune to all incoming harm during this stance. Gain 60 Fury when successfully blocking an attack."
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105541,
+                "icon": "abilities\/1055\/105541.webp",
+                "name": "Devil's Latch",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Fire a grappling line that reels Daredevil and his target toward each other. On completion, gain <Orange>Fury<\/> and temporarily enables <Orange>Righteous Cross<\/>.",
+                "additional_fields": {
+                    "Key": "SHIFT",
+                    "Cooldown": "12",
+                    "Special Effect": "Enable Righteous Cross within 5 seconds after using this ability. Gain 60 Fury",
+                    "Maximum Distance": "25m",
+                    "Projectile Speed": "180m\/s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105551,
+                "icon": "abilities\/1055\/105551.webp",
+                "name": "Infernal Fury",
+                "type": "Passive",
+                "isCollab": false,
+                "description": "Consume <Orange>Fury<\/> to unleash either <Orange>Devil's Chain<\/> or <Orange>Devil's Throw<\/>. <Orange>Devil's Chain<\/> converts damage dealt into Bonus Health; <Orange>Devil's Throw<\/> <Debuff>Slows<\/> hit targets. Both temporarily enable <Orange>Righteous Cross<\/>.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "40. Cause 80 damage when the target caught in the high damage range",
+                    "Slow Rate": "20%",
+                    "DEVIL'S CHAIN": " ",
+                    "DEVIL'S THROW": " ",
+                    "Special Effect": "Devil's Throw slows enemies on hit",
+                    "Bonus Max Health": "125",
+                    "Projectile Speed": "150m\/s",
+                    "Projectile Damage": "32.5",
+                    "Spell Field Range": "Box shaped spell field. Length: 8m; Width: 4m; Height: 4m",
+                    "Bonus Health Gained": "50",
+                    "Bonus Health Falloff": "Falloff begins at 5s and decreases by 30\/s",
+                    "Max Number of Ricochets": "4. Up to 2 ricochets if there are no targets",
+                    "Fury Required for Activation": "60",
+                    "High Damage Spell Field Range": "2m spherical radius spell field at the end",
+                    "Damage\/Bonus Health Conversion": "0.7"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105561,
+                "icon": "abilities\/1055\/105561.webp",
+                "name": "Let The Devil Out",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Embrace the Beast within. Enemies in Daredevil's line of sight take damage and suffer a ramping <Debuff>Blind<\/> effect. Continually gain <Orange>Fury<\/> while active.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Damage": "50\/s. Cause 85 damage per second when reaching the max damage",
+                    "Energy Cost": "3400",
+                    "Blind Effect": "Visual range 35m, decreasing to 10m when the Blind effect reaches its maximum",
+                    "Maximum Distance": "15m",
+                    "Fury Recovery Speed": "30\/s",
+                    "Spell Field Duration": "8s",
+                    "Time Required to Reach the Maximum Blind Range and Damage": "3s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105542,
+                "icon": "abilities\/1055\/105542.webp",
+                "name": "Righteous Cross",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Cross Billy Clubs and surge forward. Gain <Orange>Fury<\/> on hit.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Special Effect": "Gain 15 Fury on hit",
+                    "Spell Field Damage": "50",
+                    "Maximum Dash Distance": "6m",
+                    "Spell Field Maximum Distance": "6m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105591,
+                "icon": "abilities\/1055\/105591.webp",
+                "name": "Blind Verdict",
+                "type": "Normal",
+                "isCollab": true,
+                "description": "Daredevil shares the location of his <Orange>Sonic Pursuit<\/> target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and <Debuff>Blind<\/> enemies.",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Team-Up Bonus": "25 bonus Health. 5% damage boost"
+                },
+                "transformation_id": 0
+            }
+        ]
+    },
+    {
         "id": "1056",
         "name": "Angela",
         "real_name": "Angela Odinsdottir",
@@ -10026,16 +10301,16 @@ export const heroData =[
             {
                 "id": 105661,
                 "icon": "abilities\/1056\/105661.webp",
-                "name": "Heven\u0027s Retribution",
+                "name": "Heven's Retribution",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear\u0027s location, damaging surrounding enemies and creating a <Orange>Divine Judgement Zone<\/>.",
+                "description": "Wrap your spear in ribbons and hurl it with force. Upon impact, the ribbons bind nearby enemies. Angela can leap to the spear's location, damaging surrounding enemies and creating a <Orange>Divine Judgement Zone<\/>.",
                 "additional_fields": {
                     "Key": "Q",
                     "Slow Rate": "80%",
                     "Energy Cost": "3100",
                     "Special Effect": "Mobility abilities of enemies bound by the ribbons will be disabled. Enemies within a certain distance around the spear will be slowed.",
-                    "SUMMONS\u0027 HEALTH": "600",
+                    "SUMMONS' HEALTH": "600",
                     "Projectile Speed": "60 m\/s",
                     "Hit Ground Damage": "100",
                     "Projectile Damage": "30",
@@ -10069,7 +10344,7 @@ export const heroData =[
                 "name": "Axes Of Ichors",
                 "type": "Weapon",
                 "isCollab": false,
-                "description": "Alternate powerful strikes forward with twin axes, dealing increased damage as <Orange>Attack Charge<\/> grows. The fourth strike propels you forward in a swift dash.",
+                "description": "Alternate powerful strikes forward with twin axes, dealing increased damage as <Orange>Attack Charge<\/> grows. The fourth strike propels you forward in a swift dash. Each time an enemy is struck, Angela and her allies gain <Buff>Bonus Health<\/>.",
                 "additional_fields": {
                     "Key": "Left Click",
                     "Damage": "First three strikes: 30; the forth strike: 50.",
@@ -10118,10 +10393,10 @@ export const heroData =[
             {
                 "id": 105641,
                 "icon": "abilities\/1056\/105641.webp",
-                "name": "Assassin\u0027s Charge",
+                "name": "Assassin's Charge",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Enter an <Buff>accelerated<\/>dash state. Enemies struck head-on are carried through the air for a short distance.",
+                "description": "Enter an <Buff>accelerated<\/> dash state. Enemies struck head-on are carried through the air for a short distance.",
                 "additional_fields": {
                     "Key": "Shift",
                     "Cooldown": "3s",
@@ -10150,7 +10425,7 @@ export const heroData =[
                     "Key": "E",
                     "Damage": "Hit damage: 30; damage over time: 12.5\/s",
                     "Cooldown": "12s",
-                    "Bonus Health": "Within the Divine Judgement zone, Angela’s each Axes of Ichors hit grants 30 Bonus Health to herself and 15 Bonus Health to allies within the area.",
+                    "Bonus Health": "Within the Divine Judgement zone, Angela’s each Axes of Ichors hit grants 40 Bonus Health to herself and 20 Bonus Health to allies within the area.",
                     "Bonus Max Health": "200",
                     "Spell Field Duration": "6s",
                     "Movement Boost (Self)": "35%",
@@ -10179,7 +10454,7 @@ export const heroData =[
                 "name": "Celestial Command",
                 "type": "Passive",
                 "isCollab": true,
-                "description": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a <Orange>Thunder Spear<\/>that restores <Orange>Thorforce<\/>for each enemy struck. Afterward, Thor can leap to the spear\u0027s explosion point, dealing a second wave of damage to all enemies within range.",
+                "description": "Angela shares fragments of her Ichors with Thor, empowering him to hurl a <Orange>Thunder Spear<\/> that restores <Orange>Thorforce<\/> for each enemy struck. Afterward, Thor can leap to the spear's explosion point, dealing a second wave of damage to all enemies within range.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "+100 Max Health"
