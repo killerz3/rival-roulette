@@ -18,11 +18,19 @@ export const components: BannerData[] = [
     repeatAfterVisits: 3 // Repeat after 3 visits
   },
   {
+    id: "gambit",
+    title: "🃏 Gambit added to Roulette!",
+    message: "The charming Ragin' Cajun is now available! Check out Gambit's kinetic energy manipulation and explosive playing cards in the Character Gallery or try your luck in the roulette!",
+    type: "info",
+    order: 3,
+    repeatAfterVisits: 3 // Repeat after 3 visits
+  },
+  {
     id: "feedback",
     title: "💬 We'd Love Your Feedback",
     message: "Help us improve by sharing your experience or suggesting new features.",
     type: "info",
-    order: 3,
+    order: 4,
     repeatAfterVisits: 5 // Repeat after 5 visits
   },
   {
@@ -30,7 +38,7 @@ export const components: BannerData[] = [
     title: "🆕 Regular Updates",
     message: "We regularly add new characters and features. Check back often for the latest content!",
     type: "warning",
-    order: 4,
+    order: 5,
     repeatAfterVisits: 2 // Repeat every visit
   },
   {
@@ -38,7 +46,7 @@ export const components: BannerData[] = [
     title: "Welcome to Rival Roulette!",
     message: "",
     type: "dialog",
-    order: 5,
+    order: 6,
     repeatAfterVisits: -1, 
     dialogConfig: {
       showBuyMeACoffee: false,
@@ -52,7 +60,7 @@ export const components: BannerData[] = [
     title: "💝 Support Rival Roulette",
     message: "Help us keep the site running!",
     type: "dialog",
-    order: 6,
+    order: 7,
     repeatAfterVisits: 4, // Show every 4 days
     dialogConfig: {
       showBuyMeACoffee: true,
@@ -66,7 +74,7 @@ export const components: BannerData[] = [
     title: "🎯 New: Custom Character Filter!",
     message: "Take control of your character selection!",
     type: "dialog",
-    order: 7,
+    order: 8,
     repeatAfterVisits: -1, // Show only once
     dialogConfig: {
       showBuyMeACoffee: false,
