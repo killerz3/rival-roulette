@@ -19,7 +19,7 @@ export type Ability = {
   name: string;
   type: string;
   description: string;
-  icon: string;
+  icon: string | null;
   additional_fields?: Record<string, any>;
 };
 
@@ -56,7 +56,7 @@ export function processHeroData(): Character[] {
           name: ability.name || "Unknown Ability",
           type: ability.type,
           description: ability.description || "",
-          icon: `https://static.dotgg.gg/rivals/${ability.icon}`,
+          icon: ('icon' in ability && ability.icon) ? `https://static.dotgg.gg/rivals/${ability.icon}` : null,
           additional_fields: processedFields
         };
       })

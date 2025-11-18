@@ -60,13 +60,15 @@ export function CharacterCard({ character }: CharacterCardProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {character.abilities.slice(0, 4).map((ability) => (
               <div key={ability.id} className="flex gap-3 bg-white/5 p-3 rounded-lg">
-                <div className="w-10 h-10 flex-shrink-0 rounded overflow-hidden">
-                  <img 
-                    src={ability.icon} 
-                    alt={ability.name} 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                {ability.icon && (
+                  <div className="w-10 h-10 flex-shrink-0 rounded overflow-hidden">
+                    <img 
+                      src={ability.icon} 
+                      alt={ability.name} 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                )}
                 <div>
                   <h4 className="font-medium text-white">{ability.name}</h4>
                   <p className="text-xs text-white/70">{ability.type}</p>

@@ -141,15 +141,17 @@ function AbilityCard({ ability }: { ability: Ability }) {
   return (
     <div className="bg-gray-800 bg-opacity-60 rounded-lg overflow-hidden shadow-lg border border-gray-700 p-4">
       <div className="flex items-center mb-4">
-        <div className="relative w-12 h-12 mr-4">
-          <Image
-            src={ability.icon}
-            alt={ability.name}
-            fill
-            className="object-cover rounded"
-            sizes="48px"
-          />
-        </div>
+        {ability.icon && (
+          <div className="relative w-12 h-12 mr-4">
+            <Image
+              src={ability.icon}
+              alt={ability.name}
+              fill
+              className="object-cover rounded"
+              sizes="48px"
+            />
+          </div>
+        )}
         <div>
           <h3 className="font-bold text-lg">{ability.name}</h3>
           <span className="text-sm text-purple-400">{ability.type}</span>
