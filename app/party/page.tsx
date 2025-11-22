@@ -1,21 +1,31 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { processHeroData, type Character } from "@/lib/process-data";
+import { processHeroData, groupCharactersByRole, type Character } from "@/lib/process-data";
 import { PartyWheel } from "@/components/PartyWheel";
-import { CharacterCard } from "@/components/CharacterCard";
+import { CustomCharacterFilter } from "@/components/CustomCharacterFilter";
 import Link from "next/link";
 
 export default function PartyPage() {
   const [characters, setCharacters] = useState<Character[]>([]);
+  const [roles, setRoles] = useState<string[]>([]);
   const [numberOfPlayers, setNumberOfPlayers] = useState<number>(2);
   const [selectedCharacters, setSelectedCharacters] = useState<Character[]>([]);
+  const [selectedCharactersFilter, setSelectedCharactersFilter] = useState<Set<string>>(new Set());
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     try {
       const processedData = processHeroData();
       setCharacters(processedData);
+      
+      // Extract unique roles
+      const roleGroups = groupCharactersByRole(processedData);
+      setRoles(Object.keys(roleGroups));
+      
+      // Initialize with all characters selected
+      setSelectedCharactersFilter(new Set(processedData.map(char => char.id)));
+      
       setIsLoading(false);
     } catch (error) {
       console.error("Error processing hero data:", error);
@@ -25,6 +35,47 @@ export default function PartyPage() {
 
   const handleSpinComplete = (chosenCharacters: Character[]) => {
     setSelectedCharacters(chosenCharacters);
+  };
+
+  const handleCharacterToggle = (characterId: string) => {
+    setSelectedCharactersFilter(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(characterId)) {
+        newSet.delete(characterId);
+      } else {
+        newSet.add(characterId);
+      }
+      return newSet;
+    });
+  };
+
+  const handleRoleToggle = (role: string) => {
+    const roleCharacters = characters.filter(char => char.role === role);
+    const allSelected = roleCharacters.every(char => selectedCharactersFilter.has(char.id));
+    
+    if (allSelected) {
+      // Deselect all characters in this role
+      roleCharacters.forEach(char => {
+        if (selectedCharactersFilter.has(char.id)) {
+          handleCharacterToggle(char.id);
+        }
+      });
+    } else {
+      // Select all characters in this role
+      roleCharacters.forEach(char => {
+        if (!selectedCharactersFilter.has(char.id)) {
+          handleCharacterToggle(char.id);
+        }
+      });
+    }
+  };
+
+  const handleSelectAll = () => {
+    setSelectedCharactersFilter(new Set(characters.map(char => char.id)));
+  };
+
+  const handleDeselectAll = () => {
+    setSelectedCharactersFilter(new Set());
   };
 
   return (
@@ -78,73 +129,25 @@ export default function PartyPage() {
               </div>
             </div>
 
-            {/* Main Content Area */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Left Side - Wheels */}
-              <div className="lg:col-span-2 space-y-6">
-                <PartyWheel
-                  characters={characters}
-                  numberOfWheels={numberOfPlayers}
-                  onSpinComplete={handleSpinComplete}
-                />
-              </div>
-
-              {/* Right Side - Chosen Characters */}
-              <div className="lg:col-span-1 space-y-4">
-                <h2 className="text-2xl font-semibold mb-4 text-center lg:text-left">
-                  Chosen Characters
-                </h2>
-                <div className="space-y-4">
-                  {selectedCharacters.length === 0 ? (
-                    <div className="w-full rounded-xl bg-black/20 backdrop-blur-md border border-white/10 p-8 flex items-center justify-center min-h-[200px]">
-                      <p className="text-lg text-white/70 text-center">
-                        Spin the wheels to see chosen characters
-                      </p>
-                    </div>
-                  ) : (
-                    selectedCharacters.map((character, index) => (
-                      <div
-                        key={character.id}
-                        className="w-full rounded-xl bg-black/20 backdrop-blur-md border border-white/10 overflow-hidden"
-                      >
-                        <div className="p-4">
-                          <div className="flex items-center gap-4">
-                            <div className="relative w-20 h-20 flex-shrink-0 rounded-lg overflow-hidden border-2 border-yellow-400">
-                              <img
-                                src={character.image}
-                                alt={character.name}
-                                className="w-full h-full object-cover"
-                              />
-                            </div>
-                            <div className="flex-1 min-w-0">
-                              <h3 className="text-lg font-semibold text-white mb-1">
-                                {index === 0
-                                  ? "First Character"
-                                  : index === 1
-                                  ? "Second Character"
-                                  : index === 2
-                                  ? "Third Character"
-                                  : index === 3
-                                  ? "Fourth Character"
-                                  : index === 4
-                                  ? "Fifth Character"
-                                  : "Sixth Character"}
-                              </h3>
-                              <p className="text-xl font-bold text-yellow-400">
-                                {character.name}
-                              </p>
-                              <p className="text-sm text-white/70">
-                                {character.role}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))
-                  )}
-                </div>
-              </div>
+            {/* Custom Character Filter */}
+            <div className="mb-6">
+              <CustomCharacterFilter
+                characters={characters}
+                selectedCharacters={selectedCharactersFilter}
+                onCharacterToggle={handleCharacterToggle}
+                onRoleToggle={handleRoleToggle}
+                onSelectAll={handleSelectAll}
+                onDeselectAll={handleDeselectAll}
+              />
             </div>
+
+            {/* Party Wheel Component */}
+            <PartyWheel
+              characters={characters}
+              numberOfWheels={numberOfPlayers}
+              onSpinComplete={handleSpinComplete}
+              customFilter={selectedCharactersFilter.size > 0 ? selectedCharactersFilter : undefined}
+            />
           </div>
         )}
       </div>
