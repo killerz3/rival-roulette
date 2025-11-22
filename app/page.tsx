@@ -92,7 +92,7 @@ export default function Home() {
           <p className="text-lg text-gray-400 mt-2">
             Randomly select your next Marvel Rivals character!
           </p>
-          <div className="mt-4 flex justify-center space-x-4">
+          <div className="mt-4 flex justify-center space-x-4 flex-wrap gap-2">
             <Link
               href="/challenges"
               className="inline-block px-4 py-2 text-md font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors"
@@ -104,6 +104,12 @@ export default function Home() {
               className="inline-block px-4 py-2 text-md font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors"
             >
               Character Gallery
+            </Link>
+            <Link
+              href="/party"
+              className="inline-block px-4 py-2 text-md font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors"
+            >
+              Party Randomizer
             </Link>
           </div>
         </header>
