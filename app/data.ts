@@ -2025,7 +2025,7 @@ export const heroData =[
                     "Health": "275",
                     "Movement Speed": "6 m\/s",
                     "Illusion Damage": "80%",
-                    "Illusion Health": "275",
+                    "Illusion Health": "250",
                     "Illusion Healing": "80%",
                     "Illusion Duration": "60",
                     "Maximum Illusion Quantity": "2"
@@ -2422,7 +2422,8 @@ export const heroData =[
             "1018500",
             "1018501",
             "1018301",
-            "1018101"
+            "1018101",
+            "1018302"
         ],
         "abilities": [
             {
@@ -3064,19 +3065,7 @@ export const heroData =[
                 "name": "Ice Arrow",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Luna Snow grants Winter's Chill to Iron Fist. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
-                "additional_fields": {
-                    "Key": "C",
-                    "Range": "Length: 1m, Width: 1m, Height: 1m",
-                    "Casting": "Straight-line projectile that is accompanied by a spell field",
-                    "Cooldown": "20s",
-                    "Slow Rate": "60%",
-                    "Slow Duration": "1s",
-                    "Stun Duration": "0.8s",
-                    "Ability Damage": "Spell Field Damage: Start at 25, and increase with distance, reaching a maximum of 100 at 30m",
-                    "Projectile Speed": "100 m\/s",
-                    "Maximum Stun Range": "30m"
-                },
+                "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing<\/> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond<\/> barrier that blocks enemy attacks and movement.",
                 "transformation_id": 0
             },
             {
@@ -3084,7 +3073,19 @@ export const heroData =[
                 "name": "Moonlit Slash",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash<\/>, enemies hit are <Debuff>launched<\/> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing<\/> for allies, while damaging enemies and applying <Debuff>Vulnerability<\/>.",
+                "description": "Cloak & Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses <Orange>Crescent Slash<\/>, he also releases a blade wave that heals and <Buff>boosts healing<\/> for teammates, while inflicting damage and <Debuff>Vulnerability<\/> on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a <Buff>Phased<\/> state.",
+                "additional_fields": {
+                    "Key": "Shift",
+                    "Cooldown": "12s",
+                    "Healing Boost": "0.15",
+                    "Blade Wave Range": "Length: 2m, Width: 6m, Height: 2m",
+                    "Blade Wave Speed": "60 m\/s",
+                    "Blade Wave Damage": "60",
+                    "Blade Wave Healing": "60",
+                    "Vulnerability Ratio": "0.15",
+                    "Healing Boost Duration": "4s",
+                    "Vulnerability Duration": "4s"
+                },
                 "transformation_id": 0
             }
         ],
@@ -3163,7 +3164,8 @@ export const heroData =[
             "1022501",
             "1022500",
             "1022502",
-            "1022503"
+            "1022503",
+            "1022504"
         ],
         "abilities": [
             {
@@ -3440,7 +3442,8 @@ export const heroData =[
             "ps1023303",
             "ps1023304",
             "1023500",
-            "1023101"
+            "1023101",
+            "1023305"
         ],
         "abilities": [
             {
@@ -5273,7 +5276,7 @@ export const heroData =[
                 "name": "Imperative: Firewall",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Summon drones to grant <Orange>Bonus Health<\/> to allies within range, centered on himself and the ally marked by <Buff>Imperative: Patch<\/>.",
+                "description": "Deploy drones to an ally marked by <Orange>Imperative: Patch<\/>, granting them increased <Buff>Speed<\/> and <Buff>Damage<\/>. Additionally, all allies within range of you and the chosen teammate receive <Buff>Bonus Health<\/>.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "8m spherical radius spell field",
@@ -5320,7 +5323,7 @@ export const heroData =[
                 "name": "Imperative: Patch",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Command a giant drone to follow an ally, constantly healing allies within its radius, with more healing for the designated ally.",
+                "description": "Command up to 2 giant drones to follow 2 allies, constantly healing allies within its radius, with more healing for the designated allies.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Targeted",
@@ -5450,7 +5453,8 @@ export const heroData =[
             "1029501",
             "ps1029302",
             "1029101",
-            "1029502"
+            "1029502",
+            "1029303"
         ],
         "abilities": [
             {
@@ -6260,6 +6264,10 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/>forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Team-Up Bonus": "5% Damage Boost"
+                },
                 "transformation_id": 0
             }
         ],
@@ -6340,7 +6348,10 @@ export const heroData =[
             "1031303",
             "ps1031306",
             "ps1031307",
-            "1031305"
+            "1031305",
+            "1031308",
+            "ps1031310",
+            "ps1031311"
         ],
         "abilities": [
             {
@@ -6490,7 +6501,7 @@ export const heroData =[
                 "name": "Winter's Chill",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Luna Snow grants Winter's Chill to Iron Fist. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
+                "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing<\/> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond<\/> barrier that blocks enemy attacks and movement.",
                 "transformation_id": 0
             }
         ],
@@ -7074,7 +7085,8 @@ export const heroData =[
             "1034800",
             "1034300",
             "1034502",
-            "1034503"
+            "1034503",
+            "1034504"
         ],
         "abilities": [
             {
@@ -7380,7 +7392,10 @@ export const heroData =[
             "1035300",
             "1035102",
             "1035103",
-            "1035301"
+            "1035301",
+            "1035302",
+            "ps1035305",
+            "ps1035304"
         ],
         "abilities": [
             {
@@ -8093,14 +8108,6 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
-                "additional_fields": {
-                    "Key": "C",
-                    "Cooldown": "30s",
-                    "Special Effect": "Upon release, Magneto and his Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage",
-                    "Invisibility Duration": "1s",
-                    "Duplicate Damage Reduction": "80%",
-                    "Duplicate Max Damage Received": "150"
-                },
                 "transformation_id": 0
             },
             {
@@ -8108,7 +8115,19 @@ export const heroData =[
                 "name": "Royal Blade",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay.",
+                "description": "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.",
+                "additional_fields": {
+                    "Key": "C",
+                    "Cooldown": "30s",
+                    "Duration": "10s",
+                    "Shoot Interval": "First hit 0.6s, second hit 1s",
+                    "Explosion Delay": "0.5s",
+                    "Projectile Speed": "80m\/s",
+                    "Projectile Damage": "40",
+                    "Spell Field Range": "3m spherical radius spell field",
+                    "Spell Field Damage": "30",
+                    "Delay Explosion Damage": "25"
+                },
                 "transformation_id": 0
             },
             {
@@ -8116,7 +8135,7 @@ export const heroData =[
                 "name": "Ace Greatswords Fired",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay.",
+                "description": "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.",
                 "transformation_id": 0
             }
         ],
@@ -8535,7 +8554,7 @@ export const heroData =[
                 "name": "Storm Surge",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "HOLD to spin Mjölnir before dashing forward and <Debuff>Knocking Back<\/> enemies.",
+                "description": "Hold to spin Mjölnir before dashing forward in the controlled direction, <Debuff>Knocking Back<\/> enemies.",
                 "additional_fields": {
                     "Key": "SHIFT",
                     "Damage": "No Charge Damage: 40; Full Charge Damage: 60",
@@ -8672,7 +8691,8 @@ export const heroData =[
             "1040500",
             "1040501",
             "1040800",
-            "1040101"
+            "1040101",
+            "1040301"
         ],
         "abilities": [
             {
@@ -8680,7 +8700,7 @@ export const heroData =[
                 "name": "Elastic Strength",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Using abilities generates <Orange>Elasticity<\/>, boosting attack power. Reaching full <Orange>Elasticity<\/> triggers an Inflated state that increases Maximum Health, further boosts damage, and enables the use of <Orange>Reflexive Rubber<\/>.",
+                "description": "Using abilities generates <Orange>Elasticity<\/>. Reaching full <Orange>Elasticity<\/> triggers an Inflated state that increases Maximum Health, boosts damage, and enables the use of <Orange>Reflexive Rubber<\/>.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Damage": "80",
@@ -9830,7 +9850,8 @@ export const heroData =[
             "1044100",
             "1044102",
             "1044101",
-            "1044800"
+            "1044800",
+            "1044500"
         ],
         "abilities": [
             {
@@ -9992,17 +10013,7 @@ export const heroData =[
                 "name": "New Moon",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Cloak & Dagger inject light and dark energy into Hawkeye's katana. When Hawkeye uses <Orange>Crescent Slash<\/>, enemies hit are <Debuff>launched<\/> back, and a blade wave filled with light and energy sweeps forward. This wave passes through both allies and enemies: it heals and <Buff>boosts healing<\/> for allies, while damaging enemies and applying <Debuff>Vulnerability<\/>.",
-                "additional_fields": {
-                    "Key": "C",
-                    "Casting": "Spherical Spell Field; Targeted Dash",
-                    "Cooldown": "25s, Swift Strike second unleash cooldown 3s",
-                    "Healing Amount": "50\/s",
-                    "Special Effect": "Become Invisible and gain Healing Over Time within the spell field and can unleash targeted dashes to the enemies",
-                    "Swift Strike Damage": "60",
-                    "Maximum Select Distance": "20m",
-                    "Swift Strike Spell Field Range": "A cylindrical spell field with a 2m radius and a height of 2.5m"
-                },
+                "description": "Cloak & Dagger share light and dark energy with Hawkeye and Psylocke. When Hawkeye uses <Orange>Crescent Slash<\/>, he also releases a blade wave that heals and <Buff>boosts healing<\/> for teammates, while inflicting damage and <Debuff>Vulnerability<\/> on enemies. Psylocke can launch a Light Boomerang Dart that heals allies, harms enemies, and provides her with temporary healing upon return. She can also unleash a ring of Dark Darts that slow enemies while she briefly enters a <Buff>Phased<\/> state.",
                 "transformation_id": 0
             },
             {
@@ -10018,6 +10029,18 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/>forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
+                "additional_fields": {
+                    "Key": "C",
+                    "Damage": "40",
+                    "Cooldown": "20s",
+                    "Dash Damage": "30",
+                    "Bounce Range": "8m",
+                    "Dash Duration": "8m",
+                    "Projectile Speed": "150m\/s",
+                    "Number of Projectiles": "4",
+                    "Maximum Times of Bounce": "3",
+                    "Damage Falloff Per Bounce": "20% per bounce"
+                },
                 "transformation_id": 0
             },
             {
@@ -10499,7 +10522,7 @@ export const heroData =[
                 "name": "Karmic Revival",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of invincibility.",
+                "description": "Awaken the karma of allies to revive them. Allies revived have lower health but gain some <Buff>Bonus Health<\/> and enjoy a brief period of invincibility.",
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "35m spherical radius",
@@ -10588,30 +10611,13 @@ export const heroData =[
             "ps1047303",
             "ps1047304",
             "1047501",
-            "1047302"
+            "1047302",
+            "1047502"
         ],
         "abilities": [
             {
                 "id": 104711,
                 "icon": "abilities\/1047\/104711.webp",
-                "name": "Joyful Splash",
-                "type": "Weapon",
-                "isCollab": false,
-                "description": "Unleash a splash that damages enemies and heals allies.",
-                "additional_fields": {
-                    "Key": "Left Click",
-                    "Ammo": "100",
-                    "Damage": "70\/s",
-                    "Casting": "Rapid-fire, delayed projectile",
-                    "Fire Rate": "20 rounds per second",
-                    "Damage Falloff": "\n\t\t\t\t\t\tDamage falloff starts at 20m to a maximum of 65% at 40m\n\t\t\t\t\t\t",
-                    "Healing Amount": "130\/s",
-                    "Projectile Speed": "100m\/s"
-                },
-                "transformation_id": 0
-            },
-            {
-                "id": 104720,
                 "name": "Joyful Splash",
                 "type": "Weapon",
                 "isCollab": false,
@@ -10818,7 +10824,10 @@ export const heroData =[
             "ps1048505",
             "1048301",
             "ps1048305",
-            "ps1048306"
+            "ps1048306",
+            "1048302",
+            "ps1048307",
+            "ps1048308"
         ],
         "abilities": [
             {
@@ -10937,19 +10946,27 @@ export const heroData =[
                 "transformation_id": 0
             },
             {
+                "id": 104882,
+                "name": "Light Boomerang Dart",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Psylocke launches a Light Boomerang Dart that heals allies, harms enemies, and provides her with continuous healing upon return based on the number of targets hit.",
+                "transformation_id": 0
+            },
+            {
+                "id": 104883,
+                "name": "Dark Dagger",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Psylocke unleashes a ring of Dark Darts that slow enemies while she briefly enters a Phased state.",
+                "transformation_id": 0
+            },
+            {
                 "id": 104892,
                 "name": "Psychic Echoes",
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Emma Frost can form a mental link with Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
-                "additional_fields": {
-                    "Key": "C",
-                    "Cooldown": "30s",
-                    "Special Effect": "Upon release, Magneto and his Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage",
-                    "Invisibility Duration": "1s",
-                    "Duplicate Damage Reduction": "80%",
-                    "Duplicate Max Damage Received": "150"
-                },
                 "transformation_id": 0
             },
             {
@@ -11216,7 +11233,10 @@ export const heroData =[
             "1050800",
             "1050502",
             "ps1050506",
-            "ps1050507"
+            "ps1050507",
+            "1050301",
+            "ps1050303",
+            "ps1050304"
         ],
         "abilities": [
             {
@@ -11290,7 +11310,7 @@ export const heroData =[
                 "name": "Guardian Shield",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Generate a force shield in front of a selected ally. The shield can block damage and provide <Buff>Healing Over Time<\/> to nearby allies. Enemies that pass through the shield are <Debuff>slowed<\/>.",
+                "description": "Generate a force shield in front of a selected ally or press {Interactive} to generate in front of you. The shield can block damage and provide <Buff>Healing Over Time<\/> to nearby allies. Enemies that pass through the shield are <Debuff>slowed<\/>.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "3m radius",
@@ -11660,7 +11680,9 @@ export const heroData =[
             "1052300",
             "1052501",
             "1052301",
-            "1052502"
+            "1052502",
+            "1052101",
+            "1052302"
         ],
         "abilities": [
             {
@@ -11787,7 +11809,7 @@ export const heroData =[
                 "name": "Lunar Chi",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Luna Snow grants Winter's Chill to Iron Fist. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>.",
+                "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing<\/> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond<\/> barrier that blocks enemy attacks and movement.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Cylindrical Spell Field",
@@ -12086,9 +12108,22 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "description": "Emma Frost can form a mental link with Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
+                "transformation_id": 0
+            },
+            {
+                "id": 105392,
+                "name": "Iced Out Diamond",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing<\/> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond<\/> barrier that blocks enemy attacks and movement.",
                 "additional_fields": {
-                    "Key": "Passive",
-                    "Team-Up Bonus": "+100 Max Health"
+                    "Key": "C",
+                    "Cooldown": "20s",
+                    "Slow Rate": "45%",
+                    "Slow Duration": "3s",
+                    "Summons' Health": "250",
+                    "Spell Field Range": "A fan-shaped spell field with a radius of 8m, a height of 3m, and an angle of 60°",
+                    "Spell Field Damage": "60"
                 },
                 "transformation_id": 0
             }
@@ -12800,7 +12835,7 @@ export const heroData =[
                 "name": "Bridge Boost",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "While <Buff>Healing Hearts<\/> deck is active, trigger <Orange>Flush Empowerment<\/> to card spring and fire a full deck forward. Cards bounce between allies on impact, granting Health and a <Buff>Healing Boost<\/>.",
+                "description": "While the <Buff>Healing Hearts<\/> deck is active, spend one stack of <Orange>Sleight of Hand<\/> to <Orange>Flush<\/> and card spring before firing a full deck forward. Cards bounce between allies on impact, granting Health and a <Buff>Healing Boost<\/>.",
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Projectile that fires in a straight trajectory.",
@@ -12819,7 +12854,7 @@ export const heroData =[
                 "name": "Purifying Pick-up",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "While <Buff>Healing Hearts<\/> deck is active, trigger <Orange>Raise Empowerment<\/> to launch a cluster of cards in an arc ahead. Explosions heal nearby allies and <Buff>Purify<\/> them.",
+                "description": "While the <Buff>Healing Hearts<\/> deck is active, spend one stack of <Orange>Sleight of Hand<\/> to <Orange>Raise<\/> and launch a cluster of cards in an arc ahead. Explosions heal nearby allies and <Buff>Purify<\/> them.",
                 "additional_fields": {
                     "Key": "F",
                     "Casting": "Projectile that generates a spell field upon impact.",
@@ -12838,7 +12873,7 @@ export const heroData =[
                 "name": "Breaking Spades",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Conjure a Spade card by consuming one stack of <Orange>Sleight of Hand<\/>to gain a <Buff>Damage Boost<\/> and switch to the <Orange>Breaking Spades<\/> deck.",
+                "description": "Conjure a Spade card by consuming one stack of <Orange>Sleight of Hand<\/> to gain a <Buff>Damage Boost<\/> and switch to the <Orange>Breaking Spades<\/> deck.",
                 "additional_fields": {
                     "Key": "F",
                     "Cooldown": "4 charges, with each charge taking 8s to recharge",
@@ -12854,7 +12889,7 @@ export const heroData =[
                 "name": "Explosive Trick",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "While <Orange>Breaking Spades<\/> deck is active, trigger <Orange>Flush Empowerment<\/> to fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting <Debuff>Reduced Healing<\/>.",
+                "description": "While the <Orange>Breaking Spades<\/> deck is active, spend one stack of <Orange>Sleight of Hand<\/> to <Orange>Flush<\/> and fire a full set of cards forward. Cards explode on impact, dealing damage while inflicting <Debuff>Reduced Healing<\/>.",
                 "additional_fields": {
                     "Key": "F",
                     "Damage": "70",
@@ -12872,7 +12907,7 @@ export const heroData =[
                 "name": "Bidding Barrage",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "While <Orange>Breaking Spades<\/> deck is active, trigger <Orange>Raise Empowerment<\/> to scatter cards in an arc in all directions. Explosions damage enemies and <Debuff>Launch<\/> them up.",
+                "description": "While the <Orange>Breaking Spades<\/> deck is active, spend one stack of <Orange>Sleight of Hand<\/> to <Orange>Raise<\/> and scatter cards in an arc in all directions. Explosions damage enemies and <Debuff>Launch<\/> them up.",
                 "additional_fields": {
                     "Key": "E",
                     "Damage": "70",
@@ -12913,10 +12948,226 @@ export const heroData =[
                 "name": "Ace Of Aces",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Gambit charges Magneto's greatsword with kinetic energy. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay.",
+                "description": "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "5% Healing Boost"
+                },
+                "transformation_id": 0
+            }
+        ]
+    },
+    {
+        "id": "1065",
+        "name": "Rogue",
+        "real_name": "Anna Marie",
+        "transformations": [
+            {
+                "id": 0,
+                "icon": "characters\/rogue-headbig-0.webp",
+                "name": "Rogue",
+                "health": "675",
+                "movement_speed": "600"
+            }
+        ],
+        "en_name": "Rogue",
+        "description": "Anna Marie possesses the Mutant ability to absorb the powers of others with a touch. Her ever-adaptable arsenal of superhuman abilities helps turn the tide of any fight. After touching Raw Chronovium, Rogue's strength soared to new heights, allowing her to overwhelm enemies with unstoppable force!",
+        "slug": "rogue",
+        "team": [
+            "X_men",
+            "Mutants"
+        ],
+        "difficulty": "5",
+        "attack_type": "Melee Heroes",
+        "role": "VANGUARD",
+        "image_square": "characters\/rogue-square.webp",
+        "image_transverse": "characters\/rogue-transverse.webp",
+        "icon": "characters\/rogue-headbig.webp",
+        "image": "characters\/rogue-portrait.webp",
+        "logo_small": "characters\/rogue-logo.webp",
+        "logo": "characters\/rogue-logo-small.webp",
+        "skins": [
+            "1065001",
+            "1065300",
+            "1065100",
+            "1065101"
+        ],
+        "abilities": [
+            {
+                "id": 106511,
+                "icon": "abilities\/1065\/106511.webp",
+                "name": "Power Surge Punch",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Punch forward with both fists.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "The first two strikes deal 35 damage, while the third strike deals 45 damage",
+                    "Casting": "Melee",
+                    "Attack Speed": "The first two strikes: 0.33s\/hit; the third strike: 0.73s\/hit",
+                    "Maximum Distance": "4.5m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106512,
+                "name": "Power Surge Punch (v)",
+                "type": "Melee",
+                "isCollab": false,
+                "transformation_id": 0
+            },
+            {
+                "id": 106521,
+                "icon": "abilities\/1065\/106521.webp",
+                "name": "Defensive Stance",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Absorb nearby <Orange>projectiles<\/> and reduce incoming damage; absorbed damage powers up your next <Orange>Southern Brawl<\/>.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Maximum Energy": "100",
+                    "Special Effect": "The reduced damage transforms into backlash energy that powers up the next Southern Brawl.",
+                    "Damage Reduction": "60%",
+                    "Energy Consumption": "60\/s",
+                    "Energy Recovery Speed": "15\/s",
+                    "Maximum Backlash Energy": "100",
+                    "Maximum Backlash Energy Falloff": "20\/s",
+                    "Energy Required to Activate the Ability": "30",
+                    "Reduced Damage-Backlash Energy Conversion Ratio": "0.27"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106522,
+                "icon": "abilities\/1065\/106522.webp",
+                "name": "Southern Brawl",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "While in <Orange>Defensive Stance<\/>, dash forward and slam enemies in front, dealing area damage.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Cooldown": "6s",
+                    "Base Damage": "40",
+                    "Dash Distance": "8m",
+                    "Special Effect": "Launch up the enemies hit",
+                    "Maximum Distance": "8m",
+                    "Backlash Energy-Extra Damage Conversion Ratio": "0.9"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106531,
+                "icon": "abilities\/1065\/106531.webp",
+                "name": "Chrono Kick Combo",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward and launch the enemy, entering flight; activate again to <Debuff>Knock Down<\/> nearby enemies. Your next two <Orange>Power Surge Punch<\/> attacks become ranged, piercing enemies and granting <Buff>Bonus Health<\/>.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "10s",
+                    "Special Effect": "Launch up the enemy hit, entering flight. The next two Power Surge Punch attacks become ranged, and Chrono Kick Combo can be unleashed again.",
+                    "Projectile Speed": "100 m\/s",
+                    "Projectile Damage": "60",
+                    "Spell Field Range": "Box shaped spell field. Length: 6.5m; Width: 4.5m; Height: 2m",
+                    "Spell Field Damage": "30",
+                    "Maximum Flight Duration": "3s",
+                    "Knock Down Spell Field Range": "6m radius spherical spell field",
+                    "Knock Down Spell Field Damage": "30",
+                    "Projectile Maximum Flying Distance": "20m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106532,
+                "icon": "abilities\/1065\/106532.webp",
+                "name": "Chrono Kick Combo: Follow-up",
+                "type": "Normal",
+                "isCollab": false,
+                "transformation_id": 0
+            },
+            {
+                "id": 106533,
+                "icon": "abilities\/1065\/106533.webp",
+                "name": "Chrono Kick Combo: Ranged Attack",
+                "type": "Weapon",
+                "isCollab": false,
+                "transformation_id": 0
+            },
+            {
+                "id": 106541,
+                "icon": "abilities\/1065\/106541.webp",
+                "name": "Fatal Attraction",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward. Press again to unleash a burst of <Orange>Chronovium Power<\/> from her ring, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue.",
+                "additional_fields": {
+                    "Key": "SHIFT",
+                    "Cooldown": "17s",
+                    "Dash Damage": "30",
+                    "Dash Distance": "10m",
+                    "Special Effect": "Launch up enemies hit",
+                    "Retrieve Spell Field Damage": "30",
+                    "Spreading Spell Field Range": "Cylindrical Spell Field with a height of 3m, whose radius will expand to 8m after 0.8s",
+                    "Spreading Spell Field Damage": "40\/s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106551,
+                "icon": "abilities\/1065\/106551.webp",
+                "name": "Ability Absorption",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward to knock down your target and <Orange>absorb their energy<\/>; after <Orange>absorbing<\/>, replace <Orange>Ability Absorption<\/> with one of their abilities or refresh <Orange>Fatal Attraction<\/>. Also, <Orange>absorb<\/> Health and stats based on their role.",
+                "additional_fields": {
+                    "Key": "F",
+                    "Cooldown": "25s",
+                    "Dash Distance": "10m",
+                    "Special Effect": "After absorbing, replace Ability Absorption with one of their abilities or refresh Fatal Attraction.",
+                    "Absorption Process": "0.75s",
+                    "Absorbed Ability Duration": "10s",
+                    "Absorption Damage Over Time": "30\/s",
+                    "Absorption Healing Over Time": "60\/s",
+                    "Boost from Duelist Ability Absorption": "20% Damage Boost",
+                    "Boost from Vanguard Ability Absorption": "125 Maximum Health",
+                    "Debuff to the Duelist Absorption Target": "Reduce 3% damage dealt",
+                    "Boost from Strategist Ability Absorption": "Self healing 20\/s",
+                    "Debuff to the Vanguard Absorption Target": "Reduce 20 Maximum Health",
+                    "Debuff to the Strategist Absorption Target": "Reduce 4% healing dealt"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106561,
+                "icon": "abilities\/1065\/106561.webp",
+                "name": "Heartbreaker",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Continuously absorb Ultimate Ability Energy from nearby enemies and steal stats based on their role.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Duration": "8s",
+                    "Energy Cost": "3400",
+                    "Spell Field Range": "8m radius spherical spell field",
+                    "Spell Field Damage": "15\/s",
+                    "Maximum Stats Stolen from Vanguards": "Self healing 75\/s",
+                    "Ultimate Ability Energy Absorption Speed": "Absorb 4% of ultimate ability energy per second"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106571,
+                "name": "Hearts As One",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Gambit shares kinetic energy with Magneto and Rogue. When Magneto activates this ability, <Orange>Iron Volley<\/> is replaced with <Orange>Ace Greatsword<\/>, which detonates upon striking enemies. The explosion leaves residual kinetic energy within the target, inflicting secondary damage after a brief delay. When Rogue activates the ability, each of her attacks causes a kinetic explosion that damages nearby enemies and heals nearby allies.",
+                "additional_fields": {
+                    "Key": "C",
+                    "Cooldown": "30s",
+                    "Spell Field Range": "8m radius spherical spell field",
+                    "Spell Field Damage": "5+targets' 3% Maximum Health",
+                    "Spell Field Healing": "55",
+                    "Spell Field Duration": "8s"
                 },
                 "transformation_id": 0
             }
