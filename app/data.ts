@@ -221,7 +221,7 @@ export const heroData =[
                 "name": "Hulk Smash!",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.",
+                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to <Debuff>Launch<\/> and <Debuff>Knockback<\/> effects.",
                 "additional_fields": {
                     "Key": "Q",
                     "Casting": "Transformation",
@@ -555,7 +555,7 @@ export const heroData =[
                 "name": "Hulk Smash!",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.",
+                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to <Debuff>Launch<\/> and <Debuff>Knockback<\/> effects.",
                 "additional_fields": {
                     "Key": "Q",
                     "Casting": "Transformation",
@@ -889,7 +889,7 @@ export const heroData =[
                 "name": "Hulk Smash!",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.",
+                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to <Debuff>Launch<\/> and <Debuff>Knockback<\/> effects.",
                 "additional_fields": {
                     "Key": "Q",
                     "Casting": "Transformation",
@@ -1223,7 +1223,7 @@ export const heroData =[
                 "name": "Hulk Smash!",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.",
+                "description": "Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period. Gain immunity to <Debuff>Launch<\/> and <Debuff>Knockback<\/> effects.",
                 "additional_fields": {
                     "Key": "Q",
                     "Casting": "Transformation",
@@ -1516,7 +1516,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Left Click",
                     "Ammo": "40",
-                    "Damage": "19 damage per round",
+                    "Damage": "20 damage per round",
                     "Casting": "Rapid-fire projectile",
                     "Fire Rate": "10 rounds per second",
                     "Critical Hit": "Yes",
@@ -1746,7 +1746,8 @@ export const heroData =[
             "1015501",
             "1015502",
             "1015503",
-            "1015300"
+            "1015300",
+            "1015504"
         ],
         "abilities": [
             {
@@ -1950,6 +1951,11 @@ export const heroData =[
                 "name": "Loki",
                 "health": "275",
                 "movement_speed": "6 m\/s"
+            },
+            {
+                "id": 1,
+                "icon": "characters\/loki-headbig-1.webp",
+                "name": "Loki"
             }
         ],
         "en_name": "Loki",
@@ -1977,7 +1983,8 @@ export const heroData =[
             "1016301",
             "ps1016303",
             "1016302",
-            "1016101"
+            "1016101",
+            "1016502"
         ],
         "abilities": [
             {
@@ -2024,9 +2031,9 @@ export const heroData =[
                 "additional_fields": {
                     "Health": "275",
                     "Movement Speed": "6 m\/s",
-                    "Illusion Damage": "80%",
+                    "Illusion Damage": "90%",
                     "Illusion Health": "250",
-                    "Illusion Healing": "80%",
+                    "Illusion Healing": "90%",
                     "Illusion Duration": "60",
                     "Maximum Illusion Quantity": "2"
                 },
@@ -2114,6 +2121,141 @@ export const heroData =[
                     "Special Effect": "After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends"
                 },
                 "transformation_id": 0
+            },
+            {
+                "id": 101611,
+                "icon": "abilities\/1016\/101611.webp",
+                "name": "Backstab",
+                "type": "Melee",
+                "isCollab": false,
+                "description": "Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind.",
+                "additional_fields": {
+                    "Key": "V",
+                    "Range": "3m",
+                    "Damage": "Damage: 30; Backstab Damage: +15 (total of 45)",
+                    "Casting": "Single-cast Spell Field"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101621,
+                "icon": "abilities\/1016\/101621.webp",
+                "name": "Mystical Missile",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Ammo": "12",
+                    "Range": "3m spherical radius",
+                    "Damage": "The projectile deals no damage, while the spell field inflicts 25 damage per cast",
+                    "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+                    "Fire Rate": "1.75 rounds per second",
+                    "Critical Hit": "No",
+                    "Damage Falloff": "Falloff begins at 0.5m, decreasing to 80% at 2.5m",
+                    "Healing Amount": "The projectile does not provide healing, but the spell field provides 40 Health per cast",
+                    "Special Effect": "Heals directly hit allies for an extra 10 Health",
+                    "Projectile Speed": "100 m\/s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101629,
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "6 m\/s",
+                    "Illusion Damage": "90%",
+                    "Illusion Health": "250",
+                    "Illusion Healing": "90%",
+                    "Illusion Duration": "60",
+                    "Maximum Illusion Quantity": "2"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101631,
+                "icon": "abilities\/1016\/101631.webp",
+                "name": "Regeneration Domain",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Use Rune Stones to create a magical field that provides allies <Buff>Healing Over Time<\/> and converts incoming damage into further healing.",
+                "additional_fields": {
+                    "Key": "SHIFT",
+                    "Range": "A cylindrical spell field with a radius of 5m and a height of 2m",
+                    "Casting": "Release a spell field at the location of Loki and the Illusion",
+                    "Cooldown": "30s",
+                    "Duration": "5s",
+                    "Healing Amount": "100\/s",
+                    "Special Effect": "The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken",
+                    "Conversion Rate": "30%",
+                    "Rune Stone Health": "100"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101641,
+                "icon": "abilities\/1016\/101641.webp",
+                "name": "Deception",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Become <Buff>Invisible<\/> and conjure an <Orange>Illusion<\/> to deceive enemies.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Casting": "Instant Cast",
+                    "Cooldown": "15s",
+                    "Healing Amount": "Health regenerates at a rate of 20 Health per second while invisible",
+                    "Special Effect": "Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting Devious Exchange, reloading, or casting Doppelganger will render him visible"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101651,
+                "icon": "abilities\/1016\/101651.webp",
+                "name": "Doppelganger",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Project an <Orange>Illusion<\/> that can cast some of Loki's abilities.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Casting": "Targeted",
+                    "Cooldown": "2 charges, with each charge taking 12s to recharge",
+                    "Special Effect": "Project an Illusion at a selected location",
+                    "Maximum Distance": "30m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101652,
+                "icon": "abilities\/1016\/101652.webp",
+                "name": "Devious Exchange",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Swap with the selected <Orange>Illusion<\/>.",
+                "additional_fields": {
+                    "Key": "F",
+                    "Casting": "Targeted",
+                    "Cooldown": "15s",
+                    "Maximum Distance": "30m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 101661,
+                "icon": "abilities\/1016\/101661.webp",
+                "name": "God Of Mischief",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Casting": "Targeted",
+                    "Duration": "12s",
+                    "Energy Cost": "4300",
+                    "Special Effect": "After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of God of Mischief until the transformation ability ends"
+                },
+                "transformation_id": 1
             }
         ],
         "meta": [
@@ -2191,7 +2333,8 @@ export const heroData =[
             "1017501",
             "1017502",
             "1017800",
-            "ps1017504"
+            "ps1017504",
+            "1017300"
         ],
         "abilities": [
             {
@@ -2214,10 +2357,10 @@ export const heroData =[
                     "Casting": "Burst Projectile",
                     "Charges": "6",
                     "Fire Rate": "0.5s per round",
-                    "Shot Damage": "5 per round",
+                    "Shot Damage": "5.5 per round",
                     "Charge Speed": "0.33s per use, Fire Cluster has a 0.5s delay before ammo begins to replenish",
                     "Critical Hit": "Yes",
-                    "Damage Falloff": "Falloff begins at 15m, decreasing to 60% at 30m.",
+                    "Damage Falloff": "Falloff begins at 15m, decreasing to 60% at 20m.",
                     "Projectile Speed": "150m\/s",
                     "Crosshair Spread Radius (at 10m)": "0.33m"
                 },
@@ -2250,9 +2393,9 @@ export const heroData =[
                     "Key": "Right Click",
                     "Casting": "Straight-line projectile that generates a spherical spell field upon impact.",
                     "Charges": "3",
-                    "Charge Speed": "3s per strike",
+                    "Charge Speed": "2.5s per strike",
                     "Flame Field Range": "3m spherical radius",
-                    "Blazing Blast Damage": "40",
+                    "Blazing Blast Damage": "45",
                     "Flame Field Duration": "6s",
                     "Flame Field Continuous Damage": "20\/s",
                     "Blazing Blast Projectile Speed": "80m\/s"
@@ -2672,7 +2815,8 @@ export const heroData =[
             "1020101",
             "1020302",
             "ps1020303",
-            "ps1020304"
+            "ps1020304",
+            "1020305"
         ],
         "abilities": [
             {
@@ -3601,7 +3745,7 @@ export const heroData =[
                 "name": "Web Server",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>, which now creates <Orange>Cyber-Webs<\/> upon placement and periodically spawns <Orange>Arachno-Mines<\/> and <Orange>Spider-Drones<\/>. Peni Parker can also deploy an <Orange>Armored Spider-Nest<\/> that drops <Orange>Armor Packs<\/> for <Buff>Bonus Health<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
+                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
                 "additional_fields": {
                     "Key": "E",
                     "Cooldown": "45s",
@@ -3632,7 +3776,7 @@ export const heroData =[
                     "Range": "20m radius",
                     "Casting": "Targeted ability that, when activated, summons a creature and detects allies within the area.",
                     "Duration": "12s",
-                    "Energy Cost": "4000",
+                    "Energy Cost": "4300",
                     "Bonus Health": "100\/s",
                     "Damage Boost": "40%",
                     "Special Effect": "During the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per\/s",
@@ -3939,7 +4083,7 @@ export const heroData =[
                 "name": "Hel Tendrils",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff's <Orange>Guardian of the Deep<\/> links with nearby allies for continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela's <Orange>Hel Tendrils<\/> unleash a symbiotic Hel Sphere that pulls in nearby enemies and links them, <Debuff>slowing<\/> those that try to escape.",
+                "description": "Venom shares his symbiotes with Jeff and Hela. Jeff's <Orange>Guardian of the Deep<\/> provides nearby allies with continuous healing, releasing a large healing burst that converts any excess into <Buff>Bonus Health<\/> when it ends. Hela's <Orange>Hel Tendrils<\/> pulls in nearby enemies, <Debuff>slowing<\/> those that try to escape.",
                 "additional_fields": {
                     "Key": "E",
                     "Range": "3m spherical radius spell field",
@@ -4035,7 +4179,8 @@ export const heroData =[
             "1025300",
             "1025500",
             "1025301",
-            "1025302"
+            "1025302",
+            "1025303"
         ],
         "abilities": [
             {
@@ -4096,7 +4241,7 @@ export const heroData =[
                 "name": "Dagger Storm",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time<\/> field in the impact area.",
+                "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time<\/> field in the impact area. Allies in the area gain One-Time Healing when the field appears.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
@@ -4295,7 +4440,7 @@ export const heroData =[
                 "name": "Dagger Storm",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time<\/> field in the impact area.",
+                "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time<\/> field in the impact area. Allies in the area gain One-Time Healing when the field appears.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
@@ -4494,7 +4639,7 @@ export const heroData =[
                 "name": "Dagger Storm",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time<\/> field in the impact area.",
+                "description": "Launch a volley of daggers, creating a <Buff>Healing-Over-Time<\/> field in the impact area. Allies in the area gain One-Time Healing when the field appears.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
@@ -4711,7 +4856,8 @@ export const heroData =[
             "1026301",
             "1026501",
             "1026101",
-            "1026302"
+            "1026302",
+            "1026502"
         ],
         "abilities": [
             {
@@ -4848,7 +4994,7 @@ export const heroData =[
                 "name": "Bast's Descent",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Summon Bast, pouncing forward, dealing damage and attaching a <Orange>Vibranium Mark<\/> to hit enemies, while refreshing <Orange>Spirit Rend<\/>.",
+                "description": "Summon Bast, pouncing forward, dealing damage and attaching a <Buff>Vibranium Mark<\/> to hit enemies, while refreshing <Orange>Spirit Rend<\/>. Gain <Buff>Damage Reduction<\/> while summoning.",
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "Length: 22m, Width: 20m, Height: 7m",
@@ -5282,7 +5428,7 @@ export const heroData =[
                     "Range": "8m spherical radius spell field",
                     "Casting": "Instant Cast",
                     "Cooldown": "10s",
-                    "Special Effect": "Grant bonus health to Ultron and Allies within range, centered around Ultron and the drones",
+                    "Special Effect": "Grant bonus health to Ultron and Allies within range, centered around Ultron and the drones; the selected ally gains a 20% Movement Speed and 10% Damage boost",
                     "Bonus Health to Ultron": "65",
                     "Bonus Health Falloff Speed": "40\/s",
                     "Bonus Health Falloff Begins at": "3s",
@@ -5328,6 +5474,7 @@ export const heroData =[
                     "Key": "E",
                     "Casting": "Targeted",
                     "Maximum Vision": "30m",
+                    "Special Effect": "Imperative: Patch can deploy up to 2 drones, allowing support for two allies at once",
                     "Target Distance": "25m",
                     "Drone Healing Range": "8m spherical radius spell field",
                     "Healing Amount to the Targeted ally": "35\/s",
@@ -5348,7 +5495,7 @@ export const heroData =[
                     "Casting": "Straight-line projectile that generates a spell field upon impact.",
                     "Duration": "9s",
                     "Beam Damage": "8",
-                    "Energy Cost": "3700",
+                    "Energy Cost": "4000",
                     "Special Effect": "Within the ultimate duration, Ultron grants an Unstoppable effect; Deals 125% damage to Bonus Health",
                     "Projectile Speed": "120m\/s",
                     "Total Ray Amount": "5",
@@ -6085,7 +6232,8 @@ export const heroData =[
             "1030300",
             "1030101",
             "1030501",
-            "1030801"
+            "1030801",
+            "1030301"
         ],
         "abilities": [
             {
@@ -6442,7 +6590,7 @@ export const heroData =[
                     "Casting": "Single-cast projectile with delayed impact",
                     "Cooldown": "12s",
                     "Special Effect": "Freeze enemies for 2.7s. However, if they are attacked during the last 2.2s of the freeze, the effect will be canceled. Grants 50 Bonus Health per enemy hit",
-                    "Projectile Speed": "60m\/s"
+                    "Projectile Speed": "80m\/s"
                 },
                 "transformation_id": 0
             },
@@ -6580,7 +6728,8 @@ export const heroData =[
             "1032500",
             "1032302",
             "1032501",
-            "1032303"
+            "1032303",
+            "1032304"
         ],
         "abilities": [
             {
@@ -7395,7 +7544,9 @@ export const heroData =[
             "1035301",
             "1035302",
             "ps1035305",
-            "ps1035304"
+            "ps1035304",
+            "1035800",
+            "1035303"
         ],
         "abilities": [
             {
@@ -7614,7 +7765,8 @@ export const heroData =[
             "1036102",
             "1036502",
             "1036505",
-            "1036508"
+            "1036508",
+            "1036801"
         ],
         "abilities": [
             {
@@ -7928,6 +8080,7 @@ export const heroData =[
             "1037501",
             "1037101",
             "1037300",
+            "1037102",
             "1037302",
             "1037301"
         ],
@@ -8247,7 +8400,7 @@ export const heroData =[
                     "Critical Hit": "No",
                     "Special Effect 1": "Attack the nearest enemy within range",
                     "Special Effect 2": "Hitting with Chaos Control charges Chthonian Burst",
-                    "Chthonian Burst Recharge Per Hit": "0.08 per hit"
+                    "Chthonian Burst Recharge Per Hit": "0.1 per hit"
                 },
                 "transformation_id": 0
             },
@@ -8280,7 +8433,7 @@ export const heroData =[
                     "Range": "3m spherical radius",
                     "Casting": "Straight-line projectile that generates a spell field upon impact",
                     "Cooldown": "12s",
-                    "Projectile Speed": "40 m\/s",
+                    "Projectile Speed": "60 m\/s",
                     "Detection Interval": "1.25s",
                     "Spell Field Duration": "4.5s",
                     "Stun Duration Per Detection": "0.5s",
@@ -8326,7 +8479,7 @@ export const heroData =[
                     "Slow Rate": "Begin to slow down by 1.5s, with the effect gradually increasing to -25% by 3.5s",
                     "Charge Time": "4s",
                     "Energy Cost": "3400",
-                    "Special Effect": "During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 2.4m\/s",
+                    "Special Effect": "During this period, Scarlet Witch enters a Free-flight state, pulls in nearby enemies (within 15m radius) during cast charge. Max pull speed up to 3m\/s",
                     "Bonus Health (Self)": "100"
                 },
                 "transformation_id": 0
@@ -8472,7 +8625,8 @@ export const heroData =[
             "1039503",
             "1039300",
             "ps1039302",
-            "1039301"
+            "1039301",
+            "1039303"
         ],
         "abilities": [
             {
@@ -8929,7 +9083,9 @@ export const heroData =[
             "1041800",
             "ps1041302",
             "1041301",
-            "1041501"
+            "1041501",
+            "1041502",
+            "1041503"
         ],
         "abilities": [
             {
@@ -9120,7 +9276,7 @@ export const heroData =[
                 "id": 0,
                 "icon": "characters\/peni-parker-headbig-0.webp",
                 "name": "Peni Parker",
-                "health": "750",
+                "health": "700",
                 "movement_speed": "6m\/s"
             },
             {
@@ -9152,7 +9308,8 @@ export const heroData =[
             "1042101",
             "1042301",
             "ps1042304",
-            "1042302"
+            "1042302",
+            "1042303"
         ],
         "abilities": [
             {
@@ -9161,7 +9318,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -9184,7 +9341,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -9194,7 +9351,7 @@ export const heroData =[
                 "type": "Melee",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -9261,7 +9418,7 @@ export const heroData =[
                 "name": "Armored Spider-nest",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>, which now creates <Orange>Cyber-Webs<\/> upon placement and periodically spawns <Orange>Arachno-Mines<\/> and <Orange>Spider-Drones<\/>. Peni Parker can also deploy an <Orange>Armored Spider-Nest<\/> that drops <Orange>Armor Packs<\/> for <Buff>Bonus Health<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
+                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
                 "transformation_id": 0
             },
             {
@@ -9328,7 +9485,7 @@ export const heroData =[
                 "type": "Ultimate",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -9339,7 +9496,7 @@ export const heroData =[
                 "type": "Ultimate",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -9349,7 +9506,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -9359,9 +9516,17 @@ export const heroData =[
                 "type": "Ultimate",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
+                "transformation_id": 0
+            },
+            {
+                "id": 104282,
+                "name": "Spider-tech",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a <Orange>Spider-Tracer<\/> to them. If not thrown in time, it explodes on Spider-Man, recharging a <Orange>Web-Cluster<\/> shot and granting <Buff>Bonus Health<\/>.",
                 "transformation_id": 0
             },
             {
@@ -9370,7 +9535,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 1
@@ -9393,7 +9558,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 1
@@ -9403,7 +9568,7 @@ export const heroData =[
                 "type": "Melee",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 1
@@ -9470,7 +9635,7 @@ export const heroData =[
                 "name": "Armored Spider-nest",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>, which now creates <Orange>Cyber-Webs<\/> upon placement and periodically spawns <Orange>Arachno-Mines<\/> and <Orange>Spider-Drones<\/>. Peni Parker can also deploy an <Orange>Armored Spider-Nest<\/> that drops <Orange>Armor Packs<\/> for <Buff>Bonus Health<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
+                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
                 "transformation_id": 1
             },
             {
@@ -9537,7 +9702,7 @@ export const heroData =[
                 "type": "Ultimate",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 1
@@ -9548,7 +9713,7 @@ export const heroData =[
                 "type": "Ultimate",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 1
@@ -9558,7 +9723,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 1
@@ -9568,9 +9733,17 @@ export const heroData =[
                 "type": "Ultimate",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "750",
+                    "Health": "700",
                     "Movement Speed": "6m\/s"
                 },
+                "transformation_id": 1
+            },
+            {
+                "id": 104282,
+                "name": "Spider-tech",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Peni Parker whips up a Sticky Bomb for Spider-Man! Prime it, then toss it before the timer's up for a blast that damages nearby enemies and attaches a <Orange>Spider-Tracer<\/> to them. If not thrown in time, it explodes on Spider-Man, recharging a <Orange>Web-Cluster<\/> shot and granting <Buff>Bonus Health<\/>.",
                 "transformation_id": 1
             }
         ],
@@ -9649,7 +9822,9 @@ export const heroData =[
             "1043300",
             "1043501",
             "1043102",
-            "1043502"
+            "1043502",
+            "1043301",
+            "1043103"
         ],
         "abilities": [
             {
@@ -9851,7 +10026,8 @@ export const heroData =[
             "1044102",
             "1044101",
             "1044800",
-            "1044500"
+            "1044500",
+            "1044301"
         ],
         "abilities": [
             {
@@ -9863,7 +10039,7 @@ export const heroData =[
                 "description": "Slash forward with Blade's Ancestral Sword.",
                 "additional_fields": {
                     "Key": "Left Click",
-                    "Damage": "Cause 24 damage per single slash; double strike cause 13 damage per hit",
+                    "Damage": "Cause 26 damage per single slash; double strike cause 13 damage per hit",
                     "Casting": "Melee",
                     "Attack Interval": "2 strikes per second",
                     "Maximum Distance": "4.5m"
@@ -9903,7 +10079,7 @@ export const heroData =[
                 "name": "Daywalker Dash",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Dash forward. If wielding your gun, shoot at enemies upon impact, applying a <Debuff>Healing Reduction<\/> effect. If wielding your sword, deliver a cleaving strike that inflicts <Debuff>Slow<\/>.",
+                "description": "Dash forward. If wielding your gun, shoot at enemies upon impact, applying a <Debuff>Slow<\/> effect. If wielding your sword, deliver a cleaving strike that inflicts <Debuff>Healing Reduction<\/>.",
                 "additional_fields": {
                     "Key": "Shift",
                     "Damage": "20",
@@ -9941,10 +10117,10 @@ export const heroData =[
                     "Lifesteal Proportion": "65%, Affected by Healing Reduction",
                     "Movement Speed Boost": "1.5 m\/s",
                     "Shift Hit Buff Stack": "5",
-                    "Whirlwind Slash Damage": "56",
+                    "Whirlwind Slash Damage": "64",
                     "Left Click Hit Buff Stack": "1",
                     "Duration of Each Buff Stack": "1s",
-                    "Self Reduce Healing Proportion": "35%",
+                    "Self Reduce Healing Proportion": "25%",
                     "Max Attack Speed Boost Buff Stack": "10",
                     "Hits to Trigger the Whirlwind Slash": "5",
                     "Attack Speed Boost Proportion from Each Buff Stack": "10%"
@@ -10406,7 +10582,8 @@ export const heroData =[
             "1046301",
             "1046101",
             "1046102",
-            "1046500"
+            "1046500",
+            "1046302"
         ],
         "abilities": [
             {
@@ -10612,7 +10789,10 @@ export const heroData =[
             "ps1047304",
             "1047501",
             "1047302",
-            "1047502"
+            "1047502",
+            "ps1047305",
+            "ps1047306",
+            "1047800"
         ],
         "abilities": [
             {
@@ -10932,7 +11112,7 @@ export const heroData =[
                     "Damage": "170 damage per hit",
                     "Duration": "4s",
                     "Slow Rate": "-15%",
-                    "Energy Cost": "2800",
+                    "Energy Cost": "3400",
                     "Attack Interval": "2 hits per second",
                     "Special Mechanic": "Psylocke will slash a random enemy, giving priority to the one who has been hit the least"
                 },
@@ -11054,7 +11234,8 @@ export const heroData =[
             "1049300",
             "1049800",
             "1049502",
-            "1049301"
+            "1049301",
+            "1049503"
         ],
         "abilities": [
             {
@@ -11236,7 +11417,11 @@ export const heroData =[
             "ps1050507",
             "1050301",
             "ps1050303",
-            "ps1050304"
+            "ps1050304",
+            "1050302",
+            "1050103",
+            "ps1050308",
+            "ps1050309"
         ],
         "abilities": [
             {
@@ -11318,7 +11503,9 @@ export const heroData =[
                     "Slow Rate": "35%",
                     "Slow Duration": "3s",
                     "Healing Amount": "50\/sec",
-                    "Special Effect": "Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time. After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value; If no Guardian Shield is present, pressing the recall key now deploys a shield in front of Invisible Woman",
+                    "Special Effect 1": "Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time",
+                    "Special Effect 2": "After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value",
+                    "Special Effect 3": "If no Guardian Shield is present, pressing the recall key now deploys a shield in front of Invisible Woman",
                     "Maximum Shield Value": "250",
                     "Cooldown After Destroyed": "6s",
                     "Recovery Shield Value Per Second": "50"
@@ -11391,9 +11578,9 @@ export const heroData =[
                     "Range": "10m radius, 40m height",
                     "Casting": "Targeted, generates a cylindrical spell field",
                     "Duration": "8s",
-                    "Energy Cost": "4300",
+                    "Energy Cost": "4500",
                     "Slow Duration": "1s",
-                    "Healing Amount": "165\/sec",
+                    "Healing Amount": "180\/sec",
                     "Special Effect": "Slows enemies within range by 20%",
                     "Pass-Through Slow Rate": "55%"
                 },
@@ -11531,7 +11718,7 @@ export const heroData =[
                 "description": "Deliver a devastating Heavy Blow that inflicts additional damage with each strike! Upon hit, gain <Buff>Bonus Health<\/>. Can <Debuff>Knock Down<\/> flying enemies.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "55+8% of enemies' max Health per hit",
+                    "Damage": "55+10% of enemies' max Health per hit",
                     "Casting": "Single-cast Spell Field",
                     "Attack Range": "8m",
                     "Special Effect": "Move forward 3 meters while punching; gain Bonus Health equal to damage dealt (up to 100); once hit, this ability can knock down flying enemies to the ground"
@@ -11909,7 +12096,7 @@ export const heroData =[
                 "id": 0,
                 "icon": "characters\/emma-frost-headbig-0.webp",
                 "name": "Emma Frost",
-                "health": "550",
+                "health": "600",
                 "movement_speed": "6m\/s"
             }
         ],
@@ -12097,7 +12284,7 @@ export const heroData =[
                 "type": "Reload",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "550",
+                    "Health": "600",
                     "Movement Speed": "6m\/s"
                 },
                 "transformation_id": 0
@@ -12201,6 +12388,7 @@ export const heroData =[
             "1054100",
             "1054101",
             "1054500",
+            "1054301",
             "1054102"
         ],
         "abilities": [
@@ -12363,7 +12551,8 @@ export const heroData =[
             "1055500",
             "1055101",
             "1055102",
-            "1055100"
+            "1055100",
+            "1055501"
         ],
         "abilities": [
             {
@@ -12508,7 +12697,7 @@ export const heroData =[
                 "description": "Daredevil shares the location of his <Orange>Sonic Pursuit<\/> target with The Punisher. At the same time, The Punisher can launch a devil-infused shock grenade to damage and <Debuff>Blind<\/> enemies.",
                 "additional_fields": {
                     "Key": "Passive",
-                    "Team-Up Bonus": "25 bonus Health. 5% damage boost"
+                    "Team-Up Bonus": "5% damage boost"
                 },
                 "transformation_id": 0
             }
@@ -12574,7 +12763,7 @@ export const heroData =[
                 "name": "Axes Of Ichors",
                 "type": "Weapon",
                 "isCollab": false,
-                "description": "Alternate powerful strikes forward with twin axes, dealing increased damage as <Orange>Attack Charge<\/> grows. The fourth strike propels you forward in a swift dash. Each time an enemy is struck, Angela and her allies gain <Buff>Bonus Health<\/>.",
+                "description": "Alternate powerful strikes forward with twin axes, dealing increased damage as <Orange>Attack Charge<\/> grows. The fourth strike propels you forward in a swift dash.",
                 "additional_fields": {
                     "Key": "Left Click",
                     "Damage": "First three strikes: 30; the forth strike: 50.",
@@ -12691,6 +12880,808 @@ export const heroData =[
                     "HIt Ground Spell Field Range": "8m spherical radius"
                 },
                 "transformation_id": 0
+            }
+        ]
+    },
+    {
+        "id": "1057",
+        "name": "Deadpool",
+        "real_name": "Wade Wilson",
+        "transformations": [
+            {
+                "id": 0,
+                "icon": "characters\/deadpool-headbig-0.webp",
+                "name": "Deadpool",
+                "health": "450",
+                "movement_speed": "600"
+            },
+            {
+                "id": 1,
+                "icon": "characters\/deadpool-headbig-1.webp",
+                "name": "Deadpool"
+            }
+        ],
+        "en_name": "Deadpool",
+        "description": "Wade Wilson is the full package (or so he claims), with devastating damage output, an impenetrable shield, and swift healing. There's no limit to what Deadpool can achieve, as long as he keeps his moves flashy! And, of course, every epic attack comes with an endless barrage of witty banter!",
+        "slug": "deadpool",
+        "team": [
+            "X_men"
+        ],
+        "difficulty": "0",
+        "attack_type": "Projectile Heroes",
+        "role": "DUELIST",
+        "image_square": "characters\/deadpool-square.webp",
+        "image_transverse": "characters\/deadpool-transverse.webp",
+        "icon": "characters\/deadpool-headbig.webp",
+        "image": "characters\/deadpool-portrait.webp",
+        "logo_small": "characters\/deadpool-logo.webp",
+        "logo": "characters\/deadpool-logo-small.webp",
+        "skins": [
+            "1057001",
+            "1057300",
+            "1057101",
+            "1057100"
+        ],
+        "abilities": [
+            {
+                "id": 105701,
+                "icon": "abilities\/1057\/105701.webp",
+                "name": "Healing Factor",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "<Buff>Continuously heal<\/> while out of combat. When taking heavy damage, briefly become invincible and rapidly heal.",
+                "additional_fields": {
+                    "Key": "PASSIVE",
+                    "Cooldown": "45s",
+                    "Special Effect": "The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing",
+                    "Healing over Time": "25\/s",
+                    "Healing over Time from Activated Healing Factor": "50\/s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105702,
+                "icon": "abilities\/1057\/105702.webp",
+                "name": "Bunny Hop",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Perform a double jump. Using <Orange>Bunny Hop<\/> over others' heads or near vertical walls refreshes the cooldown. Stomping enemies grants <Buff>Bonus Health<\/> and deals damage.",
+                "additional_fields": {
+                    "Key": "Space",
+                    "Damage": "25",
+                    "Cooldown": "6s",
+                    "Bonus Health": "25, up to 50",
+                    "Special Effect": "Refresh the cooldown if it hits an enemy."
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105703,
+                "icon": "abilities\/1057\/105703.webp",
+                "name": "Maximum Flair",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Increase your <Orange>Style Rating<\/> by landing abilities. Ultimate Ability can be unleashed after reaching an \"S\" rating.",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated."
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105704,
+                "icon": "abilities\/1057\/105704.webp",
+                "name": "Deadpool On Air",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Get close to other characters to roast them!",
+                "transformation_id": 0
+            },
+            {
+                "id": 105711,
+                "icon": "abilities\/1057\/105711.webp",
+                "name": "Upgrade!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Deal damage to accumulate <Orange>XP<\/>. <Orange>When maxed<\/>, choose an ability to upgrade. Landing final hits and taking a selfie grants bonus XP. Deadpool is <Buff>Invincible<\/> while taking photos.",
+                "additional_fields": {
+                    "Key": "F",
+                    "Special Effect": "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105712,
+                "name": "Xp Management",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "逻辑管理技能（不会显示在F1上，无需本地化）",
+                "transformation_id": 0
+            },
+            {
+                "id": 105713,
+                "name": "Photo-taking",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "After delivering the Final Hit, you can take a photo with the enemy's corpse. Successfully taking a photo will grant bonus experience points.",
+                "transformation_id": 0
+            },
+            {
+                "id": 105721,
+                "icon": "abilities\/1057\/105721.webp",
+                "name": "Dual Desert Eagles - Duelist",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Shoot enemies with dual Desert Eagles.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Ammo": "30",
+                    "Damage": "38 per hit",
+                    "Casting": "Rapid-fire projectile",
+                    "Fire Rate": "2.5 rounds per second",
+                    "Damage Falloff": "Falloff begins at 18m, decreasing to 80% at 30m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105722,
+                "icon": "abilities\/1057\/105722.webp",
+                "name": "Dual Desert Eagles - Duelist Upgraded",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Shoot enemies with dual Desert Eagles. After enough shots, unleash a powerful, explosive Boom Emoji for extra damage.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Ammo": "40",
+                    "Beam Damage": "46 damage per round",
+                    "Projectile Speed": "60 m\/s",
+                    "Spell Field Range": "3m radius spherical spell field",
+                    "Spell Field Damage": "25",
+                    "Beam Attack Interval": "2 rounds per second",
+                    "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105724,
+                "icon": "abilities\/1057\/105724.webp",
+                "name": "Kick@$$ Katana - Duelist",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Slash forward with dual katanas.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "40 per hit",
+                    "Casting": "Melee",
+                    "Attack Interval": "First strike: 0.6s; second strike: 0.53s; third strike: 0.6s",
+                    "Maximum Distance": "4m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105725,
+                "icon": "abilities\/1057\/105725.webp",
+                "name": "Kick@$$ Katana - Duelist Upgraded",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Slash forward with dual katanas. <Orange>Stabs<\/> can deal critical hits. After a <Orange>Bunny Hop<\/>, your next attack is guaranteed to be <Orange>stabs<\/>.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "45 per hit",
+                    "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
+                    "Maximum Distance": "4m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105741,
+                "icon": "abilities\/1057\/105741.webp",
+                "name": "Headshot! - Duelist",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+                    "Cooldown": "10s",
+                    "Projectile Speed": "80m\/s",
+                    "Projectile Damage": "Unleash: 30; return: 25",
+                    "Spell Field Range": "4m spherical radius spell field",
+                    "Spell Field Damage": "15\/s",
+                    "Spell Field Duration": "1s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105742,
+                "icon": "abilities\/1057\/105742.webp",
+                "name": "Headshot! - Duelist Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you. Catch it for up to two more throws. On the third toss, it explodes at the end to deal area damage.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "10s",
+                    "Projectile Speed": "80m\/s",
+                    "Projectile Damage": "Unleash: 30; return: 25",
+                    "Spell Field Damage": "15\/s",
+                    "Spell Field Duration": "First unleash: 1s; second unleash: 1s; third unleash: 2s",
+                    "Third Unleash Explosion Damage": "45"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105744,
+                "icon": "abilities\/1057\/105744.webp",
+                "name": "Hazardous Hijinks - Duelist",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward and slash, striking enemies in your path. Hitting an enemy lets you unleash another Hazardous Hijinks - Duelist, up to two times.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "40",
+                    "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+                    "Dash Duration": "Up to 12m",
+                    "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times."
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105745,
+                "icon": "abilities\/1057\/105745.webp",
+                "name": "Hazardous Hijinks - Duelist Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward and slash, striking enemies in your path. Each hit refreshes the cooldown and launches you in your chosen direction.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "40",
+                    "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+                    "Dash Duration": "Up to 12m",
+                    "Special Effect": "Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy."
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105746,
+                "icon": "abilities\/1057\/105746.webp",
+                "name": "Magical Unicorn Shield!",
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "12s",
+                    "Summons' Health": "300",
+                    "Maximum Duration for Summons": "4s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105747,
+                "icon": "abilities\/1057\/105747.webp",
+                "name": "Magical Unicorn Shield! - Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "12s",
+                    "Summons' Health": "400",
+                    "Maximum Duration for Summons": "4s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105751,
+                "icon": "abilities\/1057\/105751.webp",
+                "name": "Deadpool In Your Area - Duelist",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "<Debuff>Taunt<\/> and deal continuous damage to nearby enemies, disrupting their vision while gaining <Buff>Damage Reduction<\/>.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "12s",
+                    "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
+                    "Ability Duration": "5s",
+                    "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
+                    "Spell Field Damage": "15\/s",
+                    "Self Damage Reduction": "20%",
+                    "Damage Needed to Remove the Disruption": "100"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105752,
+                "icon": "abilities\/1057\/105752.webp",
+                "name": "Deadpool In Your Area - Duelist Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "<Debuff>Taunt<\/> and deal continuous damage to nearby enemies, disrupting their vision while gaining <Buff>Damage Reduction<\/>. If enemies don't escape in time, the bottom of their screen gets further blocked.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "12s",
+                    "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
+                    "Ability Duration": "5s",
+                    "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
+                    "Spell Field Damage": "30\/s",
+                    "Self Damage Reduction": "35%",
+                    "Damage Needed to Remove the Disruption": "100"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105761,
+                "icon": "abilities\/1057\/105761.webp",
+                "name": "Slice And Dice!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Switch to dual katanas.",
+                "transformation_id": 0
+            },
+            {
+                "id": 105762,
+                "icon": "abilities\/1057\/105762.webp",
+                "name": "Lock And Load!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Switch to dual pistols.",
+                "transformation_id": 0
+            },
+            {
+                "id": 105771,
+                "icon": "abilities\/1057\/105771.webp",
+                "name": "Skill Issue",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Select an enemy to <Debuff>taunt<\/>. They take damage whenever they miss an ability during the effect.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Ability Duration": "8s",
+                    "Damage From Per Ability Missed": "60"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105772,
+                "icon": "abilities\/1057\/105772.webp",
+                "name": "Skill Issue - Upgraded",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Select an enemy to <Debuff>taunt<\/>, dealing continuous damage. If they miss with an ability during the effect, they suffer extra damage and <Debuff>Vulnerability<\/>.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Ability Duration": "8s",
+                    "Damage Over Time": "25\/s",
+                    "Damage From Per Ability Missed": "60",
+                    "Vulnerability Ration From Ability Missed": "10% for each stack. Up to 4 stacks."
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105773,
+                "icon": "abilities\/1057\/105773.webp",
+                "name": "Pop Quiz!",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Initiate a challenge for yourself while gaining minor <Buff>Speed Boost<\/> and <Buff>Healing Over Time<\/>. Hit enough enemies with the indicated abilities in time for greatly enhanced <Buff>Speed<\/> and <Buff>Healing<\/>.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
+                    "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
+                    "Healing over Time": "Upon activation: 25\/s; challenge completed: 50\/s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105774,
+                "icon": "abilities\/1057\/105774.webp",
+                "name": "Pop Quiz! - Upgraded",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Initiate a challenge for yourself while gaining minor <Buff>Speed Boost<\/>, <Buff>Healing Over Time<\/>, and <Buff>Damage Boost<\/>. Hit enough enemies with the indicated abilities in time for greatly enhanced <Buff>Speed<\/>, <Buff>Healing<\/>, <Buff>Damage<\/>, and refresh all cooldowns except <Orange>Healing Factor<\/>.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Damage Boost": "Upon activation: 15%; challenge completed: 30%",
+                    "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
+                    "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
+                    "Healing over Time": "Upon activation: 30\/s; challenge completed: 60\/s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105781,
+                "name": "Comical Chaos",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range enjoy a plush-powered healing party!",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Team-Up Bonus": "+50 Max Health"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105701,
+                "icon": "abilities\/1057\/105701.webp",
+                "name": "Healing Factor",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "<Buff>Continuously heal<\/> while out of combat. When taking heavy damage, briefly become invincible and rapidly heal.",
+                "additional_fields": {
+                    "Key": "PASSIVE",
+                    "Cooldown": "45s",
+                    "Special Effect": "The healing factor kicks in after Deadpool has been out of combat for 5s. If Deadpool takes more than 200 damage within a two-second window, the healing factor activates and boosts the healing",
+                    "Healing over Time": "25\/s",
+                    "Healing over Time from Activated Healing Factor": "50\/s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105702,
+                "icon": "abilities\/1057\/105702.webp",
+                "name": "Bunny Hop",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Perform a double jump. Using <Orange>Bunny Hop<\/> over others' heads or near vertical walls refreshes the cooldown. Stomping enemies grants <Buff>Bonus Health<\/> and deals damage.",
+                "additional_fields": {
+                    "Key": "Space",
+                    "Damage": "25",
+                    "Cooldown": "6s",
+                    "Bonus Health": "25, up to 50",
+                    "Special Effect": "Refresh the cooldown if it hits an enemy."
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105703,
+                "icon": "abilities\/1057\/105703.webp",
+                "name": "Maximum Flair",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Increase your <Orange>Style Rating<\/> by landing abilities. Ultimate Ability can be unleashed after reaching an \"S\" rating.",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Special Effect": "The ultimate ability can be unleashed after reaching an S rating. The rating is cleared if Deadpool is defeated."
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105704,
+                "icon": "abilities\/1057\/105704.webp",
+                "name": "Deadpool On Air",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Get close to other characters to roast them!",
+                "transformation_id": 1
+            },
+            {
+                "id": 105711,
+                "icon": "abilities\/1057\/105711.webp",
+                "name": "Upgrade!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Deal damage to accumulate <Orange>XP<\/>. <Orange>When maxed<\/>, choose an ability to upgrade. Landing final hits and taking a selfie grants bonus XP. Deadpool is <Buff>Invincible<\/> while taking photos.",
+                "additional_fields": {
+                    "Key": "F",
+                    "Special Effect": "Accumulate XP in battle. When maxed, choose an ability to upgrade for powerful boosts"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105712,
+                "name": "Xp Management",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "逻辑管理技能（不会显示在F1上，无需本地化）",
+                "transformation_id": 1
+            },
+            {
+                "id": 105713,
+                "name": "Photo-taking",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "After delivering the Final Hit, you can take a photo with the enemy's corpse. Successfully taking a photo will grant bonus experience points.",
+                "transformation_id": 1
+            },
+            {
+                "id": 105721,
+                "icon": "abilities\/1057\/105721.webp",
+                "name": "Dual Desert Eagles - Duelist",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Shoot enemies with dual Desert Eagles.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Ammo": "30",
+                    "Damage": "38 per hit",
+                    "Casting": "Rapid-fire projectile",
+                    "Fire Rate": "2.5 rounds per second",
+                    "Damage Falloff": "Falloff begins at 18m, decreasing to 80% at 30m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105722,
+                "icon": "abilities\/1057\/105722.webp",
+                "name": "Dual Desert Eagles - Duelist Upgraded",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Shoot enemies with dual Desert Eagles. After enough shots, unleash a powerful, explosive Boom Emoji for extra damage.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Ammo": "40",
+                    "Beam Damage": "46 damage per round",
+                    "Projectile Speed": "60 m\/s",
+                    "Spell Field Range": "3m radius spherical spell field",
+                    "Spell Field Damage": "25",
+                    "Beam Attack Interval": "2 rounds per second",
+                    "Projectile Attack Interval": "After every 5 beam bullets fired, the next shot fires 1 additional projectile"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105724,
+                "icon": "abilities\/1057\/105724.webp",
+                "name": "Kick@$$ Katana - Duelist",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Slash forward with dual katanas.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "40 per hit",
+                    "Casting": "Melee",
+                    "Attack Interval": "First strike: 0.6s; second strike: 0.53s; third strike: 0.6s",
+                    "Maximum Distance": "4m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105725,
+                "icon": "abilities\/1057\/105725.webp",
+                "name": "Kick@$$ Katana - Duelist Upgraded",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Slash forward with dual katanas. <Orange>Stabs<\/> can deal critical hits. After a <Orange>Bunny Hop<\/>, your next attack is guaranteed to be <Orange>stabs<\/>.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "45 per hit",
+                    "Attack Interval": "First strike: 0.5s; second strike: 0.43s; third strike: 0.5s",
+                    "Maximum Distance": "4m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105741,
+                "icon": "abilities\/1057\/105741.webp",
+                "name": "Headshot! - Duelist",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
+                    "Cooldown": "10s",
+                    "Projectile Speed": "80m\/s",
+                    "Projectile Damage": "Unleash: 30; return: 25",
+                    "Spell Field Range": "4m spherical radius spell field",
+                    "Spell Field Damage": "15\/s",
+                    "Spell Field Duration": "1s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105742,
+                "icon": "abilities\/1057\/105742.webp",
+                "name": "Headshot! - Duelist Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Remove your Avatar and throw it, damaging enemies along the path and nearby; after a short time, it returns to you. Catch it for up to two more throws. On the third toss, it explodes at the end to deal area damage.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "10s",
+                    "Projectile Speed": "80m\/s",
+                    "Projectile Damage": "Unleash: 30; return: 25",
+                    "Spell Field Damage": "15\/s",
+                    "Spell Field Duration": "First unleash: 1s; second unleash: 1s; third unleash: 2s",
+                    "Third Unleash Explosion Damage": "45"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105744,
+                "icon": "abilities\/1057\/105744.webp",
+                "name": "Hazardous Hijinks - Duelist",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward and slash, striking enemies in your path. Hitting an enemy lets you unleash another Hazardous Hijinks - Duelist, up to two times.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "40",
+                    "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+                    "Dash Duration": "Up to 12m",
+                    "Special Effect": "Refresh the cooldown if it hits an enemy for up to 2 times."
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105745,
+                "icon": "abilities\/1057\/105745.webp",
+                "name": "Hazardous Hijinks - Duelist Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward and slash, striking enemies in your path. Each hit refreshes the cooldown and launches you in your chosen direction.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "40",
+                    "Cooldown": "2 charges, with each charge taking 10s to recharge.",
+                    "Dash Duration": "Up to 12m",
+                    "Special Effect": "Refresh the cooldown if it hits an enemy. Deadpool bounces as the ability hits an enemy."
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105746,
+                "icon": "abilities\/1057\/105746.webp",
+                "name": "Magical Unicorn Shield!",
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "12s",
+                    "Summons' Health": "300",
+                    "Maximum Duration for Summons": "4s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105747,
+                "icon": "abilities\/1057\/105747.webp",
+                "name": "Magical Unicorn Shield! - Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "12s",
+                    "Summons' Health": "400",
+                    "Maximum Duration for Summons": "4s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105751,
+                "icon": "abilities\/1057\/105751.webp",
+                "name": "Deadpool In Your Area - Duelist",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "<Debuff>Taunt<\/> and deal continuous damage to nearby enemies, disrupting their vision while gaining <Buff>Damage Reduction<\/>.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "12s",
+                    "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
+                    "Ability Duration": "5s",
+                    "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
+                    "Spell Field Damage": "15\/s",
+                    "Self Damage Reduction": "20%",
+                    "Damage Needed to Remove the Disruption": "100"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105752,
+                "icon": "abilities\/1057\/105752.webp",
+                "name": "Deadpool In Your Area - Duelist Upgraded",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "<Debuff>Taunt<\/> and deal continuous damage to nearby enemies, disrupting their vision while gaining <Buff>Damage Reduction<\/>. If enemies don't escape in time, the bottom of their screen gets further blocked.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "12s",
+                    "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
+                    "Ability Duration": "5s",
+                    "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
+                    "Spell Field Damage": "30\/s",
+                    "Self Damage Reduction": "35%",
+                    "Damage Needed to Remove the Disruption": "100"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105761,
+                "icon": "abilities\/1057\/105761.webp",
+                "name": "Slice And Dice!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Switch to dual katanas.",
+                "transformation_id": 1
+            },
+            {
+                "id": 105762,
+                "icon": "abilities\/1057\/105762.webp",
+                "name": "Lock And Load!",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Switch to dual pistols.",
+                "transformation_id": 1
+            },
+            {
+                "id": 105771,
+                "icon": "abilities\/1057\/105771.webp",
+                "name": "Skill Issue",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Select an enemy to <Debuff>taunt<\/>. They take damage whenever they miss an ability during the effect.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Ability Duration": "8s",
+                    "Damage From Per Ability Missed": "60"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105772,
+                "icon": "abilities\/1057\/105772.webp",
+                "name": "Skill Issue - Upgraded",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Select an enemy to <Debuff>taunt<\/>, dealing continuous damage. If they miss with an ability during the effect, they suffer extra damage and <Debuff>Vulnerability<\/>.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Ability Duration": "8s",
+                    "Damage Over Time": "25\/s",
+                    "Damage From Per Ability Missed": "60",
+                    "Vulnerability Ration From Ability Missed": "10% for each stack. Up to 4 stacks."
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105773,
+                "icon": "abilities\/1057\/105773.webp",
+                "name": "Pop Quiz!",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Initiate a challenge for yourself while gaining minor <Buff>Speed Boost<\/> and <Buff>Healing Over Time<\/>. Hit enough enemies with the indicated abilities in time for greatly enhanced <Buff>Speed<\/> and <Buff>Healing<\/>.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
+                    "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
+                    "Healing over Time": "Upon activation: 25\/s; challenge completed: 50\/s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105774,
+                "icon": "abilities\/1057\/105774.webp",
+                "name": "Pop Quiz! - Upgraded",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Initiate a challenge for yourself while gaining minor <Buff>Speed Boost<\/>, <Buff>Healing Over Time<\/>, and <Buff>Damage Boost<\/>. Hit enough enemies with the indicated abilities in time for greatly enhanced <Buff>Speed<\/>, <Buff>Healing<\/>, <Buff>Damage<\/>, and refresh all cooldowns except <Orange>Healing Factor<\/>.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Cooldown": "45s",
+                    "Damage Boost": "Upon activation: 15%; challenge completed: 30%",
+                    "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
+                    "Ability Duration": "The challenge lasts 12s. The buff lasts 8s after you complete it.",
+                    "Healing over Time": "Upon activation: 30\/s; challenge completed: 60\/s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 105781,
+                "name": "Comical Chaos",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range enjoy a plush-powered healing party!",
+                "additional_fields": {
+                    "Key": "Passive",
+                    "Team-Up Bonus": "+50 Max Health"
+                },
+                "transformation_id": 1
             }
         ]
     },
@@ -12931,7 +13922,7 @@ export const heroData =[
                     "Key": "Q",
                     "Range": "Cone shape spell field, angle range: 110°, length: 40m",
                     "Casting": "Targeted",
-                    "Energy Cost": "4300",
+                    "Energy Cost": "4500",
                     "Special Effect": "Gambit and the targeted ally receive the Purify and Jump Boost effect.",
                     "One-Time Healing": "100",
                     "Healing over time": "75\/s",
@@ -13012,7 +14003,7 @@ export const heroData =[
             {
                 "id": 106512,
                 "name": "Power Surge Punch (v)",
-                "type": "Melee",
+                "type": "Weapon",
                 "isCollab": false,
                 "transformation_id": 0
             },
@@ -13150,7 +14141,9 @@ export const heroData =[
                     "Energy Cost": "3400",
                     "Spell Field Range": "8m radius spherical spell field",
                     "Spell Field Damage": "15\/s",
-                    "Maximum Stats Stolen from Vanguards": "Self healing 75\/s",
+                    "Maximum Stats Stolen from Duelists": "35% damage boost",
+                    "Maximum Stats Stolen from Vanguards": "400 maximum health",
+                    "Maximum Stats Stolen from Strategists": "Self healing 75\/s",
                     "Ultimate Ability Energy Absorption Speed": "Absorb 4% of ultimate ability energy per second"
                 },
                 "transformation_id": 0
