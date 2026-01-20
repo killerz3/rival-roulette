@@ -1,6 +1,5 @@
 import React from 'react';
 import { Character } from '@/lib/process-data';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 type CharacterCardProps = {

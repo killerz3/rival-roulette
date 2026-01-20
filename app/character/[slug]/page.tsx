@@ -1,5 +1,4 @@
 import { processHeroData, type Character, type Ability } from "@/lib/process-data";
-import Image from "next/image";
 import Link from "next/link";
 import { Metadata, ResolvingMetadata } from "next";
 
@@ -76,13 +75,11 @@ export default async function CharacterPage({ params }: { params: Params }) {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="relative w-full h-[450px] rounded-lg overflow-hidden shadow-xl">
-            <Image
+            <img
               src={character.image}
               alt={character.name}
-              fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
-              priority
             />
           </div>
           
@@ -143,10 +140,9 @@ function AbilityCard({ ability }: { ability: Ability }) {
       <div className="flex items-center mb-4">
         {ability.icon && (
           <div className="relative w-12 h-12 mr-4">
-            <Image
+            <img
               src={ability.icon}
               alt={ability.name}
-              fill
               className="object-cover rounded"
               sizes="48px"
             />
