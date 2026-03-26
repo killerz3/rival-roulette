@@ -176,9 +176,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -192,9 +192,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -341,8 +341,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -368,8 +368,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -510,9 +510,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -526,9 +526,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -675,8 +675,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -702,8 +702,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -844,9 +844,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -860,9 +860,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -1009,8 +1009,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -1036,8 +1036,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -1178,9 +1178,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -1194,9 +1194,9 @@ export const heroData =[
                 "description": "Emit gamma-ray bursts to inflict damage. Reduce <Orange>Indestructible Guard<\/> cooldown upon hit.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "70",
+                    "Damage": "75",
                     "Casting": "Single-cast projectile that can pierce through enemies",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Special Effect": "Each direct hit reduces Indestructible Guard cooldown by 1s",
                     "Projectile Speed": "80m\/s"
                 },
@@ -1343,8 +1343,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -1370,8 +1370,8 @@ export const heroData =[
                     "Key": "Space",
                     "Casting": "Charged Dash",
                     "Special Effect": "Press Space during the Incredible Leap to cling to the wall you encounter",
-                    "Maximum Charge Time": "2s",
-                    "Minimum Charge Time": "0.5s",
+                    "Maximum Charge Time": "1.7s",
+                    "Minimum Charge Time": "0.4s",
                     "Speed at Maximum Charge Time": "25m\/s",
                     "Speed at Minimum Charge Time": "19m\/s"
                 },
@@ -1465,7 +1465,8 @@ export const heroData =[
             "1014502",
             "ps1014504",
             "ps1014505",
-            "1014503"
+            "1014503",
+            "1014301"
         ],
         "abilities": [
             {
@@ -1632,7 +1633,7 @@ export const heroData =[
                     "Casting": "Rapid-fire projectiles that hit instantly and have a tracking trajectory",
                     "Duration": "10s",
                     "Fire Rate": "33.33 rounds per second",
-                    "Energy Cost": "3700",
+                    "Energy Cost": "3400",
                     "Gatling Gun": " ",
                     "Critical Hit": "Yes",
                     "Damage Falloff": "Falloff begins at 20m, decreasing to 70% at 40m",
@@ -1831,14 +1832,15 @@ export const heroData =[
                 "name": "Weather Control",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Switch the weather to empower allies: Tornado grants a <Buff>Movement Boost<\/>; Thunder grants a <Buff>Damage Boost<\/>.",
+                "description": "Switch the weather to empower allies: Tornado grants a <Buff>Movement Boost<\/>. Gain <Buff>Bonus Health<\/> when dealing damage with <Orange>Wind Blade<\/> or <Orange>Bolt Rush<\/>. Thunder grants a <Orange>Damage Boost<\/>. Hitting enemies with <Orange>Wind Blade<\/> reduces the cooldown of <Orange>Bolt Rush<\/> and expands <Orange>Bolt Rush<\/>'s impact radius.",
                 "additional_fields": {
                     "Key": "SHIFT",
                     "Range": "15m spherical radius",
                     "Casting": "Spherical Spell Field",
                     "Thunder": " ",
                     "Tornado": " ",
-                    "Damage Boost (Ally)": "12%",
+                    "Special Effect": "Under this aura, Wind Blade hits reduce Bolt Rush cooldown by 0.5s (only once per cast, even if hitting multiple enemies). Increase Bolt Rush spell field range radius from 1m to 1.5m",
+                    "Damage Boost (Ally)": "8%",
                     "Damage Boost (Self)": "12%",
                     "Movement Boost (Ally)": "8%",
                     "Movement Boost (Self)": "16%"
@@ -1984,7 +1986,8 @@ export const heroData =[
             "ps1016303",
             "1016302",
             "1016101",
-            "1016502"
+            "1016502",
+            "1016503"
         ],
         "abilities": [
             {
@@ -2011,16 +2014,16 @@ export const heroData =[
                 "description": "Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing.",
                 "additional_fields": {
                     "Key": "Left Click",
-                    "Ammo": "12",
+                    "Ammo": "10",
                     "Range": "3m spherical radius",
                     "Damage": "The projectile deals no damage, while the spell field inflicts 25 damage per cast",
                     "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
                     "Fire Rate": "1.75 rounds per second",
                     "Critical Hit": "No",
                     "Damage Falloff": "Falloff begins at 0.5m, decreasing to 80% at 2.5m",
-                    "Healing Amount": "The projectile does not provide healing, but the spell field provides 40 Health per cast",
-                    "Special Effect": "Heals directly hit allies for an extra 10 Health",
-                    "Projectile Speed": "100 m\/s"
+                    "Healing Per Hit": "10 per hit",
+                    "Projectile Speed": "100 m\/s",
+                    "Area Of Effect Healing": "40 per hit"
                 },
                 "transformation_id": 0
             },
@@ -2146,16 +2149,16 @@ export const heroData =[
                 "description": "Fire Mystical Missiles to heal allies or deal damage to enemies. Direct hits on allies provide extra healing.",
                 "additional_fields": {
                     "Key": "Left Click",
-                    "Ammo": "12",
+                    "Ammo": "10",
                     "Range": "3m spherical radius",
                     "Damage": "The projectile deals no damage, while the spell field inflicts 25 damage per cast",
                     "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
                     "Fire Rate": "1.75 rounds per second",
                     "Critical Hit": "No",
                     "Damage Falloff": "Falloff begins at 0.5m, decreasing to 80% at 2.5m",
-                    "Healing Amount": "The projectile does not provide healing, but the spell field provides 40 Health per cast",
-                    "Special Effect": "Heals directly hit allies for an extra 10 Health",
-                    "Projectile Speed": "100 m\/s"
+                    "Healing Per Hit": "10 per hit",
+                    "Projectile Speed": "100 m\/s",
+                    "Area Of Effect Healing": "40 per hit"
                 },
                 "transformation_id": 1
             },
@@ -2546,7 +2549,8 @@ export const heroData =[
         "description": "As the Sorcerer Supreme, Dr. Stephen Strange gracefully wields ancient spells to turn the tide of even the most impossible battle. However, magic always comes at a cost, and each use of his arcane abilities gradually awakens the darkness within him.",
         "slug": "doctor-strange",
         "team": [
-            "Avengers"
+            "Avengers",
+            "Midnightsons"
         ],
         "difficulty": "2",
         "attack_type": "Projectile Heroes",
@@ -2566,7 +2570,9 @@ export const heroData =[
             "1018501",
             "1018301",
             "1018101",
-            "1018302"
+            "1018302",
+            "1018303",
+            "1018304"
         ],
         "abilities": [
             {
@@ -2619,7 +2625,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Right Click",
                     "Casting": "Channeled",
-                    "Recovery Speed": "70\/s",
+                    "Recovery Speed": "60\/s",
                     "Maximum Shield Value": "800",
                     "Cooldown After Destroyed": "3s",
                     "Delayed Recovery After Release": "1s"
@@ -2636,7 +2642,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "E",
                     "Range": "8m spherical radius",
-                    "Damage": "Each point of Dark Magic deals 1.2 damage",
+                    "Damage": "Each point of Dark Magic deals 1.3 damage",
                     "Casting": "Single-cast spell field that surrounds the caster",
                     "Cooldown": "6s"
                 },
@@ -2648,7 +2654,25 @@ export const heroData =[
                 "name": "Gamma Maelstrom",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming <Buff>Unstoppable<\/> and blocking attacks. The Thing gains Gamma Gauntlets, boosting <Buff>Damage<\/> and range of his <Orange>Rocky Jab<\/> and <Orange>Stone Haymaker<\/>. Dealing damage with these attacks grants <Buff>Bonus Health<\/>, and maximum <Buff>Bonus Health<\/> cap is increased.",
+                "transformation_id": 0
+            },
+            {
+                "id": 101853,
+                "name": "Psionic Vortex",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Invisible Woman enhances Doctor Strange's <Orange>Maelstrom of Madness<\/> with a psionic explosion. The explosion damages and pulls enemies toward Doctor Strange. Based on the explosion's damage, Doctor Strange and nearby allies gain <Buff>Bonus Health<\/>.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Range": "8m spherical radius spell field",
+                    "Damage": "Each point of energy deals 1.3 damage.",
+                    "Cooldown": "6s",
+                    "Special Effect": "The spell field pulls enemies in range toward Doctor Strange",
+                    "Bonus Max Health": "75",
+                    "Ally Bonus Health Conversion": "0.2",
+                    "Self Bonus Health Conversion": "0.3"
+                },
                 "transformation_id": 0
             },
             {
@@ -3044,7 +3068,8 @@ export const heroData =[
             "1021501",
             "1021502",
             "1021101",
-            "1021301"
+            "1021301",
+            "1021102"
         ],
         "abilities": [
             {
@@ -3093,7 +3118,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Left Click",
                     "Ammo": "Infinite",
-                    "Damage": "8.5 - 85 (Maximum damage is achieved after 0.9s of charging)",
+                    "Damage": "28 - 70 (Maximum damage is achieved after 0.9s of charging)",
                     "Casting": "Charged projectile with an arced trajectory",
                     "Critical Hit": "Yes",
                     "Projectile Speed": "120 - 180 m\/s (Maximum speed is achieved after 0.9s of charging)",
@@ -3309,7 +3334,8 @@ export const heroData =[
             "1022500",
             "1022502",
             "1022503",
-            "1022504"
+            "1022504",
+            "1022301"
         ],
         "abilities": [
             {
@@ -3448,7 +3474,7 @@ export const heroData =[
                     "Key": "E",
                     "Damage": "Start at 70, with a 20% reduction for each ricochet",
                     "Casting": "Single-cast projectile that can ricochet",
-                    "Cooldown": "8s",
+                    "Cooldown": "6s",
                     "Maximum Distance": "25m",
                     "Projectile Speed": "80 m\/s",
                     "Number of Ricochets": "3"
@@ -3587,7 +3613,9 @@ export const heroData =[
             "ps1023304",
             "1023500",
             "1023101",
-            "1023305"
+            "1023305",
+            "1023306",
+            "1023307"
         ],
         "abilities": [
             {
@@ -3599,7 +3627,7 @@ export const heroData =[
                 "description": "Hold {Jump} to run on a wall.",
                 "additional_fields": {
                     "Key": "Space",
-                    "Wall-Crawling Speed": "10m\/s"
+                    "Wall-Crawling Speed": "8m\/s"
                 },
                 "transformation_id": 0
             },
@@ -3745,7 +3773,7 @@ export const heroData =[
                 "name": "Web Server",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
+                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/> for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his <Orange>Elasticity<\/> limit and letting him actively enter Inflation state.",
                 "additional_fields": {
                     "Key": "E",
                     "Cooldown": "45s",
@@ -3882,7 +3910,11 @@ export const heroData =[
             "1024302",
             "1024303",
             "1024304",
-            "1024800"
+            "1024800",
+            "1024305",
+            "1024306",
+            "ps1024309",
+            "ps1024310"
         ],
         "abilities": [
             {
@@ -3924,7 +3956,7 @@ export const heroData =[
                     "Casting": "Single-cast direct hit",
                     "Fire Rate": "2 rounds per second",
                     "Critical Hit": "Yes",
-                    "Damage Falloff": "Falloff begins at 18m, decreasing to 80% at 30m"
+                    "Damage Falloff": "Falloff begins at 18m, decreasing to 70% at 30m"
                 },
                 "transformation_id": 0
             },
@@ -4246,9 +4278,10 @@ export const heroData =[
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
                     "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
-                    "Cooldown": "12s",
+                    "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
                     "Duration": "6s",
-                    "Healing Amount": "55\/s"
+                    "Healing Amount": "45\/s",
+                    "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
                 },
                 "transformation_id": 0
             },
@@ -4356,7 +4389,7 @@ export const heroData =[
                     "Key": "Right Click",
                     "Range": "10m spherical radius",
                     "Casting": "Persistent Spell Field",
-                    "Cooldown": "12s",
+                    "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
                     "Duration": "2s",
                     "Special Effect": "Allies within the area gain Invisibility and Movement Boost"
                 },
@@ -4445,9 +4478,10 @@ export const heroData =[
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
                     "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
-                    "Cooldown": "12s",
+                    "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
                     "Duration": "6s",
-                    "Healing Amount": "55\/s"
+                    "Healing Amount": "45\/s",
+                    "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
                 },
                 "transformation_id": 1
             },
@@ -4555,7 +4589,7 @@ export const heroData =[
                     "Key": "Right Click",
                     "Range": "10m spherical radius",
                     "Casting": "Persistent Spell Field",
-                    "Cooldown": "12s",
+                    "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
                     "Duration": "2s",
                     "Special Effect": "Allies within the area gain Invisibility and Movement Boost"
                 },
@@ -4644,9 +4678,10 @@ export const heroData =[
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
                     "Casting": "Single-cast projectile with delayed impact that also generates a spell field",
-                    "Cooldown": "12s",
+                    "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
                     "Duration": "6s",
-                    "Healing Amount": "55\/s"
+                    "Healing Amount": "45\/s",
+                    "Special Effect": "When a Spell Field is created, allies in range get a One-Time Healing of 60"
                 },
                 "transformation_id": 2
             },
@@ -4754,7 +4789,7 @@ export const heroData =[
                     "Key": "Right Click",
                     "Range": "10m spherical radius",
                     "Casting": "Persistent Spell Field",
-                    "Cooldown": "12s",
+                    "Cooldown": "Veil of Lightforce & Terror Cape share charges, capped out at 2 with each taking 10s to recharge. After using either, both abilities enter a 2s cooldown",
                     "Duration": "2s",
                     "Special Effect": "Allies within the area gain Invisibility and Movement Boost"
                 },
@@ -4961,7 +4996,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Right Click",
                     "Range": "5m spherical radius",
-                    "Damage": "45",
+                    "Damage": "50",
                     "Casting": "Arced projectile that generates a spell field upon impact",
                     "Charges": "2",
                     "Cooldown": "6s",
@@ -5001,7 +5036,8 @@ export const heroData =[
                     "Damage": "150",
                     "Casting": "Cuboid Spell Field",
                     "Energy Cost": "3300",
-                    "Casting Angle": "150°"
+                    "Casting Angle": "150°",
+                    "Special Effect": "Gain 50% Damage Reduction during Bast's Descent startup animation"
                 },
                 "transformation_id": 0
             },
@@ -5104,7 +5140,8 @@ export const heroData =[
             "1027800",
             "1027302",
             "1027501",
-            "1027502"
+            "1027502",
+            "1027303"
         ],
         "abilities": [
             {
@@ -5351,7 +5388,9 @@ export const heroData =[
             "1028100",
             "1028101",
             "1028800",
-            "1028300"
+            "1028300",
+            "1028102",
+            "1028502"
         ],
         "abilities": [
             {
@@ -5473,7 +5512,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "E",
                     "Casting": "Targeted",
-                    "Maximum Vision": "30m",
+                    "Maximum Vision": "35m",
                     "Special Effect": "Imperative: Patch can deploy up to 2 drones, allowing support for two allies at once",
                     "Target Distance": "25m",
                     "Drone Healing Range": "8m spherical radius spell field",
@@ -5580,7 +5619,8 @@ export const heroData =[
         "slug": "magik",
         "team": [
             "X_men",
-            "Mutants"
+            "Mutants",
+            "Midnightsons"
         ],
         "difficulty": "3",
         "attack_type": "Melee Heroes",
@@ -6213,7 +6253,8 @@ export const heroData =[
         "description": "As the avatar of the Egyptian God of Vengeance, Marc Spector's body has been enhanced by Khonshu himself. Bathed in a luminous aura that pierces the darkness, Moon Knight glides through the night, ready to sear his enemies with his master's sacred Ankhs.",
         "slug": "moon-knight",
         "team": [
-            "Marvelknights"
+            "Marvelknights",
+            "Midnightsons"
         ],
         "difficulty": "3",
         "attack_type": "Projectile Heroes",
@@ -6233,7 +6274,8 @@ export const heroData =[
             "1030101",
             "1030501",
             "1030801",
-            "1030301"
+            "1030301",
+            "1030302"
         ],
         "abilities": [
             {
@@ -6313,7 +6355,7 @@ export const heroData =[
                     "Casting": "Projectile that fires in a straight trajectory",
                     "Charges": "2",
                     "Cooldown": "6s",
-                    "Bonus Health": "25",
+                    "Bonus Health": "25, up to a max of 76 Bonus Health",
                     "Critical Hit": "Yes",
                     "Damage Falloff": "Falloff begins at 30m, decreasing to 50% at 50m",
                     "Projectile Speed": "120m\/s",
@@ -6411,7 +6453,7 @@ export const heroData =[
                 "name": "Moon God's Chosen",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/>forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
+                "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/> forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "5% Damage Boost"
@@ -6499,7 +6541,11 @@ export const heroData =[
             "1031305",
             "1031308",
             "ps1031310",
-            "ps1031311"
+            "ps1031311",
+            "1031309",
+            "ps1031314",
+            "ps1031315",
+            "1031312"
         ],
         "abilities": [
             {
@@ -6555,7 +6601,7 @@ export const heroData =[
                 "name": "Ice Arts",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health.",
+                "description": "Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health. Participating in a KO reduces the cooldown of <Orange>Ice Arts<\/>.",
                 "additional_fields": {
                     "Key": "SHIFT",
                     "Range": "A cylindrical spell field with a radius of 1m and a height of 40m",
@@ -6651,6 +6697,25 @@ export const heroData =[
                 "isCollab": false,
                 "description": "Luna Snow grants Winter's Chill to Iron Fist and Emma Frost. When Iron Fist activates <Orange>Harmony Recovery<\/>, he can heal nearby allies with <Orange>Lunar Chi<\/>. Emma Frost can project ice energy forward, dealing damage and <Debuff>slowing<\/> enemies. She can also enhance her diamond form, condensing frost into an <Orange>Iced Out Diamond<\/> barrier that blocks enemy attacks and movement.",
                 "transformation_id": 0
+            },
+            {
+                "id": 103197,
+                "name": "Spirit Fox Accord",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "White Fox grants Luna Snow a spirit fox for protection. Luna can activate it for a burst of <Buff>speed<\/> and fire it forward, healing allies in its path while applying <Debuff>Charm<\/> to enemies.",
+                "additional_fields": {
+                    "Key": "C",
+                    "Damage": "35",
+                    "Cooldown": "20s",
+                    "Charm Duration": "0.4s",
+                    "Healing Amount": "60",
+                    "Projectile Speed": "60 m\/s",
+                    "Charm Area Radius": "0.8m",
+                    "Damage Area Radius": "3m",
+                    "Movement Boost (Self)": "30% for 4s"
+                },
+                "transformation_id": 0
             }
         ],
         "meta": [
@@ -6729,7 +6794,8 @@ export const heroData =[
             "1032302",
             "1032501",
             "1032303",
-            "1032304"
+            "1032304",
+            "1032305"
         ],
         "abilities": [
             {
@@ -7235,7 +7301,8 @@ export const heroData =[
             "1034300",
             "1034502",
             "1034503",
-            "1034504"
+            "1034504",
+            "1034301"
         ],
         "abilities": [
             {
@@ -7376,7 +7443,7 @@ export const heroData =[
                 "name": "Armor Overdrive",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Activate <Orange>Armor Overdrive<\/> state, enhancing damage of <Orange>Repulsor Blast<\/> and <Orange>Unibeam<\/>, while also granting <Buff>Bonus Health<\/>.",
+                "description": "Activate <Orange>Armor Overdrive<\/> state, enhancing damage of <Orange>Repulsor Blast<\/> and <Orange>Unibeam<\/>, while also granting <Buff>Bonus Health<\/>. Participating in a KO increases the active time of <Orange>Armor Overdrive<\/>.",
                 "additional_fields": {
                     "Key": "E",
                     "Cooldown": "20s",
@@ -7390,7 +7457,7 @@ export const heroData =[
                 "name": "Armor Overdrive",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Activate <Orange>Armor Overdrive<\/> state, enhancing damage of <Orange>Repulsor Blast<\/> and <Orange>Unibeam<\/>, while also granting <Buff>Bonus Health<\/>.",
+                "description": "Activate <Orange>Armor Overdrive<\/> state, enhancing damage of <Orange>Repulsor Blast<\/> and <Orange>Unibeam<\/>, while also granting <Buff>Bonus Health<\/>. Participating in a KO increases the active time of <Orange>Armor Overdrive<\/>.",
                 "additional_fields": {
                     "Key": "E",
                     "Cooldown": "20s",
@@ -7404,7 +7471,7 @@ export const heroData =[
                 "name": "Gamma Overdrive",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Hulk charges Black Panther with gamma radiation, strengthening his Vibranium armor. When Black Panther's health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming <Buff>Unstoppable<\/> and blocking attacks. The Thing gains Gamma Gauntlets, boosting <Buff>Damage<\/> and range of his <Orange>Rocky Jab<\/> and <Orange>Stone Haymaker<\/>. Dealing damage with these attacks grants <Buff>Bonus Health<\/>, and maximum <Buff>Bonus Health<\/> cap is increased.",
                 "transformation_id": 0
             },
             {
@@ -7511,7 +7578,7 @@ export const heroData =[
                 "id": 0,
                 "icon": "characters\/venom-headbig-0.webp",
                 "name": "Venom",
-                "health": "650",
+                "health": "675",
                 "movement_speed": "6 m\/s"
             }
         ],
@@ -7568,7 +7635,7 @@ export const heroData =[
                 "type": "Normal",
                 "isCollab": false,
                 "additional_fields": {
-                    "Health": "650",
+                    "Health": "675",
                     "Movement Speed": "6 m\/s"
                 },
                 "transformation_id": 0
@@ -7677,7 +7744,7 @@ export const heroData =[
                     "Casting": "Single-cast spell field that surrounds the caster",
                     "Energy Cost": "2500",
                     "Movement Boost": "80%",
-                    "Special Effect": "100% of damage dealt is converted into Bonus Health",
+                    "Special Effect": "130% of damage dealt is converted into Bonus Health",
                     "Maximum Duration": "4s",
                     "HEALING REDUCTION DURATION": "4s",
                     "\n\t\t\t\t\t\tHEALING REDUCTION PROPORTION\n\t\t\t\t\t\t": "30%"
@@ -7766,7 +7833,8 @@ export const heroData =[
             "1036502",
             "1036505",
             "1036508",
-            "1036801"
+            "1036801",
+            "1036509"
         ],
         "abilities": [
             {
@@ -8082,7 +8150,8 @@ export const heroData =[
             "1037300",
             "1037102",
             "1037302",
-            "1037301"
+            "1037301",
+            "1037502"
         ],
         "abilities": [
             {
@@ -8371,7 +8440,11 @@ export const heroData =[
             "ps1038302",
             "1038301",
             "1038801",
-            "1038502"
+            "1038502",
+            "1038304",
+            "ps1038305",
+            "ps1038306",
+            "1038102"
         ],
         "abilities": [
             {
@@ -8470,7 +8543,7 @@ export const heroData =[
                 "name": "Reality Erasure",
                 "type": "Ultimate",
                 "isCollab": false,
-                "description": "Engage in free-flight while charging energy and continuously <Debuff>pulling in<\/> nearby enemies, then unleash it to deal massive damage.",
+                "description": "Engage in free-flight while gaining <Buff>Bonus Health<\/> and charging energy. While flying, continuously <Debuff>pull in<\/> nearby enemies, then unleash charged energy to deal massive area damage.",
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "15m spherical radius",
@@ -8626,7 +8699,11 @@ export const heroData =[
             "1039300",
             "ps1039302",
             "1039301",
-            "1039303"
+            "1039303",
+            "1039504",
+            "ps1039507",
+            "ps1039508",
+            "1039505"
         ],
         "abilities": [
             {
@@ -8641,7 +8718,7 @@ export const heroData =[
                     "Bonus Max Health": "150",
                     "Maximum Thorforce": "3",
                     "Thorforce Recovery Speed": "5s per Thorforce",
-                    "Bonus Health Per Thorforce": "Each point of Thorforce consumed grants 75 Bonus Health, while abilities that consume 3 points of Thorforce grant 150 Bonus Health",
+                    "Bonus Health Per Thorforce": "Each point of Thorforce consumed grants 50 Bonus Health, while abilities that consume 3 points of Thorforce grant 150 Bonus Health",
                     "Thorforce Consumption Cooldown": "1.5s",
                     "Mjolnir Bash Energy Recovery Per Thorforce": "5s"
                 },
@@ -8672,13 +8749,14 @@ export const heroData =[
                 "name": "Hammer Throw",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Throw Mjolnir forward which then returns. Restore <Orange>Thorforce<\/> upon hit.",
+                "description": "Throw Mjolnir forward, which then returns. Restore <Orange>Thorforce<\/> upon hit and gain <Buff>Bonus Health<\/>.",
                 "additional_fields": {
                     "Key": "Right Click",
                     "Damage": "Outward Projectile Damage: 45; Returning Projectile Damage: 20",
                     "Casting": "Launch a single-target projectile that returns after a delayed hit",
                     "Cooldown": "6s",
                     "Critical Hit": "No",
+                    "Special Effect": "Hits grant 50 Bonus Health (only triggers once per throw, even if hitting multiple enemies)",
                     "Maximum Distance": "24m",
                     "Projectile Speed": "The projectile travels outward at a speed of 60m per second and returns at a speed of 80m per second"
                 },
@@ -9309,7 +9387,10 @@ export const heroData =[
             "1042301",
             "ps1042304",
             "1042302",
-            "1042303"
+            "1042303",
+            "1042305",
+            "ps1042308",
+            "ps1042309"
         ],
         "abilities": [
             {
@@ -9418,7 +9499,7 @@ export const heroData =[
                 "name": "Armored Spider-nest",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
+                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/> for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his <Orange>Elasticity<\/> limit and letting him actively enter Inflation state.",
                 "transformation_id": 0
             },
             {
@@ -9635,7 +9716,7 @@ export const heroData =[
                 "name": "Armored Spider-nest",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/>. Star-Lord gets a teleport to its deployment point from anywhere on the map.",
+                "description": "Rocket Raccoon upgrades his <Orange>B.R.B.<\/> for Star-Lord and Mister Fantastic. Star-Lord gets an Astral Jump device, allowing him to teleport to its deployment point from anywhere on the map. Mister Fantastic receives a Fantastic Amplifier, removing his <Orange>Elasticity<\/> limit and letting him actively enter Inflation state.",
                 "transformation_id": 1
             },
             {
@@ -9918,7 +9999,7 @@ export const heroData =[
                     "Casting": "Rapid-fire projectile.",
                     "Duration": "8s",
                     "Fire Rate": "40 rounds per second",
-                    "Energy Cost": "3400",
+                    "Energy Cost": "3100",
                     "Critical Hit": "No",
                     "Damage Falloff": "Falloff begins at 25m, decreasing to 75% at 40m",
                     "Movement Boost": "20%",
@@ -10008,7 +10089,8 @@ export const heroData =[
         "slug": "blade",
         "team": [
             "Marvelknights",
-            "Avengers"
+            "Avengers",
+            "Midnightsons"
         ],
         "difficulty": "3",
         "attack_type": "Projectile Heroes",
@@ -10056,9 +10138,9 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Left Click",
                     "Casting": "Projectile that fires in a straight trajectory, which breaks into shrapnel after reaching a certain distance",
-                    "Shrapnel Amount": "12",
+                    "Shrapnel Amount": "11",
                     "Damage per Shrapnel Hit": "8",
-                    "Shrapnel Damage Falloff": "Falloff begins at 20m, decreasing to 40% at 30m",
+                    "Shrapnel Damage Falloff": "Falloff begins at 15m, decreasing to 50% at 30m",
                     "Initial Projectile Speed": "150 m\/s",
                     "Initial Projectile Damage": "45",
                     "Shrapnel Projectile Speed": "150 m\/s",
@@ -10084,15 +10166,15 @@ export const heroData =[
                     "Key": "Shift",
                     "Damage": "20",
                     "Casting": "Dash. Cause damage and special effects to the enemies hit",
-                    "Slow Rate": "35%",
+                    "Slow Rate": "40%",
                     "Dash Distance": "15m",
-                    "Slow Duration": "1s",
-                    "Special Effect": "Hit while wielding the gun, deal Healing Reduction to the enemy; hit while wielding the sword, inflict Slow effect to the enemy",
-                    "Gun Second Hit Damage": "20",
+                    "Slow Duration": "1.5s",
+                    "Special Effect": "Hit while wielding the gun, inflict Slow effect to the enemy; hit while wielding the sword,  deal Healing Reduction to the enemy",
+                    "Gun Second Hit Damage": "50",
                     "Second Hit Damage Range": "6.5m",
-                    "Sword Second Hit Damage": "15 per hit, 4 hits in total",
-                    "Healing Reduction Duration": "3.5s",
-                    "Healing Reduction Proportion": "40%"
+                    "Sword Second Hit Damage": "8 per hit, 4 hits in total",
+                    "Healing Reduction Duration": "4s",
+                    "Healing Reduction Proportion": "apply 8% Healing Reduction per strike (32% total if all hit)"
                 },
                 "transformation_id": 0
             },
@@ -10110,7 +10192,7 @@ export const heroData =[
                 "name": "Bloodline Awakening",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering <Orange>Whirlwind Slash<\/>. If all <Orange>Whirlwind Slash<\/> strikes hit, your <Buff>Attack Speed<\/> will further increase. While under this state, you suffer <Debuff>Reduced Healing<\/>, but attacks gain <Buff>Lifesteal<\/>.",
+                "description": "Awaken the Dhampir bloodline, enhancing slash speed during continuous attacks and triggering <Orange>Whirlwind Slash<\/>. If all <Orange>Whirlwind Slash<\/> strikes hit, your <Buff>Attack Speed<\/> will further increase. While under this state, you suffer <Debuff>Reduced Healing<\/>, but attacks gain <Buff>Lifesteal<\/>. Excess lifesteal converts to <Buff>Bonus Health<\/>.",
                 "additional_fields": {
                     "Key": "E",
                     "Special Effect": "Landing all four hits of Whirlwind Slash grants 1 slash speed stack",
@@ -10204,7 +10286,7 @@ export const heroData =[
                 "name": "Eclipse Edge",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/>forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
+                "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/> forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
                 "additional_fields": {
                     "Key": "C",
                     "Damage": "40",
@@ -10224,7 +10306,7 @@ export const heroData =[
                 "name": "Darkmoon Blades Fired",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/>forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
+                "description": "Blessed by Khonshu, Blade gains a new ability. When activated, Blade swings his <Orange>Ancestral Sword<\/> in a powerful slash, dashing forward a short distance. At the end of the dash, he swiftly slashes four times, each strike sending a <Orange>Darkmoon Blade<\/> forward. When a <Orange>Darkmoon Blade<\/> hits an enemy, it bounces to nearby targets.",
                 "transformation_id": 0
             }
         ],
@@ -10397,9 +10479,9 @@ export const heroData =[
                     "Default": " ",
                     "Duration": "2s",
                     "Enhanced": " ",
-                    "Monstro Spawn Damage": "11",
-                    "Monstro Spawn Health": "100",
-                    "Default Charging Speed": "0.083\/s",
+                    "Monstro Spawn Damage": "12",
+                    "Monstro Spawn Health": "125",
+                    "Default Charging Speed": "0.1\/s",
                     "Monstro Spawn Fire Rate": "5 rounds per second",
                     "Monstro Spawn Attack Range": "40m",
                     "Monstro Spawn Damage Falloff": "Falloff begins at 20m, decreasing to 30% at 40m",
@@ -10480,10 +10562,10 @@ export const heroData =[
             },
             {
                 "id": 104591,
-                "name": "Gamma Monstro",
+                "name": "Gamma Charge",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Hulk charges Namor and Black Panther with gamma radiation. Namor can summon an extra <Orange>Gamma Monstro<\/> which will continuously fire gamma rays at locked-on enemies. The longer the rays hit, the higher the damage. Black Panther's Vibranium armor is enhanced; when his health is low he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>.",
+                "description": "Hulk charges Black Panther and The Thing with gamma radiation. When Black Panther's health is low, he gains a gamma shield, becoming <Buff>Unstoppable<\/> and blocking attacks. The Thing gains Gamma Gauntlets, boosting <Buff>Damage<\/> and range of his <Orange>Rocky Jab<\/> and <Orange>Stone Haymaker<\/>. Dealing damage with these attacks grants <Buff>Bonus Health<\/>, and maximum <Buff>Bonus Health<\/> cap is increased.",
                 "transformation_id": 0
             },
             {
@@ -10583,7 +10665,8 @@ export const heroData =[
             "1046101",
             "1046102",
             "1046500",
-            "1046302"
+            "1046302",
+            "1046501"
         ],
         "abilities": [
             {
@@ -10680,7 +10763,7 @@ export const heroData =[
                 "name": "Soul Bond",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Forge a soul bond with allies, granting <Buff>Healing Over Time<\/> and distributing damage taken across the bond.",
+                "description": "Forge a soul bond with allies, granting <Buff>Healing Over Time<\/> and distributing damage taken across the bond. While the bond persists, Adam can fly freely.",
                 "additional_fields": {
                     "Key": "SHIFT",
                     "Range": "15m",
@@ -10688,7 +10771,8 @@ export const heroData =[
                     "Cooldown": "40s",
                     "Duration": "6s",
                     "Healing Amount": "15\/s",
-                    "Special Effect": "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed",
+                    "Special Effect 1": "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed",
+                    "Special Effect 2": "Adam can hover and attack during the ability's duration",
                     "Maximum Damage Shared Per Target": "250"
                 },
                 "transformation_id": 0
@@ -10701,13 +10785,11 @@ export const heroData =[
                 "isCollab": false,
                 "description": "Awaken the karma of allies to revive them. Allies revived have lower health but gain some <Buff>Bonus Health<\/> and enjoy a brief period of invincibility.",
                 "additional_fields": {
-                    "Key": "Q",
-                    "Range": "35m spherical radius",
-                    "Casting": "Persistent spell field that surrounds the caster",
-                    "Duration": "10s",
-                    "Energy Cost": "4500",
-                    "Special Effect": "Revive allies within range, centered on Adam. Continuously monitor for fallen allies within this range; if they enter the area, they can be revived at the casting location",
-                    "Health Upon Revival": "Allies revived will be blessed with Bonus Health equal to 70% of their Maximum Health with a 5s duration. Bonus Health falloff begins at 5s, decreasing to 0 in 2s."
+                    "Key": "F",
+                    "ENERGY COST": "30\/s",
+                    "MAXIMUM ENERGY": "120",
+                    "MOVEMENT BOOST": "40m\/s",
+                    "ENERGY RECOVERY SPEED": "8\/s"
                 },
                 "transformation_id": 0
             }
@@ -10792,7 +10874,10 @@ export const heroData =[
             "1047502",
             "ps1047305",
             "ps1047306",
-            "1047800"
+            "1047307",
+            "1047800",
+            "ps1047310",
+            "ps1047311"
         ],
         "abilities": [
             {
@@ -11007,7 +11092,11 @@ export const heroData =[
             "ps1048306",
             "1048302",
             "ps1048307",
-            "ps1048308"
+            "ps1048308",
+            "1048303",
+            "1048304",
+            "ps1048311",
+            "ps1048312"
         ],
         "abilities": [
             {
@@ -11032,7 +11121,7 @@ export const heroData =[
                     "Casting": "Double projectile with spread",
                     "Fire Rate": "The firing interval between shots is 0.2s, with an interval of 0.6s between each round of shooting",
                     "Critical Hit": "Yes",
-                    "Damage Falloff": "Falloff begins at 15m, decreasing to 60% at 30m",
+                    "Damage Falloff": "Falloff begins at 15m, decreasing to 70% at 30m",
                     "Critical Damage": "150%",
                     "Bullets Fired Each Cast": "4",
                     "Cooldown Reduction On Hit": "0.25s per hit",
@@ -11109,7 +11198,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Q",
                     "Range": "10m spherical radius",
-                    "Damage": "170 damage per hit",
+                    "Damage": "160 damage per hit",
                     "Duration": "4s",
                     "Slow Rate": "-15%",
                     "Energy Cost": "3400",
@@ -11300,7 +11389,7 @@ export const heroData =[
                 "description": "<Debuff>Launch Up<\/> enemies ahead and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point. Impact deals extra damage based on <Orange>Rage<\/> accumulated.",
                 "additional_fields": {
                     "Key": "Q",
-                    "Energy Cost": "3400",
+                    "Energy Cost": "2800",
                     "Impact Range": "8m spherical radius",
                     "Knockdown Time": "0.75s",
                     "Knockback Range": "8m spherical radius",
@@ -11502,13 +11591,13 @@ export const heroData =[
                     "Casting": "Targeted",
                     "Slow Rate": "35%",
                     "Slow Duration": "3s",
-                    "Healing Amount": "50\/sec",
+                    "Healing Amount": "50\/sec, self 25\/sec",
                     "Special Effect 1": "Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time",
                     "Special Effect 2": "After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value",
                     "Special Effect 3": "If no Guardian Shield is present, pressing the recall key now deploys a shield in front of Invisible Woman",
-                    "Maximum Shield Value": "250",
+                    "Maximum Shield Value": "200",
                     "Cooldown After Destroyed": "6s",
-                    "Recovery Shield Value Per Second": "50"
+                    "Recovery Shield Value Per Second": "34"
                 },
                 "transformation_id": 0
             },
@@ -11560,7 +11649,7 @@ export const heroData =[
                     "Range": "1.5m radius, 35m length",
                     "Damage": "55",
                     "Casting": "Cylindrical Spell Field",
-                    "Cooldown": "8s",
+                    "Cooldown": "10s",
                     "Pull-Range": "7m",
                     "Push Range": "12m"
                 },
@@ -11677,7 +11766,8 @@ export const heroData =[
             "1051301",
             "1051300",
             "ps1051302",
-            "1051102"
+            "1051102",
+            "1051504"
         ],
         "abilities": [
             {
@@ -11790,6 +11880,22 @@ export const heroData =[
                     "Special Effect": "Stun duration 2.5s"
                 },
                 "transformation_id": 0
+            },
+            {
+                "id": 105193,
+                "name": "Gamma Jab",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Rapidly punch forward with Gamma-powered jabs.",
+                "transformation_id": 0
+            },
+            {
+                "id": 105194,
+                "name": "Gamma Gauntlets",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Hulk charges Black Panther and The Thing with gamma radiation. Black Panther's Vibranium armor is enhanced; when his health is low, he receives a gamma shield, blocking incoming attacks and becoming <Buff>Unstoppable<\/>. The Thing gains Gamma Gauntlets. While active, <Orange>Rocky Jab<\/> and <Orange>Stone Haymaker<\/> deal increased <Buff>Damage<\/> and have extended Attack Range. During this period, hitting enemies with these attacks grants <Buff>Bonus Health<\/>, and maximum <Buff>Bonus Health<\/> cap is increased.",
+                "transformation_id": 0
             }
         ],
         "meta": [
@@ -11869,7 +11975,9 @@ export const heroData =[
             "1052301",
             "1052502",
             "1052101",
-            "1052302"
+            "1052302",
+            "ps1052304",
+            "ps1052305"
         ],
         "abilities": [
             {
@@ -11901,7 +12009,7 @@ export const heroData =[
                 "description": "Strike the targeted enemy with Jeet Kune Do, and the last strike will <Debuff>Launch Up<\/> enemies, reducing the cooldown of <Orange>Dragon's Defense<\/> with every hit.",
                 "additional_fields": {
                     "Key": "Left Click",
-                    "Damage": "The first four strikes each deal 30 damage, while the fifth strike deals 55 damage",
+                    "Damage": "The first four strikes each deal 35 damage, while the fifth strike deals 55 damage",
                     "Casting": "Melee",
                     "Attack Interval": "The first four strikes have an interval of 0.45s between them, while the fifth strike has a 0.67s interval from the fourth strike",
                     "Maximum Distance": "3m",
@@ -11941,7 +12049,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "Right Click",
                     "Cooldown": "15s",
-                    "Block Time": "1s",
+                    "Block Time": "1.2s",
                     "Damage Reduction": "30%",
                     "Max Health\/Damage Blocked Conversion": "175",
                     "Bonus Health\/Damage Blocked Conversion": "1.3"
@@ -12124,7 +12232,9 @@ export const heroData =[
             "1053101",
             "1053102",
             "1053501",
-            "1053300"
+            "1053300",
+            "1053301",
+            "1053502"
         ],
         "abilities": [
             {
@@ -12147,7 +12257,7 @@ export const heroData =[
                     "Damage": "Damage increases with energy: 0 - 70\/s, 99 - 110\/s, full energy - 140\/s",
                     "Casting": "Channeled",
                     "Attack Range": "18m",
-                    "Special Effect": "Energy gain: Hero hit: 10\/s; Sentience hit: 15\/s; Common summons hit: 5\/s; Shield hit: 5\/s. Falloff begins 3s after not hitting an enemy, at a rate of 30\/s",
+                    "Special Effect": "Energy gain: Hero hit: 12\/s; Sentience hit: 18\/s; Common summons hit: 5\/s; Shield hit: 6\/s. Falloff begins 3s after not hitting an enemy, at a rate of 30\/s",
                     "Ammo Consumption": "10\/s"
                 },
                 "transformation_id": 0
@@ -12389,7 +12499,8 @@ export const heroData =[
             "1054101",
             "1054500",
             "1054301",
-            "1054102"
+            "1054102",
+            "1054501"
         ],
         "abilities": [
             {
@@ -12552,7 +12663,8 @@ export const heroData =[
             "1055101",
             "1055102",
             "1055100",
-            "1055501"
+            "1055501",
+            "1055800"
         ],
         "abilities": [
             {
@@ -12605,7 +12717,7 @@ export const heroData =[
                 "additional_fields": {
                     "Key": "SHIFT",
                     "Cooldown": "12",
-                    "Special Effect": "Enable Righteous Cross within 5 seconds after using this ability. Gain 60 Fury",
+                    "Special Effect": "Enable Righteous Cross within 5 seconds after using this ability. Gain 30 Fury",
                     "Maximum Distance": "25m",
                     "Projectile Speed": "180m\/s"
                 },
@@ -12636,14 +12748,14 @@ export const heroData =[
                 "description": "Consume <Orange>Fury<\/> to unleash either <Orange>Devil's Chain<\/> or <Orange>Devil's Throw<\/>. <Orange>Devil's Chain<\/> converts damage dealt into <Buff>Bonus Health<\/>; <Orange>Devil's Throw<\/> <Debuff>Slows<\/> hit targets. Both temporarily enable <Orange>Righteous Cross<\/>.",
                 "additional_fields": {
                     "Key": "Right Click",
-                    "Damage": "40. Cause 80 damage when the target caught in the high damage range",
+                    "Damage": "40. Cause 75 damage when the target caught in the high damage range",
                     "Slow Rate": "20%",
                     "DEVIL'S CHAIN": " ",
                     "DEVIL'S THROW": " ",
                     "Special Effect": "Devil's Throw slows enemies on hit",
                     "Bonus Max Health": "125",
                     "Projectile Speed": "150m\/s",
-                    "Projectile Damage": "32.5",
+                    "Projectile Damage": "30",
                     "Spell Field Range": "Box shaped spell field. Length: 8m; Width: 4m; Height: 4m",
                     "Bonus Health Gained": "50",
                     "Bonus Health Falloff": "Falloff begins at 5s and decreases by 30\/s",
@@ -12736,7 +12848,9 @@ export const heroData =[
             "1056500",
             "1056100",
             "1056101",
-            "1056501"
+            "1056501",
+            "1056300",
+            "1056502"
         ],
         "abilities": [
             {
@@ -12794,7 +12908,7 @@ export const heroData =[
                     "Key": "Right Click",
                     "Cooldown": "1.5s",
                     "Recovery Speed": "50\/s",
-                    "Maximum Shield Value": "350",
+                    "Maximum Shield Value": "300",
                     "Cooldown After Destroyed": "4s",
                     "Delayed Recovery After Release": "2s",
                     "Damage Resisted-Charge Conversion Ratio": "25%"
@@ -12908,7 +13022,7 @@ export const heroData =[
             "X_men"
         ],
         "difficulty": "0",
-        "attack_type": "Projectile Heroes",
+        "attack_type": "Hitscan Heroes",
         "role": "DUELIST",
         "image_square": "characters\/deadpool-square.webp",
         "image_transverse": "characters\/deadpool-transverse.webp",
@@ -12920,7 +13034,8 @@ export const heroData =[
             "1057001",
             "1057300",
             "1057101",
-            "1057100"
+            "1057100",
+            "1057800"
         ],
         "abilities": [
             {
@@ -12929,7 +13044,7 @@ export const heroData =[
                 "name": "Healing Factor",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "<Buff>Continuously heal<\/> while out of combat. When taking heavy damage, briefly become invincible and rapidly heal.",
+                "description": "<Buff>Continuously heal<\/> while out of combat. When taking heavy fatal damage, briefly become invincible and rapidly heal.",
                 "additional_fields": {
                     "Key": "PASSIVE",
                     "Cooldown": "45s",
@@ -12995,7 +13110,7 @@ export const heroData =[
                 "name": "Xp Management",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "逻辑管理技能（不会显示在F1上，无需本地化）",
+                "description": "Logic Management Abilities (Not displayed on F1, no localization needed)",
                 "transformation_id": 0
             },
             {
@@ -13202,7 +13317,7 @@ export const heroData =[
                     "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
                     "Ability Duration": "5s",
                     "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
-                    "Spell Field Damage": "30\/s",
+                    "Spell Field Damage": "15\/s",
                     "Self Damage Reduction": "35%",
                     "Damage Needed to Remove the Disruption": "100"
                 },
@@ -13270,7 +13385,7 @@ export const heroData =[
                     "Cooldown": "45s",
                     "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
                     "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
-                    "Healing over Time": "Upon activation: 25\/s; challenge completed: 50\/s"
+                    "Healing over Time": "Upon activation: 35\/s; challenge completed: 70\/s"
                 },
                 "transformation_id": 0
             },
@@ -13296,7 +13411,7 @@ export const heroData =[
                 "name": "Comical Chaos",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range enjoy a plush-powered healing party!",
+                "description": "Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range are healed! Elsa Bloodstone's <Orange>Living Bullet<\/> changes to special rounds that <Debuff>Taunt<\/> targets with Deadpool's chatter, while <Debuff>Slowing<\/>, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "+50 Max Health"
@@ -13309,7 +13424,7 @@ export const heroData =[
                 "name": "Healing Factor",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "<Buff>Continuously heal<\/> while out of combat. When taking heavy damage, briefly become invincible and rapidly heal.",
+                "description": "<Buff>Continuously heal<\/> while out of combat. When taking heavy fatal damage, briefly become invincible and rapidly heal.",
                 "additional_fields": {
                     "Key": "PASSIVE",
                     "Cooldown": "45s",
@@ -13375,7 +13490,7 @@ export const heroData =[
                 "name": "Xp Management",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "逻辑管理技能（不会显示在F1上，无需本地化）",
+                "description": "Logic Management Abilities (Not displayed on F1, no localization needed)",
                 "transformation_id": 1
             },
             {
@@ -13582,7 +13697,7 @@ export const heroData =[
                     "Special Effect": "Disrupt enemies' vision in range and gain XP. Enemies can damage Deadpool to end the disruption.",
                     "Ability Duration": "5s",
                     "Spell Field Range": "A cylindrical spell field with a 6m radius and a height of 6m",
-                    "Spell Field Damage": "30\/s",
+                    "Spell Field Damage": "15\/s",
                     "Self Damage Reduction": "35%",
                     "Damage Needed to Remove the Disruption": "100"
                 },
@@ -13650,7 +13765,7 @@ export const heroData =[
                     "Cooldown": "45s",
                     "Movement Boost": "Upon activation: 15%; challenge completed: 30%",
                     "Ability Duration": "The challenge lasts 12s. The buff lasts 6s after you complete it.",
-                    "Healing over Time": "Upon activation: 25\/s; challenge completed: 50\/s"
+                    "Healing over Time": "Upon activation: 35\/s; challenge completed: 70\/s"
                 },
                 "transformation_id": 1
             },
@@ -13676,7 +13791,7 @@ export const heroData =[
                 "name": "Comical Chaos",
                 "type": "Normal",
                 "isCollab": false,
-                "description": "Deadpool hands Jeff the Land Shark a plushie with attitude. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range enjoy a plush-powered healing party!",
+                "description": "Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range are healed! Elsa Bloodstone's <Orange>Living Bullet<\/> changes to special rounds that <Debuff>Taunt<\/> targets with Deadpool's chatter, while <Debuff>Slowing<\/>, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.",
                 "additional_fields": {
                     "Key": "Passive",
                     "Team-Up Bonus": "+50 Max Health"
@@ -13694,7 +13809,7 @@ export const heroData =[
                 "id": 0,
                 "icon": "characters\/gambit-headbig-0.webp",
                 "name": "Gambit",
-                "health": "275",
+                "health": "250",
                 "movement_speed": "600"
             }
         ],
@@ -13718,7 +13833,8 @@ export const heroData =[
             "1058001",
             "1058300",
             "1058101",
-            "1058100"
+            "1058100",
+            "1058302"
         ],
         "abilities": [
             {
@@ -13771,7 +13887,7 @@ export const heroData =[
                     "Range": "5m spherical radius",
                     "Damage": "25 per field",
                     "Casting": "Dash",
-                    "Healing": "To allies and self: 25\/hit",
+                    "Healing": "To allies and self: 15\/hit",
                     "Cooldown": "2 charges, with each charge taking 8s to recharge",
                     "Dash Distance": "12m",
                     "Big Easy Impact": " ",
@@ -13832,7 +13948,7 @@ export const heroData =[
                     "Casting": "Projectile that fires in a straight trajectory.",
                     "Healing": "50 damage per round",
                     "Duration": "4s",
-                    "Special Effect": "The projectile automatically tracks allies and will bounce between allies on impact.",
+                    "Special Effect": "The projectile automatically tracks allies and will bounce between allies on impact. Bridge Boost bounces on a single target are set to a maximum of 2",
                     "Projectile Speed": "120m\/s",
                     "Healing Boost Ratio": "0.15",
                     "Max Number of Ricochets": "6"
@@ -13870,7 +13986,7 @@ export const heroData =[
                     "Cooldown": "4 charges, with each charge taking 8s to recharge",
                     "Special Effect": "Within the duration, consume one stack of Sleight of Hand to use Explosive Trick and Bidding Barrage",
                     "Maximum Duration": "6s",
-                    "Self Damage Boost": "15%"
+                    "Self Damage Boost": "10%"
                 },
                 "transformation_id": 0
             },
@@ -13925,7 +14041,7 @@ export const heroData =[
                     "Energy Cost": "4500",
                     "Special Effect": "Gambit and the targeted ally receive the Purify and Jump Boost effect.",
                     "One-Time Healing": "100",
-                    "Healing over time": "75\/s",
+                    "Healing over time": "55\/s",
                     "Spell Field Duration": "10s",
                     "Enhanced Damage Ratio": "20%",
                     "Damage Trigger Interval": "0.5s",
@@ -13945,6 +14061,756 @@ export const heroData =[
                     "Team-Up Bonus": "5% Healing Boost"
                 },
                 "transformation_id": 0
+            }
+        ]
+    },
+    {
+        "id": "1059",
+        "name": "Elsa Bloodstone",
+        "real_name": "Elsa Bloodstone",
+        "transformations": [
+            {
+                "id": 0,
+                "icon": "characters\/elsa-bloodstone-headbig-0.webp",
+                "name": "Elsa Bloodstone",
+                "health": "275",
+                "movement_speed": "600"
+            }
+        ],
+        "en_name": "Elsa Bloodstone",
+        "description": "Born into a line of legendary monster hunters, Elsa Bloodstone boasts incredible physical prowess and an innate talent for subduing the creepiest of creatures. The instinct to hunt is in her blood, and every foe she faces inevitably becomes prey ensnared in her traps!",
+        "slug": "elsa-bloodstone",
+        "team": [
+            "Midnightsons"
+        ],
+        "difficulty": "3",
+        "attack_type": "Hitscan Heroes",
+        "role": "DUELIST",
+        "image_square": "characters\/elsa-bloodstone-square.webp",
+        "image_transverse": "characters\/elsa-bloodstone-transverse.webp",
+        "icon": "characters\/elsa-bloodstone-headbig.webp",
+        "image": "characters\/elsa-bloodstone-portrait.webp",
+        "logo_small": "characters\/elsa-bloodstone-logo.webp",
+        "logo": "characters\/elsa-bloodstone-logo-small.webp",
+        "skins": [
+            "1059001",
+            "1059300",
+            "1059100",
+            "1059101"
+        ],
+        "abilities": [
+            {
+                "id": 105901,
+                "icon": "abilities\/1059\/105901.webp",
+                "name": "Inherited Instinct",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dealing damage increases hunting <Orange>Instinct<\/>. Defeating enemies caught by <Orange>Smoky Snare<\/> grants additional <Orange>Instinct<\/>. Higher <Orange>Instinct<\/> reduces the cooldown of <Orange>Helix Advance<\/>.",
+                "additional_fields": {
+                    "Key": "PASSIVE",
+                    "Special Effect 1": "Instinct levels up when it reaches 100, up to 3 levels",
+                    "Special Effect 2": "For each Instinct level gained, reduce the cooldown of Helix Advance by 2s",
+                    "Instinct from KOs": "100",
+                    "Damage\/Instinct Conversion Rate": "0.06",
+                    "Additional Instinct from KOs Caught by Smoky Snare": "200"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105911,
+                "icon": "abilities\/1059\/105911.webp",
+                "name": "Double-barrel Blaster",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Fire your shotgun forward.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Ammo": "8",
+                    "Damage": "4.5 per round",
+                    "Casting": "Shotgun projectiles that hit instantly",
+                    "Fire Rate": "The firing interval between shots is 0.12s, with an interval of 0.8s between each round of shooting",
+                    "Critical Hit": "Yes",
+                    "Damage Falloff": "Falloff begins at 20m, decreasing to 70% at 30m",
+                    "Bullets Fired Each Cast": "10",
+                    "Crosshair Spread Radius(at 10m)": "0.13m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105912,
+                "icon": "abilities\/1059\/105912.webp",
+                "name": "Monster-piercer",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Unleash your elephant gun forward. Bullets pierce enemies and deal high damage.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "13+1.2% of enemy's maximum health",
+                    "Casting": "Shotgun projectiles that hit instantly",
+                    "Critical Hit": "No",
+                    "Bullets Fired Each Cast": "5",
+                    "Crosshair Spread Radius (at 10m)": "6m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105921,
+                "icon": "abilities\/1059\/105921.webp",
+                "name": "Ruthless Pursuit",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash forward, gaining <Buff>Bonus Health<\/> and launching enemies hit. Follow up with a <Orange>Double-Barrel Blaster<\/> shot that propels you backward and <Debuff>Slows<\/> enemies. Using either stage empowers your next <Orange>Double-Barrel Blaster<\/>, transforming it into <Orange>Monster-Piercer<\/>.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Damage": "30",
+                    "Casting": "Movement-based damage ability",
+                    "Cooldown": "8s",
+                    "Follow Up": " ",
+                    "Dash Speed": "15 m\/s",
+                    "Bonus Health": "Every unleash of Ruthless Pursuit and Helix Advance grants 40 bonus health. Max bonus health is 75",
+                    "Max Dash Speed": "40m\/s",
+                    "Special Effect 1": "Launch up enemies hit, and activate the follow up in 5s",
+                    "Special Effect 2": "Using either stage empowers your next Double-Barrel Blaster, transforming it into Monster-Piercer",
+                    "Max Dash Duration": "0.3s",
+                    "Max Damage Distance": "8m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105922,
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "600"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105923,
+                "icon": "abilities\/1059\/105923.webp",
+                "name": "Follow Up",
+                "type": "Normal",
+                "isCollab": false,
+                "transformation_id": 0
+            },
+            {
+                "id": 105931,
+                "icon": "abilities\/1059\/105931.webp",
+                "name": "Helix Advance",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Dash in your movement direction. Your next <Orange>Double-Barrel Blaster<\/> becomes <Orange>Monster-Piercer<\/>.",
+                "additional_fields": {
+                    "Key": "Shift",
+                    "Cooldown": "8s",
+                    "Max Dash Speed": "27.5m\/s",
+                    "Special Effect": "In 6s after unleashing Helix Advance, the next Double-Barrel Blaster becomes Monster-Piercer",
+                    "Special Effect 2": "Every unleash of Ruthless Pursuit and Helix Advance grants 40 bonus health. Max bonus health is 75",
+                    "Max Dash Duration": "0.28s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105932,
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "600"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105941,
+                "icon": "abilities\/1059\/105941.webp",
+                "name": "Living Bullet",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Fire a Living Bullet round that splits upon impact, seeking nearby enemies and marking each with a <Orange>Spectral Sigil<\/>. Hitting marked targets with <Orange>Double-Barrel Blaster<\/> or <Orange>Monster-Piercer<\/> grants Elsa a brief <Buff>Speed<\/> boost. Living Bullets deal extra damage to shields and enemies with <Buff>Bonus Health<\/>.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Cooldown": "8s",
+                    "Speed Boost": "Increase movement speed by 40% for 1s",
+                    "Tracing Range": "8m radius spherical spell field",
+                    "Maximum Splits": "3",
+                    "Projectile Speed": "60m\/s",
+                    "Special Effect 1": "After hits an enemy, the projectile splits to several bullets to trace the enemies in range",
+                    "Special Effect 2": "Projectile deals 40 extra damage to shields and enemies with bonus health",
+                    "Projectile Damage": "60"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105942,
+                "name": "Bloodstone's Boombox Bullets",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Deadpool hands Jeff the Land Shark a plushie. Jeff can spit it ahead where it'll continuously <Debuff>Taunt<\/> nearby enemies and <Debuff>Block Vision<\/>, while allies in range are healed! Elsa Bloodstone's <Orange>Living Bullet<\/> changes to special rounds that <Debuff>Taunt<\/> targets with Deadpool's chatter, while <Debuff>Slowing<\/>, and damaging nearby enemies over time. Elsa can recall the rounds to heal based on damage dealt.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Slow Effect": "Reduce movement speed by 35% for 2s",
+                    "Taunt Duration": "2s",
+                    "Projectile Speed": "60m\/s",
+                    "Projectile Damage": "First hit: 60; second hit: 40",
+                    "Second Hit Damage Over Time": "20\/s for 2s",
+                    "Damage\/Healing Conversion Rate": "30%"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105951,
+                "icon": "abilities\/1059\/105951.webp",
+                "name": "Smoky Snare",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Launch a trap containing the monster Diablo. Once deployed, it becomes <Buff>Invisible<\/> and <Buff>Invulnerable<\/>. When an enemy triggers it, Diablo <Debuff>Immobilizes<\/> and Damages them. Use {Interactive} to dash to the trapped enemy. Enemies can destroy Diablo to break free.",
+                "additional_fields": {
+                    "Key": "F",
+                    "Cooldown": "12s",
+                    "Trap Health": "100",
+                    "Summons' Health": "50",
+                    "Special Effect 1": "The trap becomes Invisible and Invulnerable after one-second deployment",
+                    "Special Effect 2": "Defeat the summon to end the Immobolized state early",
+                    "Special Effect 3": "Elsa can dash to the enemy who triggers the trap",
+                    "Maximum Dash Speed": "60m\/s",
+                    "Maximum Dash Duration": "0.25s",
+                    "Triggered Trap Damage": "Cause 5 damage every 0.2s, last 1.2s",
+                    "Maximum Select Distance": "30m",
+                    "Maximum Immobilizing Duration": "1.2s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105952,
+                "icon": "abilities\/1059\/105952.webp",
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "600"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105961,
+                "type": "Normal",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "600"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105971,
+                "type": "Melee",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "600"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105981,
+                "icon": "abilities\/1059\/105981.webp",
+                "name": "Apex Predator",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Summon the Glartrox to charge forward. The Glartrox can be recalled to charge back toward Elsa. When colliding with terrain or upon return, it bites fiercely, dealing heavy damage.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Energy Cost": "3400",
+                    "Special Effect": "Glartrox cannot be critical hit. Drag 8 targets at most",
+                    "Glartrox Health": "400",
+                    "Special Effect 1": "Enemies seized by Glartrox cannot use their abilities until it stops moving",
+                    "Special Effect 2": "Elsa can recall Glartrox at any time",
+                    "Special Effect 3": "When the Glartrox collides with terrain, returns, or reaches its maximum dash duration, it bites fiercely, dealing massive damage. If Glartrox is defeated, the bite will not be triggered",
+                    "Glartrox Bite Damage": "125",
+                    "Glartrox Seize Damage": "75",
+                    "Glartrox Movement Speed": "15m\/s",
+                    "Glartrox Maximum Dash Duration": "Maximum durations for dashing and returning are 3.5s each"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 105982,
+                "type": "Ultimate",
+                "isCollab": false,
+                "additional_fields": {
+                    "Health": "275",
+                    "Movement Speed": "600"
+                },
+                "transformation_id": 0
+            }
+        ]
+    },
+    {
+        "id": "1060",
+        "name": "White Fox",
+        "real_name": "Ami Han",
+        "transformations": [
+            {
+                "id": 0,
+                "icon": "characters\/white-fox-headbig-0.webp",
+                "name": "White Fox",
+                "health": "275",
+                "movement_speed": "600"
+            },
+            {
+                "id": 1,
+                "icon": "characters\/white-fox-headbig-1.webp",
+                "name": "White Fox"
+            }
+        ],
+        "en_name": "",
+        "description": "Ami Han, the last of the legendary Kumiho, can summon her ancestral Nine-Tailed Power to fortify herself and heal her allies on the battlefield. As the calm and capable Director of Tiger Division, she is any team's unwavering backbone, no matter the foe.",
+        "slug": "white-fox",
+        "team": [
+            "Agentsofatlas"
+        ],
+        "difficulty": "3",
+        "attack_type": "Projectile Heroes",
+        "role": "STRATEGIST",
+        "image_square": "characters\/white-fox-square.webp",
+        "image_transverse": "characters\/white-fox-transverse.webp",
+        "icon": "characters\/white-fox-headbig.webp",
+        "image": "characters\/white-fox-portrait.webp",
+        "logo_small": "characters\/white-fox-logo.webp",
+        "logo": "characters\/white-fox-logo-small.webp",
+        "skins": [
+            "1060001",
+            "1060500",
+            "1060100",
+            "1060101"
+        ],
+        "abilities": [
+            {
+                "id": 106001,
+                "icon": "abilities\/1060\/106001.webp",
+                "name": "Ancestral Force",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Not shown in F1, no description is required.",
+                "transformation_id": 0
+            },
+            {
+                "id": 106011,
+                "icon": "abilities\/1060\/106011.webp",
+                "name": "Yeowoo Guseul",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores <Orange>Spirit Tail<\/> energy.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "Direct hit: 40 per round; bounce hit: 25 per round",
+                    "Fire Rate": "0.45s per round",
+                    "Healing Amount": "Direct hit: 50 per round; bounce hit: 35 per round",
+                    "Maximum Distance": "35m",
+                    "Projectile Speed": "120m\/s",
+                    "Bounce Projectile Speed": "80m\/s",
+                    "Bounce Projectile Max Distance": "6m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106021,
+                "name": "Reload",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Not shown in F1, no description is required.",
+                "transformation_id": 0
+            },
+            {
+                "id": 106031,
+                "name": "Melee Attack",
+                "type": "Melee",
+                "isCollab": false,
+                "description": "Not shown in F1, no description is required.",
+                "transformation_id": 0
+            },
+            {
+                "id": 106041,
+                "icon": "abilities\/1060\/106041.webp",
+                "name": "Spectral Surge",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Consume one <Orange>Spirit Tail<\/> to send a spectral fox forward. It heals and grants <Buff>invulnerability<\/> to allies it passes through, damages and <Debuff>Charms<\/> enemies, forcing foes to move toward White Fox.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "65",
+                    "Cooldown": "6s",
+                    "Charm Duration": "0.4s",
+                    "Healing Amount": "65",
+                    "Maximum Distance": "35m",
+                    "Projectile Speed": "60m\/s",
+                    "Damage\/Healing Radius": "3m",
+                    "Charm\/Invincibility Radius": "0.8m",
+                    "Allies' Invincibility Duration": "0.4s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106051,
+                "icon": "abilities\/1060\/106051.webp",
+                "name": "Fox Form Awakening",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Enter <Orange>Awakened<\/> state, transforming <Orange>Spirit Tails<\/> into physical tails. While active, continuously drain <Orange>Spirit Tail<\/> energy and <Buff>heal<\/> nearby allies. Striking enemies provides additional area healing.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "15s",
+                    "Healing Amount": "25\/s",
+                    "Ability Duration": "Transform 3 tails: 9s; 2 tails: 8s; 1 tail: 7s",
+                    "Attack Generated Healing Spell Field Range": "10m radius spherical spell field",
+                    "Healing Spell Field That Surrounds the Caster": "10m radius spherical spell field"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106052,
+                "icon": "abilities\/1060\/106052.webp",
+                "name": "Claw Strike",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "While <Orange>Awakened<\/>, slash forward with a flurry of attacks.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "35 per hit",
+                    "Attack Range": "4m",
+                    "Attack Interval": "0.45s per use"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106053,
+                "icon": "abilities\/1060\/106053.webp",
+                "name": "Tail Sweep",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "While <Orange>Awakened<\/>, sweep forward tails to <Debuff>launch up<\/> hit enemies.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "DAMAGE": "50",
+                    "Cooldown": "3s",
+                    "Attack Range": "5m"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106054,
+                "icon": "abilities\/1060\/106054.webp",
+                "name": "Predatory Pounce",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "While <Orange>Awakened<\/>, dash forward. Hit an enemy to <Debuff>Slow<\/> and flip over them, enabling a <Debuff>second dash<\/> that <Orange>knocks back<\/> enemies.",
+                "additional_fields": {
+                    "Key": "Shift",
+                    "Damage": "40",
+                    "Cooldown": "6s",
+                    "Dash Duration": "15m",
+                    "Predatory Pounce Second Unleash": " "
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106061,
+                "icon": "abilities\/1060\/106061.webp",
+                "name": "Spirit Sanctuary",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Teleport to a chosen ally, instantly healing allies in the area while generating a shield.",
+                "additional_fields": {
+                    "Key": "Shift",
+                    "Cooldown": "12s",
+                    "Summon Health": "200",
+                    "Maximum Distance": "30m",
+                    "One-time Healing Amount": "70",
+                    "Healing Spell Field Range": "5m radius spherical spell field",
+                    "MAXIMUM DURATION FOR SUMMONS": "5s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106071,
+                "icon": "abilities\/1060\/106071.webp",
+                "name": "Kumiho Unleashed",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Manifest the full Nine-Tailed Fox form and <Buff>continuously heal<\/> nearby allies. Cannot receive healing effects from others while in this form.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Energy Cost": "4800",
+                    "Healing Amount": "85\/s",
+                    "Maximum Health": "900",
+                    "Continuous Healing Spell Field Range": "10m radius spherical spell field"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106072,
+                "icon": "abilities\/1060\/106072.webp",
+                "name": "Ninefold Slam",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "In <Orange>Kumiho Form<\/>, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "50 per hit",
+                    "Healing Amount": "100 per hit",
+                    "Attack Interval": "1 per second",
+                    "Explosion Damage": "50 per hit",
+                    "Max Attack Range": "5m",
+                    "Explosion Spell Field Range": "6m radius spherical spell field",
+                    "Attack Generated Healing Spell Field Range": "10m radius spherical spell field"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106073,
+                "icon": "abilities\/1060\/106073.webp",
+                "name": "Blessed By The Nine",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "In <Orange>Kumiho Form<\/>, select an ally to grant <Buff>Continuous Healing<\/>, <Buff>Unstoppable<\/>, and <Buff>Lifesteal<\/> for a short time.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Special Effect": "Consume 100 health to activate",
+                    "Life-steal Ratio": "0.25",
+                    "Maximum Select Distance": "50m",
+                    "Healing Over Time Amount": "40\/s",
+                    "Unstoppable State Duration": "3s"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106074,
+                "name": "Kumiho Unleashed",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Manifest the full Nine-Tailed Fox form and <Buff>continuously heal<\/> nearby allies. Cannot receive healing effects from others while in this form.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Energy Cost": "4800",
+                    "Healing Amount": "85\/s",
+                    "Maximum Health": "900",
+                    "Continuous Healing Spell Field Range": "10m radius spherical spell field"
+                },
+                "transformation_id": 0
+            },
+            {
+                "id": 106001,
+                "icon": "abilities\/1060\/106001.webp",
+                "name": "Ancestral Force",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Not shown in F1, no description is required.",
+                "transformation_id": 1
+            },
+            {
+                "id": 106011,
+                "icon": "abilities\/1060\/106011.webp",
+                "name": "Yeowoo Guseul",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "Fire a Fox Marble forward that bounces off terrain or heroes, then homes in on nearby heroes. It damages enemies, heals allies, and restores <Orange>Spirit Tail<\/> energy.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "Direct hit: 40 per round; bounce hit: 25 per round",
+                    "Fire Rate": "0.45s per round",
+                    "Healing Amount": "Direct hit: 50 per round; bounce hit: 35 per round",
+                    "Maximum Distance": "35m",
+                    "Projectile Speed": "120m\/s",
+                    "Bounce Projectile Speed": "80m\/s",
+                    "Bounce Projectile Max Distance": "6m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106021,
+                "name": "Reload",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Not shown in F1, no description is required.",
+                "transformation_id": 1
+            },
+            {
+                "id": 106031,
+                "name": "Melee Attack",
+                "type": "Melee",
+                "isCollab": false,
+                "description": "Not shown in F1, no description is required.",
+                "transformation_id": 1
+            },
+            {
+                "id": 106041,
+                "icon": "abilities\/1060\/106041.webp",
+                "name": "Spectral Surge",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Consume one <Orange>Spirit Tail<\/> to send a spectral fox forward. It heals and grants <Buff>invulnerability<\/> to allies it passes through, damages and <Debuff>Charms<\/> enemies, forcing foes to move toward White Fox.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Damage": "65",
+                    "Cooldown": "6s",
+                    "Charm Duration": "0.4s",
+                    "Healing Amount": "65",
+                    "Maximum Distance": "35m",
+                    "Projectile Speed": "60m\/s",
+                    "Damage\/Healing Radius": "3m",
+                    "Charm\/Invincibility Radius": "0.8m",
+                    "Allies' Invincibility Duration": "0.4s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106051,
+                "icon": "abilities\/1060\/106051.webp",
+                "name": "Fox Form Awakening",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Enter <Orange>Awakened<\/> state, transforming <Orange>Spirit Tails<\/> into physical tails. While active, continuously drain <Orange>Spirit Tail<\/> energy and <Buff>heal<\/> nearby allies. Striking enemies provides additional area healing.",
+                "additional_fields": {
+                    "Key": "E",
+                    "Cooldown": "15s",
+                    "Healing Amount": "25\/s",
+                    "Ability Duration": "Transform 3 tails: 9s; 2 tails: 8s; 1 tail: 7s",
+                    "Attack Generated Healing Spell Field Range": "10m radius spherical spell field",
+                    "Healing Spell Field That Surrounds the Caster": "10m radius spherical spell field"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106052,
+                "icon": "abilities\/1060\/106052.webp",
+                "name": "Claw Strike",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "While <Orange>Awakened<\/>, slash forward with a flurry of attacks.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "35 per hit",
+                    "Attack Range": "4m",
+                    "Attack Interval": "0.45s per use"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106053,
+                "icon": "abilities\/1060\/106053.webp",
+                "name": "Tail Sweep",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "While <Orange>Awakened<\/>, sweep forward tails to <Debuff>launch up<\/> hit enemies.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "DAMAGE": "50",
+                    "Cooldown": "3s",
+                    "Attack Range": "5m"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106054,
+                "icon": "abilities\/1060\/106054.webp",
+                "name": "Predatory Pounce",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "While <Orange>Awakened<\/>, dash forward. Hit an enemy to <Debuff>Slow<\/> and flip over them, enabling a <Debuff>second dash<\/> that <Orange>knocks back<\/> enemies.",
+                "additional_fields": {
+                    "Key": "Shift",
+                    "Damage": "40",
+                    "Cooldown": "6s",
+                    "Dash Duration": "15m",
+                    "Predatory Pounce Second Unleash": " "
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106061,
+                "icon": "abilities\/1060\/106061.webp",
+                "name": "Spirit Sanctuary",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "Teleport to a chosen ally, instantly healing allies in the area while generating a shield.",
+                "additional_fields": {
+                    "Key": "Shift",
+                    "Cooldown": "12s",
+                    "Summon Health": "200",
+                    "Maximum Distance": "30m",
+                    "One-time Healing Amount": "70",
+                    "Healing Spell Field Range": "5m radius spherical spell field",
+                    "MAXIMUM DURATION FOR SUMMONS": "5s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106071,
+                "icon": "abilities\/1060\/106071.webp",
+                "name": "Kumiho Unleashed",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Manifest the full Nine-Tailed Fox form and <Buff>continuously heal<\/> nearby allies. Cannot receive healing effects from others while in this form.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Energy Cost": "4800",
+                    "Healing Amount": "85\/s",
+                    "Maximum Health": "900",
+                    "Continuous Healing Spell Field Range": "10m radius spherical spell field"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106072,
+                "icon": "abilities\/1060\/106072.webp",
+                "name": "Ninefold Slam",
+                "type": "Weapon",
+                "isCollab": false,
+                "description": "In <Orange>Kumiho Form<\/>, slam the ground, causing an explosive shockwave. Hitting enemies or summons grants One-Time Healing to self and nearby allies.",
+                "additional_fields": {
+                    "Key": "Left Click",
+                    "Damage": "50 per hit",
+                    "Healing Amount": "100 per hit",
+                    "Attack Interval": "1 per second",
+                    "Explosion Damage": "50 per hit",
+                    "Max Attack Range": "5m",
+                    "Explosion Spell Field Range": "6m radius spherical spell field",
+                    "Attack Generated Healing Spell Field Range": "10m radius spherical spell field"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106073,
+                "icon": "abilities\/1060\/106073.webp",
+                "name": "Blessed By The Nine",
+                "type": "Normal",
+                "isCollab": false,
+                "description": "In <Orange>Kumiho Form<\/>, select an ally to grant <Buff>Continuous Healing<\/>, <Buff>Unstoppable<\/>, and <Buff>Lifesteal<\/> for a short time.",
+                "additional_fields": {
+                    "Key": "Right Click",
+                    "Special Effect": "Consume 100 health to activate",
+                    "Life-steal Ratio": "0.25",
+                    "Maximum Select Distance": "50m",
+                    "Healing Over Time Amount": "40\/s",
+                    "Unstoppable State Duration": "3s"
+                },
+                "transformation_id": 1
+            },
+            {
+                "id": 106074,
+                "name": "Kumiho Unleashed",
+                "type": "Ultimate",
+                "isCollab": false,
+                "description": "Manifest the full Nine-Tailed Fox form and <Buff>continuously heal<\/> nearby allies. Cannot receive healing effects from others while in this form.",
+                "additional_fields": {
+                    "Key": "Q",
+                    "Energy Cost": "4800",
+                    "Healing Amount": "85\/s",
+                    "Maximum Health": "900",
+                    "Continuous Healing Spell Field Range": "10m radius spherical spell field"
+                },
+                "transformation_id": 1
             }
         ]
     },
@@ -13981,7 +14847,8 @@ export const heroData =[
             "1065001",
             "1065300",
             "1065100",
-            "1065101"
+            "1065101",
+            "1065301"
         ],
         "abilities": [
             {
@@ -14024,7 +14891,7 @@ export const heroData =[
                     "Maximum Backlash Energy": "100",
                     "Maximum Backlash Energy Falloff": "20\/s",
                     "Energy Required to Activate the Ability": "30",
-                    "Reduced Damage-Backlash Energy Conversion Ratio": "0.27"
+                    "Reduced Damage-Backlash Energy Conversion Ratio": "0.35"
                 },
                 "transformation_id": 0
             },
@@ -14093,7 +14960,7 @@ export const heroData =[
                 "description": "Dash forward. Press again to unleash a burst of <Orange>Chronovium Power<\/> from her ring, dealing continuous damage to nearby foes; after a delay, the energy retracts, pulling all enemies towards Rogue.",
                 "additional_fields": {
                     "Key": "SHIFT",
-                    "Cooldown": "17s",
+                    "Cooldown": "14s",
                     "Dash Damage": "30",
                     "Dash Distance": "10m",
                     "Special Effect": "Launch up enemies hit",
