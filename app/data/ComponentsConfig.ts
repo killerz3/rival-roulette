@@ -10,20 +10,20 @@ export const components: BannerData[] = [
     repeatAfterVisits: -1 // Never repeat
   },
   {
-    id: "deadpool",
-    title: "🔴 Deadpool added to Roulette!",
-    message: "The Merc with a Mouth is now available! Check out Deadpool's devastating damage, impenetrable shield, and swift healing abilities in the Character Gallery or try your luck in the roulette!",
+    id: "black-cat",
+    title: "🐱 Black Cat added to Roulette!",
+    message: "The world's premier thief is now available! Check out Black Cat's swift precision and deadly omens in the Character Gallery or try your luck in the roulette!",
     type: "info",
     order: 2,
-    repeatAfterVisits: 3 // Repeat after 3 visits
+    repeatAfterVisits: 3
   },
   {
-    id: "rogue",
-    title: "💚 Rogue added to Roulette!",
-    message: "The power-absorbing mutant is now available! Check out Rogue's ability to absorb powers and her incredible strength in the Character Gallery or try your luck in the roulette!",
+    id: "devil-dinosaur",
+    title: "🦕 Devil Dinosaur added to Roulette!",
+    message: "The prehistoric powerhouse is now available! Check out Devil Dinosaur's razor-sharp fangs, mighty tail, and Moon Girl's force-field shield in the Character Gallery or try your luck in the roulette!",
     type: "info",
     order: 3,
-    repeatAfterVisits: 3 // Repeat after 3 visits
+    repeatAfterVisits: 3
   },
   {
     id: "feedback",
@@ -47,7 +47,7 @@ export const components: BannerData[] = [
     message: "",
     type: "dialog",
     order: 6,
-    repeatAfterVisits: -1, 
+    repeatAfterVisits: -1,
     dialogConfig: {
       showBuyMeACoffee: false,
       showRemindLater: false,
@@ -90,4 +90,4 @@ export const components: BannerData[] = [
       ]
     }
   }
-]; 
+];
